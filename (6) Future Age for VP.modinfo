@@ -2004,34 +2004,34 @@
       <UpdateDatabase>XML/Units/ArtDefines.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/FutureUnitIconAtlases.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/Promotions.sql</UpdateDatabase>
-      <!-- <UpdateDatabase>XML/Units/Units.xml</UpdateDatabase> -->
-      <!-- <UpdateDatabase>XML/Units/Units.sql</UpdateDatabase> -->
-      <!-- <UpdateDatabase>XML/Units/UnitsUpdates.sql</UpdateDatabase> -->
-      <!-- <UpdateDatabase>XML/Units/UnitSound.sql</UpdateDatabase> -->
-      <!-- <UpdateDatabase>XML/Buildings.sql</UpdateDatabase> -->
+      <UpdateDatabase>XML/Units/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UnitsUpdates.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UnitSound.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings.sql</UpdateDatabase>
       <UpdateDatabase>XML/EraSplashScreen.sql</UpdateDatabase>
       <UpdateDatabase>XML/FutureEras.xml</UpdateDatabase>
-      <!-- <UpdateDatabase>XML/FutureImprovements.sql</UpdateDatabase> -->
-      <!-- <UpdateDatabase>XML/FutureImprovements.xml</UpdateDatabase> -->
+      <UpdateDatabase>XML/FutureImprovements.sql</UpdateDatabase>
+      <UpdateDatabase>XML/FutureImprovements.xml</UpdateDatabase>
       <UpdateDatabase>XML/FutureTechnologies.xml</UpdateDatabase>
-      <!-- <UpdateDatabase>XML/FutureText.xml</UpdateDatabase> -->
+      <UpdateDatabase>XML/FutureText.xml</UpdateDatabase>
       <UpdateDatabase>XML/IconAtlases.xml</UpdateDatabase>
-      <!-- <UpdateDatabase>XML/Resolutions.xml</UpdateDatabase> -->
+      <UpdateDatabase>XML/Resolutions.xml</UpdateDatabase>
       <UpdateDatabase>XML/TechTreeAdjustment.sql</UpdateDatabase>
-      <!-- <UpdateDatabase>XML/Wonders.sql</UpdateDatabase> -->
-      <!-- <UpdateDatabase>XML/Resources.sql</UpdateDatabase> -->
-      <!-- <UpdateDatabase>XML/ResourceIcons.xml</UpdateDatabase> -->
+      <UpdateDatabase>XML/Wonders.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Resources.sql</UpdateDatabase>
+      <UpdateDatabase>XML/ResourceIcons.xml</UpdateDatabase>
       <UpdateDatabase>XML/FutureText.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
-    <!-- <EntryPoint type="InGameUIAddin" file="Lua/FutureLua.lua">
+    <EntryPoint type="InGameUIAddin" file="Lua/FutureLua.lua">
       <Name>Future Lua</Name>
       <Description>Future Lua</Description>
     </EntryPoint>
     <EntryPoint type="InGameUIAddin" file="Lua/Genejack.lua">
       <Name>Genejack</Name>
       <Description>Culture on border growth from the Genejack Facility</Description>
-    </EntryPoint> -->
+    </EntryPoint>
   </EntryPoints>
 </Mod>

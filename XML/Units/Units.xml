@@ -5399,7 +5399,7 @@
 			<MovesChange>2</MovesChange>
 			<VisibilityChange>1</VisibilityChange>
 			<PortraitIndex>27</PortraitIndex>
-			<IconAtlas>promoVP_atlas_01</IconAtlas>
+			<IconAtlas>PROMOTION_ATLAS_VP_01</IconAtlas>
 			<PediaType>PEDIA_NAVAL</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_FW_THALASSOCRACY</PediaEntry>
 		</Row>
@@ -5608,7 +5608,7 @@
 			<DiploMissionInfluence>175</DiploMissionInfluence>
 			<Invisible>INVISIBLE_SUBMARINE</Invisible>
 			<PortraitIndex>53</PortraitIndex>
-			<IconAtlas>promoVP_atlas_02</IconAtlas>
+			<IconAtlas>PROMOTION_ATLAS_VP_02</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_FW_TRANSHUMAN</PediaEntry>
 		</Row>

@@ -1945,24 +1945,24 @@
     <File md5="93C954A3687FC80BF4BF7EBC622C19FA" import="0">XML/Units/ArtDefines.xml</File>
     <File md5="98EF605A7A6B607A149C707EF7715C99" import="0">XML/Units/ArtDefines.sql</File>
     <File md5="A43CD1EA75317E3B42F5D21D51E09F9D" import="0">XML/Units/FutureUnitIconAtlases.xml</File>
-    <File md5="DA3B672D9D609141FF5EEA8D10473B2Z" import="0">XML/Units/Units.sql</File>
+    <!-- <File md5="DA3B672D9D609141FF5EEA8D10473B2Z" import="0">XML/Units/Units.sql</File> -->
     <File md5="DA3B672D9D602141FF5EDA8D10473B2F" import="0">XML/Units/Units.xml</File>
     <File md5="DA3B672N9A602141SS5JDA1D50479B2Z" import="0">XML/Units/Promotions.sql</File>
-    <File md5="99HF95F999ED64A81AC8FCA49D51C3Z9" import="0">XML/Units/UnitsUpdates.sql</File>
+    <!-- <File md5="99HF95F999ED64A81AC8FCA49D51C3Z9" import="0">XML/Units/UnitsUpdates.sql</File> -->
     <File md5="S9HF95F999ED64A81AC8FCA49D51C3Z9" import="0">XML/Units/UnitSound.sql</File>
-    <File md5="91976466E09829DFF95FA657CF0E079E" import="0">XML/Buildings.sql</File>
+    <!-- <File md5="91976466E09829DFF95FA657CF0E079E" import="0">XML/Buildings.sql</File> -->
     <File md5="6E09C37EA6FA875BF45CCDC6C12DF2AD" import="0">XML/EraSplashScreen.sql</File>
     <File md5="2E5FBE91F8999B5FD9AC21AC79734219" import="0">XML/FutureEras.xml</File>
-    <File md5="2AB3F34E953A0B7FCF341C6122989CCF" import="0">XML/FutureImprovements.sql</File>
-    <File md5="9E406DE17438B5FBF36859377E4F7F36" import="0">XML/FutureImprovements.xml</File>
+    <!-- <File md5="2AB3F34E953A0B7FCF341C6122989CCF" import="0">XML/FutureImprovements.sql</File> -->
+    <!-- <File md5="9E406DE17438B5FBF36859377E4F7F36" import="0">XML/FutureImprovements.xml</File> -->
     <File md5="F8B733BF5C85F9718DCB5621C464FEZ1" import="0">XML/FutureTechnologies.xml</File>
     <File md5="288831CB920E4B1A30B84DD1DD98A7EE" import="0">XML/FutureText.xml</File>
     <File md5="0BCEE9FC89E26F5340EEE145861C8BD6" import="0">XML/IconAtlases.xml</File>
-    <File md5="265831PB870E4B1A30G84ZZ1DE98P7EE" import="0">XML/Resolutions.xml</File>
+    <!-- <File md5="265831PB870E4B1A30G84ZZ1DE98P7EE" import="0">XML/Resolutions.xml</File> -->
     <File md5="2F8BFF6F4A099AB9B1BF1F4A2740016F" import="0">XML/ResourceIcons.xml</File>
     <File md5="2F8BDD6Z4A099AB1B1BF1F4A1540099F" import="0">XML/Resources.sql</File>
     <File md5="98EF605A7A6B607A149C707EF7715C99" import="0">XML/TechTreeAdjustment.sql</File>
-    <File md5="AA196416E09829DFF69FA657CF0G071E" import="0">XML/Wonders.sql</File>
+    <!-- <File md5="AA196416E09829DFF69FA657CF0G071E" import="0">XML/Wonders.sql</File> -->
     <File md5="CAYM6416E09829DFF69FA657CF0G071E" import="0">XML/FutureText.sql</File>
 
     <File md5="MC495115B209658C585382DAD65F75FE" import="1">VP_Imagechange/Mobileartillery/3DModel/M109SKorea.fxsxml</File>
@@ -2005,33 +2005,33 @@
       <UpdateDatabase>XML/Units/FutureUnitIconAtlases.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/Promotions.sql</UpdateDatabase>
       <UpdateDatabase>XML/Units/Units.xml</UpdateDatabase>
-      <UpdateDatabase>XML/Units/Units.sql</UpdateDatabase>
-      <UpdateDatabase>XML/Units/UnitsUpdates.sql</UpdateDatabase>
+      <!-- <UpdateDatabase>XML/Units/Units.sql</UpdateDatabase> -->
+      <!-- <UpdateDatabase>XML/Units/UnitsUpdates.sql</UpdateDatabase> -->
       <UpdateDatabase>XML/Units/UnitSound.sql</UpdateDatabase>
-      <UpdateDatabase>XML/Buildings.sql</UpdateDatabase>
+      <!-- <UpdateDatabase>XML/Buildings.sql</UpdateDatabase> -->
       <UpdateDatabase>XML/EraSplashScreen.sql</UpdateDatabase>
       <UpdateDatabase>XML/FutureEras.xml</UpdateDatabase>
-      <UpdateDatabase>XML/FutureImprovements.sql</UpdateDatabase>
-      <UpdateDatabase>XML/FutureImprovements.xml</UpdateDatabase>
+      <!-- <UpdateDatabase>XML/FutureImprovements.sql</UpdateDatabase> -->
+      <!-- <UpdateDatabase>XML/FutureImprovements.xml</UpdateDatabase> -->
       <UpdateDatabase>XML/FutureTechnologies.xml</UpdateDatabase>
       <UpdateDatabase>XML/FutureText.xml</UpdateDatabase>
       <UpdateDatabase>XML/IconAtlases.xml</UpdateDatabase>
-      <UpdateDatabase>XML/Resolutions.xml</UpdateDatabase>
+      <!-- <UpdateDatabase>XML/Resolutions.xml</UpdateDatabase> -->
       <UpdateDatabase>XML/TechTreeAdjustment.sql</UpdateDatabase>
-      <UpdateDatabase>XML/Wonders.sql</UpdateDatabase>
+      <!-- <UpdateDatabase>XML/Wonders.sql</UpdateDatabase> -->
       <UpdateDatabase>XML/Resources.sql</UpdateDatabase>
       <UpdateDatabase>XML/ResourceIcons.xml</UpdateDatabase>
       <UpdateDatabase>XML/FutureText.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
-    <EntryPoint type="InGameUIAddin" file="Lua/FutureLua.lua">
+    <!-- <EntryPoint type="InGameUIAddin" file="Lua/FutureLua.lua">
       <Name>Future Lua</Name>
       <Description>Future Lua</Description>
     </EntryPoint>
     <EntryPoint type="InGameUIAddin" file="Lua/Genejack.lua">
       <Name>Genejack</Name>
       <Description>Culture on border growth from the Genejack Facility</Description>
-    </EntryPoint>
+    </EntryPoint> -->
   </EntryPoints>
 </Mod>

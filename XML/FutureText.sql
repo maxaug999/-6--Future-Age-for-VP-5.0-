@@ -27,7 +27,7 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 -- Improvements & Policies
 --===========================
 ----------------------------------------------
--- Agribusiness - Stockyard
+-- Agribusiness
 ----------------------------------------------
 UPDATE Language_en_US
 SET Text = '+2 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold from Farms, Pastures, Eco-Communes and Hydroponic Domes worked by the City. 10% of [ICON_FOOD] Food created by the City counts as [ICON_GOLD] Gold Per Turn.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_HORSE] Horses.'

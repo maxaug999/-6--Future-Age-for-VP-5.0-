@@ -491,7 +491,7 @@
 			<Pillage>true</Pillage>
 			<IsMounted>1</IsMounted>
 			<Mechanized>true</Mechanized>
-			<IgnoreBuildingDefense>false</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>-1</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
@@ -516,7 +516,7 @@
 			<BaseLandAirDefense>55</BaseLandAirDefense>
 			<Range>4</Range>
 			<PurchaseCooldown>1</PurchaseCooldown>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Moves>3</Moves>
 			<AirInterceptRange>4</AirInterceptRange>
 			<Strategy>TXT_KEY_UNIT_FW_MODERN_MOBILE_SAM_STRATEGY</Strategy>
@@ -551,7 +551,7 @@
 			<BaseLandAirDefense>75</BaseLandAirDefense>
 			<Range>5</Range>
 			<PurchaseCooldown>1</PurchaseCooldown>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Moves>3</Moves>
 			<AirInterceptRange>4</AirInterceptRange>
 			<Strategy>TXT_KEY_UNIT_FW_CYBERSAM_STRATEGY</Strategy>
@@ -603,7 +603,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>30</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -640,7 +640,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>30</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -673,7 +673,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>50</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -706,7 +706,7 @@
 			<MilitarySupport>1</MilitarySupport>
 			<MilitaryProduction>1</MilitaryProduction>
 			<Pillage>1</Pillage>
-			<IgnoreBuildingDefense>1</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Suicide>0</Suicide>
 			<HurryCostModifier>0</HurryCostModifier>
 			<AdvancedStartCost>60</AdvancedStartCost>
@@ -741,7 +741,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>70</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -778,7 +778,7 @@
 			<MilitarySupport>1</MilitarySupport>
 			<MilitaryProduction>1</MilitaryProduction>
 			<Pillage>1</Pillage>
-			<IgnoreBuildingDefense>1</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Suicide>0</Suicide>
 			<HurryCostModifier>0</HurryCostModifier>
 			<AdvancedStartCost>60</AdvancedStartCost>
@@ -817,7 +817,7 @@
 			<MilitarySupport>1</MilitarySupport>
 			<MilitaryProduction>1</MilitaryProduction>
 			<Pillage>1</Pillage>
-			<IgnoreBuildingDefense>1</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Suicide>0</Suicide>
 			<HurryCostModifier>0</HurryCostModifier>
 			<AdvancedStartCost>60</AdvancedStartCost>
@@ -855,7 +855,7 @@
 			<MilitarySupport>1</MilitarySupport>
 			<MilitaryProduction>1</MilitaryProduction>
 			<Pillage>1</Pillage>
-			<IgnoreBuildingDefense>1</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Suicide>0</Suicide>
 			<HurryCostModifier>0</HurryCostModifier>
 			<AdvancedStartCost>60</AdvancedStartCost>
@@ -891,7 +891,7 @@
 			<MilitarySupport>1</MilitarySupport>
 			<MilitaryProduction>1</MilitaryProduction>
 			<Pillage>1</Pillage>
-			<IgnoreBuildingDefense>1</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Suicide>0</Suicide>
 			<HurryCostModifier>0</HurryCostModifier>
 			<AdvancedStartCost>50</AdvancedStartCost>
@@ -925,7 +925,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>70</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -954,7 +954,7 @@
 			<Help>TXT_KEY_UNIT_FW_ADVANCED_MISSILE_GUIDED_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<Suicide>true</Suicide>
 			<AdvancedStartCost>50</AdvancedStartCost>
@@ -991,7 +991,7 @@
 			<Help>TXT_KEY_UNIT_FW_DRONE_FIGHTER_2_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>70</AdvancedStartCost>
 			<AirUnitCap>1</AirUnitCap>
@@ -1028,7 +1028,7 @@
 			<Help>TXT_KEY_UNIT_FW_SUBORBITAL_BOMBER_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>70</AdvancedStartCost>
 			<AirUnitCap>1</AirUnitCap>
@@ -1067,7 +1067,7 @@
 			<Help>TXT_KEY_UNIT_FW_PLASMA_FIGHTER_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>70</AdvancedStartCost>
 			<AirUnitCap>1</AirUnitCap>
@@ -1105,7 +1105,7 @@
 			<Special>SPECIALUNIT_SPACESHIP</Special>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>70</AdvancedStartCost>
 			<AirUnitCap>1</AirUnitCap>
@@ -1143,7 +1143,7 @@
 			<Help>TXT_KEY_UNIT_FW_SPACE_FIGHTER_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>80</AdvancedStartCost>
 			<AirUnitCap>1</AirUnitCap>
@@ -1180,7 +1180,7 @@
 			<Special>SPECIALUNIT_SPACESHIP</Special>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>80</AdvancedStartCost>
 			<AirUnitCap>1</AirUnitCap>
@@ -1216,7 +1216,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>70</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -1249,7 +1249,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>70</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -1286,7 +1286,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>false</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -1322,7 +1322,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>false</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -1358,7 +1358,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
@@ -1400,7 +1400,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
@@ -1438,7 +1438,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
@@ -1477,7 +1477,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
@@ -1515,7 +1515,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -1552,7 +1552,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -1589,7 +1589,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
@@ -1628,7 +1628,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
@@ -1668,7 +1668,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
@@ -1706,7 +1706,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
@@ -1741,7 +1741,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
@@ -1780,7 +1780,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
@@ -1817,7 +1817,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
@@ -1856,7 +1856,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
@@ -1891,7 +1891,7 @@
 			<Help>TXT_KEY_UNIT_FW_MODERN_DRONE_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<BaseSightRange>4</BaseSightRange>
 			<AdvancedStartCost>70</AdvancedStartCost>
@@ -1923,7 +1923,7 @@
 			<Help>TXT_KEY_UNIT_FW_HYBRID_DRONE_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<BaseSightRange>4</BaseSightRange>
 			<AdvancedStartCost>70</AdvancedStartCost>
@@ -1956,7 +1956,7 @@
 			<Help>TXT_KEY_UNIT_FW_BIODRONE_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>70</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -1988,7 +1988,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>50</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2020,7 +2020,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>50</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2051,7 +2051,7 @@
 			<Help>TXT_KEY_UNIT_FW_RAILGUN_MISSILE_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<Suicide>true</Suicide>
 			<AdvancedStartCost>60</AdvancedStartCost>
@@ -2086,7 +2086,7 @@
 			<Help>TXT_KEY_UNIT_FW_HYPERMISSILE_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<Suicide>true</Suicide>
 			<AdvancedStartCost>60</AdvancedStartCost>
@@ -2121,7 +2121,7 @@
 			<Help>TXT_KEY_UNIT_FW_CRAWLER_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<AdvancedStartCost>80</AdvancedStartCost>
@@ -2161,7 +2161,7 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>80</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2191,7 +2191,7 @@
 			<Help>TXT_KEY_UNIT_FW_CHIMERA_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>80</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2222,7 +2222,7 @@
 			<Help>TXT_KEY_UNIT_FW_HYDRA_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>80</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2251,7 +2251,7 @@
 			<Help>TXT_KEY_UNIT_FW_SWARM_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>80</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2284,7 +2284,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<ObsoleteTech>TECH_ASTRODYNAMICS</ObsoleteTech>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>50</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2317,7 +2317,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2349,7 +2349,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>50</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2382,7 +2382,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>50</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2416,7 +2416,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>50</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2450,7 +2450,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>50</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2484,7 +2484,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2520,7 +2520,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Mechanized>true</Mechanized>
 			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>false</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>50</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2559,7 +2559,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<Mechanized>true</Mechanized>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>80</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2597,7 +2597,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<Mechanized>true</Mechanized>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<AdvancedStartCost>80</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2711,7 +2711,7 @@
 			<ProjectPrereq>PROJECT_MANHATTAN_PROJECT</ProjectPrereq>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<Suicide>true</Suicide>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -2746,7 +2746,7 @@
 			<ProjectPrereq>PROJECT_MANHATTAN_PROJECT</ProjectPrereq>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<Suicide>true</Suicide>
 			<HurryCostModifier>-1</HurryCostModifier>

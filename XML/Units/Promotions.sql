@@ -11,7 +11,7 @@ INSERT INTO UnitPromotions (Type, PediaType, IconAtlas, PortraitIndex, Sound) VA
 ('PROMOTION_FW_APEXPREDATOR',   'PEDIA_MOUNTED',  'PROMOTION_ATLAS',               13, 'AS2D_IF_LEVELUP');
 
 INSERT INTO UnitPromotions (Type, PediaType, IconAtlas, PortraitIndex, Sound, PromotionPrereqOr1, InterceptChanceChange) VALUES
-('PROMOTION_FW_INTERCEPTION_V',   	'PEDIA_AIR',  	  'PROMOTION_ATLAS_VP_02', 7, 'AS2D_IF_LEVELUP', 'PROMOTION_INTERCEPTION_IV', 	15),
+('PROMOTION_FW_INTERCEPTION_V',   	'PEDIA_AIR',  	  'PROMOTION_ATLAS_VP_02', 7, 'AS2D_IF_LEVELUP', 'PROMOTION_INTERCEPTION_IV', 		15),
 ('PROMOTION_FW_INTERCEPTION_VI',   	'PEDIA_AIR',  	  'PROMOTION_ATLAS_VP_02', 7, 'AS2D_IF_LEVELUP', 'PROMOTION_FW_INTERCEPTION_V',  	15);
 
 -- INSERT INTO UnitPromotions (Type, PediaType, IconAtlas, PortraitIndex, Sound, LostWithUpgrade, OrderPriority, CombatPercent) VALUES

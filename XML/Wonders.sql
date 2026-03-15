@@ -298,7 +298,7 @@ WHERE Type = 'BUILDING_FW_BIONICTOWER';
 -- Data Haven
 ----------------------------------------------
 UPDATE Buildings
-SET SpecialistType = 'SPECIALIST_SCIENTIST', SpecialistCount = 2, NearbyTerrainRequired = 'TERRAIN_TUNDRA'
+SET SpecialistType = 'SPECIALIST_SCIENTIST', MinorFriendshipChange = 35, SpecialistCount = 2, NearbyTerrainRequired = 'TERRAIN_TUNDRA'
 WHERE Type = 'BUILDING_FW_DATA_HAVEN';
 
 ----------------------------------------------
@@ -856,10 +856,11 @@ INSERT INTO Building_Flavors (BuildingType, FlavorType, Flavor) VALUES
 ('BUILDING_FW_BIONICTOWER',        		'FLAVOR_HAPPINESS',      	40),
 ('BUILDING_FW_BIONICTOWER',        		'FLAVOR_GROWTH',      		50),
 ('BUILDING_FW_BIONICTOWER',        		'FLAVOR_SCIENCE',      		60),
+('BUILDING_FW_DATA_HAVEN',        		'FLAVOR_DIPLOMACY',      	15),
 ('BUILDING_FW_DATA_HAVEN',        		'FLAVOR_WONDER',      		25),
 ('BUILDING_FW_DATA_HAVEN',        		'FLAVOR_GREAT_PEOPLE',      25),
-('BUILDING_FW_DATA_HAVEN',        		'FLAVOR_GOLD',      		45),
-('BUILDING_FW_DATA_HAVEN',        		'FLAVOR_SCIENCE',      		50),
+('BUILDING_FW_DATA_HAVEN',        		'FLAVOR_GOLD',      		40),
+('BUILDING_FW_DATA_HAVEN',        		'FLAVOR_SCIENCE',      		45),
 ('BUILDING_FW_DATA_HAVEN',        		'FLAVOR_CULTURE',      		50),
 ('BUILDING_FW_SKYCITY',        			'FLAVOR_GOLD',      		10),
 ('BUILDING_FW_SKYCITY',        			'FLAVOR_WONDER',      		25),

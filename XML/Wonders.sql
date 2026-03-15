@@ -336,8 +336,8 @@ WHERE Type = 'BUILDING_CERN';
 -- ----------------------------------------------
 UPDATE Buildings
 SET CitySupplyModifier = 25, GlobalBuildingGoldMaintenanceMod = -15
-WHERE Type = 'BUILDING_MOTHERLAND_STATUE';
-UPDATE Language_en_US SET Text = "Receive a [COLOR_POSITIVE_TEXT]Free[ENDCOLOR] Police Station in the City in which it is built. [ICON_SILVER_FIST] Military Units Supplied by this City's population increased by 25%.[NEWLINE][NEWLINE]Building Maintenance reduced by 15% in all Cities. Blocks enemy units from gaining [ICON_GOLD] Gold and Health when pillaging your tiles." WHERE Tag IN ('TXT_KEY_WONDER_MOTHERLAND_STATUE_HELP');
+WHERE Type = 'BUILDING_MOTHERLAND_CALLS';
+UPDATE Language_en_US SET Text = "Receive a [COLOR_POSITIVE_TEXT]Free[ENDCOLOR] Police Station in the City in which it is built. [ICON_SILVER_FIST] Military Units Supplied by this City's population increased by 25%.[NEWLINE][NEWLINE]Building Maintenance reduced by 15% in all Cities. Blocks enemy units from gaining [ICON_GOLD] Gold and Health when pillaging your tiles." WHERE Tag IN ('TXT_KEY_WONDER_MOTHERLAND_CALLS_HELP');
 
 ----------------------------------------------
 -- Ultimate Tower

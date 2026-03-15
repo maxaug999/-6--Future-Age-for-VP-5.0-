@@ -1945,12 +1945,12 @@
     <File md5="93C954A3687FC80BF4BF7EBC622C19FA" import="0">XML/Units/ArtDefines.xml</File>
     <File md5="98EF605A7A6B607A149C707EF7715C99" import="0">XML/Units/ArtDefines.sql</File>
     <File md5="A43CD1EA75317E3B42F5D21D51E09F9D" import="0">XML/Units/FutureUnitIconAtlases.xml</File>
-    <!-- <File md5="DA3B672D9D609141FF5EEA8D10473B2Z" import="0">XML/Units/Units.sql</File> -->
+    <File md5="DA3B672D9D609141FF5EEA8D10473B2Z" import="0">XML/Units/Units.sql</File>
     <File md5="DA3B672D9D602141FF5EDA8D10473B2F" import="0">XML/Units/Units.xml</File>
     <File md5="DA3B672N9A602141SS5JDA1D50479B2Z" import="0">XML/Units/Promotions.sql</File>
     <!-- <File md5="99HF95F999ED64A81AC8FCA49D51C3Z9" import="0">XML/Units/UnitsUpdates.sql</File> -->
     <File md5="S9HF95F999ED64A81AC8FCA49D51C3Z9" import="0">XML/Units/UnitSound.sql</File>
-    <!-- <File md5="91976466E09829DFF95FA657CF0E079E" import="0">XML/Buildings.sql</File> -->
+    <File md5="91976466E09829DFF95FA657CF0E079E" import="0">XML/Buildings.sql</File>
     <File md5="6E09C37EA6FA875BF45CCDC6C12DF2AD" import="0">XML/EraSplashScreen.sql</File>
     <File md5="2E5FBE91F8999B5FD9AC21AC79734219" import="0">XML/FutureEras.xml</File>
     <!-- <File md5="2AB3F34E953A0B7FCF341C6122989CCF" import="0">XML/FutureImprovements.sql</File> -->
@@ -2005,10 +2005,10 @@
       <UpdateDatabase>XML/Units/FutureUnitIconAtlases.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/Promotions.sql</UpdateDatabase>
       <UpdateDatabase>XML/Units/Units.xml</UpdateDatabase>
-      <!-- <UpdateDatabase>XML/Units/Units.sql</UpdateDatabase> -->
+      <UpdateDatabase>XML/Units/Units.sql</UpdateDatabase>
       <!-- <UpdateDatabase>XML/Units/UnitsUpdates.sql</UpdateDatabase> -->
       <UpdateDatabase>XML/Units/UnitSound.sql</UpdateDatabase>
-      <!-- <UpdateDatabase>XML/Buildings.sql</UpdateDatabase> -->
+      <UpdateDatabase>XML/Buildings.sql</UpdateDatabase>
       <UpdateDatabase>XML/EraSplashScreen.sql</UpdateDatabase>
       <UpdateDatabase>XML/FutureEras.xml</UpdateDatabase>
       <!-- <UpdateDatabase>XML/FutureImprovements.sql</UpdateDatabase> -->

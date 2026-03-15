@@ -1497,7 +1497,7 @@
 			<Type>UNIT_FW_HIMARS</Type>
 			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
 			<Combat>45</Combat>
-			<RangedCombat>90</RangedCombat>
+			<RangedCombat>100</RangedCombat>
 			<BaseLandAirDefense>40</BaseLandAirDefense>
 			<Cost>3500</Cost>
 			<FaithCost>1800</FaithCost>
@@ -1534,7 +1534,7 @@
 			<Type>UNIT_FW_MECH_ARTILLERY</Type>
 			<PrereqTech>TECH_SUPERCONDUCTIVITY</PrereqTech>
 			<Combat>65</Combat>
-			<RangedCombat>115</RangedCombat>
+			<RangedCombat>130</RangedCombat>
 			<BaseLandAirDefense>45</BaseLandAirDefense>
 			<Cost>3800</Cost>
 			<FaithCost>2000</FaithCost>
@@ -3743,7 +3743,7 @@
 		<Row>
 			<UnitType>UNIT_FW_HIMARS</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>11</Flavor>
+			<Flavor>13</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_HIMARS</UnitType>
@@ -4755,6 +4755,10 @@
 		<Row>
 			<UnitType>UNIT_FW_HIMARS</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HIMARS</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>

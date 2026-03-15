@@ -1962,7 +1962,7 @@
     <File md5="2F8BFF6F4A099AB9B1BF1F4A2740016F" import="0">XML/ResourceIcons.xml</File>
     <File md5="2F8BDD6Z4A099AB1B1BF1F4A1540099F" import="0">XML/Resources.sql</File>
     <File md5="98EF605A7A6B607A149C707EF7715C99" import="0">XML/TechTreeAdjustment.sql</File>
-    <!-- <File md5="AA196416E09829DFF69FA657CF0G071E" import="0">XML/Wonders.sql</File> -->
+    <File md5="AA196416E09829DFF69FA657CF0G071E" import="0">XML/Wonders.sql</File>
     <File md5="CAYM6416E09829DFF69FA657CF0G071E" import="0">XML/FutureText.sql</File>
 
     <File md5="MC495115B209658C585382DAD65F75FE" import="1">VP_Imagechange/Mobileartillery/3DModel/M109SKorea.fxsxml</File>
@@ -2018,7 +2018,7 @@
       <UpdateDatabase>XML/IconAtlases.xml</UpdateDatabase>
       <UpdateDatabase>XML/Resolutions.xml</UpdateDatabase>
       <UpdateDatabase>XML/TechTreeAdjustment.sql</UpdateDatabase>
-      <!-- <UpdateDatabase>XML/Wonders.sql</UpdateDatabase> -->
+      <UpdateDatabase>XML/Wonders.sql</UpdateDatabase>
       <UpdateDatabase>XML/Resources.sql</UpdateDatabase>
       <UpdateDatabase>XML/ResourceIcons.xml</UpdateDatabase>
       <UpdateDatabase>XML/FutureText.sql</UpdateDatabase>

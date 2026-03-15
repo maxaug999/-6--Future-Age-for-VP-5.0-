@@ -1,14 +1,14 @@
-UPDATE Technologies SET Era = 'ERA_FW_FUTURE', GridY = 6, GridX = 20, Cost = 52500 WHERE Type='TECH_NANOTECHNOLOGY';
+UPDATE Technologies SET Era = 'ERA_FW_FUTURE', GridY = 6, GridX = 18, Cost = 52500 WHERE Type='TECH_NANOTECHNOLOGY';
 
-UPDATE Technologies SET Era = 'ERA_FW_FUTURE', GridY = 7, GridX = 20, Cost = 52500 WHERE Type='TECH_PARTICLE_PHYSICS';
+UPDATE Technologies SET Era = 'ERA_FW_FUTURE', GridY = 7, GridX = 18, Cost = 52500 WHERE Type='TECH_PARTICLE_PHYSICS';
 
-UPDATE Technologies SET GridX = 19, GridY = 5, ExtraVotesPerDiplomat = 0, InternationalTradeRoutesChange = 0, Cost = 39000 WHERE Type='TECH_ROBOTICS';
+UPDATE Technologies SET GridX = 17, GridY = 5, ExtraVotesPerDiplomat = 0, InternationalTradeRoutesChange = 0, Cost = 39000 WHERE Type='TECH_ROBOTICS';
 
-UPDATE Technologies SET GridX = 18, GridY = 2, ExtraVotesPerDiplomat = 0, Cost = 23000, InternationalTradeRoutesChange = 1 WHERE Type= 'TECH_GLOBALIZATION';
+UPDATE Technologies SET GridX = 16, GridY = 2, ExtraVotesPerDiplomat = 0, Cost = 23000, InternationalTradeRoutesChange = 1 WHERE Type= 'TECH_GLOBALIZATION';
 
-UPDATE Technologies SET Era = 'ERA_FW_FUTURE', GridY = 6, GridX = 24, Cost = 114000 WHERE Type='TECH_NUCLEAR_FUSION';
+UPDATE Technologies SET Era = 'ERA_FW_FUTURE', GridY = 6, GridX = 22, Cost = 114000 WHERE Type='TECH_NUCLEAR_FUSION';
 
-UPDATE Technologies SET Era = 'ERA_FW_FUTURE', Cost = 162500, GridX = 27 WHERE Type='TECH_FUTURE_TECH';
+UPDATE Technologies SET Era = 'ERA_FW_FUTURE', Cost = 162500, GridX = 25 WHERE Type='TECH_FUTURE_TECH';
 
 DELETE FROM Technology_FreePromotions WHERE TechType='TECH_NANOTECHNOLOGY';
 

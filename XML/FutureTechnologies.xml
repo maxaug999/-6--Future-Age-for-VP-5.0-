@@ -9,7 +9,7 @@
 			<Help>TXT_KEY_TECH_FW_GEN_MANIP_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>19</GridX>
+			<GridX>17</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_FW_GEN_MANIP_QUOTE</Quote>
 			<PortraitIndex>18</PortraitIndex>
@@ -23,7 +23,7 @@
 			<Help>TXT_KEY_TECH_FW_SUPERCOMPUTERS_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>19</GridX>
+			<GridX>17</GridX>
 			<GridY>3</GridY>
 			<Quote>TXT_KEY_TECH_FW_SUPERCOMPUTERS_QUOTE</Quote>
 			<PortraitIndex>6</PortraitIndex>
@@ -37,7 +37,7 @@
 			<Help>TXT_KEY_TECH_FW_NANOMATERIALS_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>19</GridX>
+			<GridX>17</GridX>
 			<GridY>7</GridY>
 			<Quote>TXT_KEY_TECH_FW_NANOMATERIALS_QUOTE</Quote>
 			<PortraitIndex>13</PortraitIndex>
@@ -51,7 +51,7 @@
 			<Help>TXT_KEY_TECH_FW_FUTURE_BALLISTICS_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>19</GridX>
+			<GridX>17</GridX>
 			<GridY>8</GridY>
 			<Quote>TXT_KEY_TECH_FW_FUTURE_BALLISTICS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
@@ -65,7 +65,7 @@
 			<Help>TXT_KEY_TECH_FW_EUTHENICS_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>20</GridX>
+			<GridX>18</GridX>
 			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_FW_EUTHENICS_QUOTE</Quote>
 			<PortraitIndex>46</PortraitIndex>
@@ -80,7 +80,7 @@
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
 			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
-			<GridX>20</GridX>
+			<GridX>18</GridX>
 			<GridY>3</GridY>
 			<Quote>TXT_KEY_TECH_FW_GRID_COMPUTING_QUOTE</Quote>
 			<PortraitIndex>11</PortraitIndex>
@@ -94,7 +94,7 @@
 			<Help>TXT_KEY_TECH_FW_MEMETICS_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>20</GridX>
+			<GridX>18</GridX>
 			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_FW_MEMETICS_QUOTE</Quote>
 			<PortraitIndex>12</PortraitIndex>
@@ -108,7 +108,7 @@
 			<Help>TXT_KEY_TECH_FW_POWER_SYSTEMS_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>20</GridX>
+			<GridX>18</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_FW_POWER_SYSTEMS_QUOTE</Quote>
 			<PortraitIndex>9</PortraitIndex>
@@ -122,7 +122,7 @@
 			<Help>TXT_KEY_TECH_FW_ARTIFICIAL_ENVIRONMENTS_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>20</GridX>
+			<GridX>18</GridX>
 			<GridY>9</GridY>
 			<Quote>TXT_KEY_TECH_FW_ARTIFICIAL_ENVIRONMENTS_QUOTE</Quote>
 			<PortraitIndex>38</PortraitIndex>
@@ -136,7 +136,7 @@
 			<Help>TXT_KEY_TECH_FW_IMPLANTS_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>21</GridX>
+			<GridX>19</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_FW_IMPLANTS_QUOTE</Quote>
 			<!-- <PortraitIndex>31</PortraitIndex> -->
@@ -152,7 +152,7 @@
 			<Help>TXT_KEY_TECH_FW_ECOTHEORY_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>21</GridX>
+			<GridX>19</GridX>
 			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_FW_ECOTHEORY_QUOTE</Quote>
 			<PortraitIndex>51</PortraitIndex>
@@ -166,7 +166,7 @@
 			<Help>TXT_KEY_TECH_FW_COGNITIVE_TECH_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>21</GridX>
+			<GridX>19</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_FW_COGNITIVE_TECH_QUOTE</Quote>
 			<PortraitIndex>26</PortraitIndex>
@@ -180,7 +180,7 @@
 			<Help>TXT_KEY_TECH_FW_QUANTUM_COMPUTERS_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>21</GridX>
+			<GridX>19</GridX>
 			<GridY>6</GridY>
 			<Quote>TXT_KEY_TECH_FW_QUANTUM_COMPUTERS_QUOTE</Quote>
 			<PortraitIndex>29</PortraitIndex>
@@ -194,7 +194,7 @@
 			<Help>TXT_KEY_TECH_FW_ORBITAL_DEV_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>21</GridX>
+			<GridX>19</GridX>
 			<GridY>8</GridY>
 			<Quote>TXT_KEY_TECH_FW_ORBITAL_DEV_QUOTE</Quote>
 			<PortraitIndex>54</PortraitIndex>
@@ -208,7 +208,7 @@
 			<Help>TXT_KEY_TECH_FW_CLONING_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>22</GridX>
+			<GridX>20</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_FW_CLONING_QUOTE</Quote>
 			<PortraitIndex>9</PortraitIndex>
@@ -222,7 +222,7 @@
 			<Help>TXT_KEY_TECH_FW_ORGANICS_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>22</GridX>
+			<GridX>20</GridX>
 			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_FW_ORGANICS_QUOTE</Quote>
 			<PortraitIndex>10</PortraitIndex>
@@ -237,7 +237,7 @@
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
 			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
-			<GridX>22</GridX>
+			<GridX>20</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_FW_MECHATRONICS_QUOTE</Quote>
 			<PortraitIndex>8</PortraitIndex>
@@ -251,7 +251,7 @@
 			<Help>TXT_KEY_TECH_FW_NUCLEAR_ENRICHMENT_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>22</GridX>
+			<GridX>20</GridX>
 			<GridY>6</GridY>
 			<Quote>TXT_KEY_TECH_FW_NUCLEAR_ENRICHMENT_QUOTE</Quote>
 			<PortraitIndex>35</PortraitIndex>
@@ -265,7 +265,7 @@
 			<Help>TXT_KEY_TECH_FW_ASTRODYNAMICS_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>22</GridX>
+			<GridX>20</GridX>
 			<GridY>8</GridY>
 			<Quote>TXT_KEY_TECH_FW_ASTRODYNAMICS_QUOTE</Quote>
 			<PortraitIndex>22</PortraitIndex>
@@ -279,7 +279,7 @@
 			<Help>TXT_KEY_TECH_FW_TRANSGENICS_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>23</GridX>
+			<GridX>21</GridX>
 			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_FW_TRANSGENICS_QUOTE</Quote>
 			<PortraitIndex>24</PortraitIndex>
@@ -293,7 +293,7 @@
 			<Help>TXT_KEY_TECH_FW_NEURAL_INTERFACE_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>23</GridX>
+			<GridX>21</GridX>
 			<GridY>3</GridY>
 			<Quote>TXT_KEY_TECH_FW_NEURAL_INTERFACE_QUOTE</Quote>
 			<PortraitIndex>63</PortraitIndex>
@@ -307,7 +307,7 @@
 			<Help>TXT_KEY_TECH_FW_AUTONOMOUS_SYSTEMS_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>23</GridX>
+			<GridX>21</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_FW_AUTONOMOUS_SYSTEMS_QUOTE</Quote>
 			<PortraitIndex>33</PortraitIndex>
@@ -321,7 +321,7 @@
 			<Help>TXT_KEY_TECH_FW_SUPERCONDUCTIVITY_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>23</GridX>
+			<GridX>21</GridX>
 			<GridY>7</GridY>
 			<Quote>TXT_KEY_TECH_FW_SUPERCONDUCTIVITY_QUOTE</Quote>
 			<PortraitIndex>28</PortraitIndex>
@@ -335,7 +335,7 @@
 			<Help>TXT_KEY_TECH_FW_ARCOLOGIES_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>23</GridX>
+			<GridX>21</GridX>
 			<GridY>9</GridY>
 			<Quote>TXT_KEY_TECH_FW_ARCOLOGIES_QUOTE</Quote>
 			<PortraitIndex>55</PortraitIndex>
@@ -349,7 +349,7 @@
 			<Help>TXT_KEY_TECH_FW_GENGINEERING_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>24</GridX>
+			<GridX>22</GridX>
 			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_FW_GENGINEERING_QUOTE</Quote>
 			<PortraitIndex>29</PortraitIndex>
@@ -363,7 +363,7 @@
 			<Help>TXT_KEY_TECH_FW_BIOMODIFICATION_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>24</GridX>
+			<GridX>22</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_FW_BIOMODIFICATION_QUOTE</Quote>
 			<PortraitIndex>25</PortraitIndex>
@@ -378,7 +378,7 @@
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
 			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
-			<GridX>24</GridX>
+			<GridX>22</GridX>
 			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_FW_CYBERNETICS_QUOTE</Quote>
 			<PortraitIndex>9</PortraitIndex>
@@ -392,7 +392,7 @@
 			<Help>TXT_KEY_TECH_FW_AI_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>24</GridX>
+			<GridX>22</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_FW_AI_QUOTE</Quote>
 			<PortraitIndex>39</PortraitIndex>
@@ -406,7 +406,7 @@
 			<Help>TXT_KEY_TECH_FW_PROMETHEUS_PROGRAM_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>24</GridX>
+			<GridX>22</GridX>
 			<GridY>8</GridY>
 			<Quote>TXT_KEY_TECH_FW_PROMETHEUS_PROGRAM_QUOTE</Quote>
 			<PortraitIndex>34</PortraitIndex>
@@ -420,7 +420,7 @@
 			<Help>TXT_KEY_TECH_FW_ADAMANTIUM_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>24</GridX>
+			<GridX>22</GridX>
 			<GridY>9</GridY>
 			<Quote>TXT_KEY_TECH_FW_ADAMANTIUM_QUOTE</Quote>
 			<PortraitIndex>23</PortraitIndex>
@@ -434,7 +434,7 @@
 			<Help>TXT_KEY_TECH_FW_TERRAFORMING_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>25</GridX>
+			<GridX>23</GridX>
 			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_FW_TERRAFORMING_QUOTE</Quote>
 			<PortraitIndex>5</PortraitIndex>
@@ -448,7 +448,7 @@
 			<Help>TXT_KEY_TECH_FW_HUMAN_AUGMENTATION_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>25</GridX>
+			<GridX>23</GridX>
 			<GridY>3</GridY>
 			<Quote>TXT_KEY_TECH_FW_HUMAN_AUGMENTATION_QUOTE</Quote>
 			<!-- <PortraitIndex>12</PortraitIndex> -->
@@ -464,7 +464,7 @@
 			<Help>TXT_KEY_TECH_FW_DIGITAL_SOCIETY_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>25</GridX>
+			<GridX>23</GridX>
 			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_FW_DIGITAL_SOCIETY_QUOTE</Quote>
 			<PortraitIndex>27</PortraitIndex>
@@ -478,7 +478,7 @@
 			<Help>TXT_KEY_TECH_FW_SMART_MATERIALS_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>25</GridX>
+			<GridX>23</GridX>
 			<GridY>6</GridY>
 			<Quote>TXT_KEY_TECH_FW_SMART_MATERIALS_QUOTE</Quote>
 			<PortraitIndex>37</PortraitIndex>
@@ -492,7 +492,7 @@
 			<Help>TXT_KEY_TECH_FW_ENERGY_THEORY_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>25</GridX>
+			<GridX>23</GridX>
 			<GridY>7</GridY>
 			<Quote>TXT_KEY_TECH_FW_ENERGY_THEORY_QUOTE</Quote>
 			<PortraitIndex>11</PortraitIndex>
@@ -506,7 +506,7 @@
 			<Help>TXT_KEY_TECH_FW_HYPERSTRUCTURES_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>25</GridX>
+			<GridX>23</GridX>
 			<GridY>9</GridY>
 			<Quote>TXT_KEY_TECH_FW_HYPERSTRUCTURES_QUOTE</Quote>
 			<PortraitIndex>10</PortraitIndex>
@@ -521,7 +521,7 @@
 			<Era>ERA_FW_FUTURE</Era>
             <InfluenceSpreadModifier>100</InfluenceSpreadModifier>
 			<Trade>true</Trade>
-			<GridX>26</GridX>
+			<GridX>24</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_FW_HOMO_SUPERIOR_QUOTE</Quote>
 			<PortraitIndex>30</PortraitIndex>
@@ -536,7 +536,7 @@
 			<ExtraVotesPerDiplomat>1</ExtraVotesPerDiplomat>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>26</GridX>
+			<GridX>24</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_FW_COMPUTRONIUM_QUOTE</Quote>
 			<PortraitIndex>13</PortraitIndex>
@@ -550,7 +550,7 @@
 			<Help>TXT_KEY_TECH_FW_SPACE_COLONIZATION_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>26</GridX>
+			<GridX>24</GridX>
 			<GridY>8</GridY>
 			<Quote>TXT_KEY_TECH_FW_SPACE_COLONIZATION_QUOTE</Quote>
 			<PortraitIndex>14</PortraitIndex>

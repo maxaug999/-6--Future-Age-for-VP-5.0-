@@ -1,10 +1,10 @@
-INSERT INTO COMMUNITY	
-		(Type,			Value)
-VALUES	('MUCfVP-CAYM', 2);
+-- INSERT INTO COMMUNITY	
+		-- (Type,			Value)
+-- VALUES	('MUCfVP-CAYM', 2);
 
-UPDATE COMMUNITY
-SET Value = '1'
-WHERE Type = 'MUCfVP-CAYM' AND EXISTS (SELECT * FROM Buildings WHERE Type='BUILDING_EE_DRYDOCK') AND NOT EXISTS (SELECT * FROM COMMUNITY WHERE Type='MUCfVP-CAYM' AND Value= 0);
+-- UPDATE COMMUNITY
+-- SET Value = '1'
+-- WHERE Type = 'MUCfVP-CAYM' AND EXISTS (SELECT * FROM Buildings WHERE Type='BUILDING_EE_DRYDOCK') AND NOT EXISTS (SELECT * FROM COMMUNITY WHERE Type='MUCfVP-CAYM' AND Value= 0);
 
 ----------------------------------------------------
 -- Text (en_US) 
@@ -451,7 +451,7 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 ('TXT_KEY_BUILDING_FW_MOON_BASE_PEDIA', "One of the ambitions of humanity in the 21st century was to establish a permanent settlement on the moon. Such a settlement would provide both an excellent research platform for studies of the moon and other astronomical bodies, as well as an almost limitless source of materials such as tritium, which is usable in fusion reactors."),
 -- Geofront
 ('TXT_KEY_BUILDING_FW_DEFENSE_FIELD', 'Geofront'),
-('TXT_KEY_BUILDING_FW_DEFENSE_FIELD_HELP', "Greatly increases City Defense.[NEWLINE][NEWLINE]+15% additional chance to detonate nuclear weapons [COLOR_POSITIVE_TEXT]early[ENDCOLOR] and reduces population loss from nuclear attack by 15%[NEWLINE][NEWLINE]Requires a [COLOR_POSITIVE_TEXT]Military Base[ENDCOLOR].[NEWLINE]Cannot be build on [COLOR_NEGATIVE_TEXT]Coastal[ENDCOLOR] terrain."),
+('TXT_KEY_BUILDING_FW_DEFENSE_FIELD_HELP', "Greatly increases City Defense.[NEWLINE][NEWLINE]+10% additional chance to detonate nuclear weapons [COLOR_POSITIVE_TEXT]early[ENDCOLOR] and reduces population loss from nuclear attack by 10%[NEWLINE][NEWLINE]Requires a [COLOR_POSITIVE_TEXT]Military Base[ENDCOLOR].[NEWLINE]Cannot be build on [COLOR_NEGATIVE_TEXT]Coastal[ENDCOLOR] terrain."),
 ('TXT_KEY_BUILDING_FW_DEFENSE_FIELD_STRATEGY', "Expensive, but a necessity for Defense for non-coastal cities in Future Era."),
 ('TXT_KEY_BUILDING_FW_DEFENSE_FIELD_PEDIA', "The Geofront is a defensive structure, building upon the concept of the underground bunker.  A massive underground installation, it is well protected against surface attack, and can help provide significant protection to the citizens of a city.");
 

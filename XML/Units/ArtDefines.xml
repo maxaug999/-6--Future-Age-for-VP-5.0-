@@ -4027,13 +4027,6 @@
 			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
 		</Row>
 	</ArtDefine_UnitMemberCombatWeapons>
-	<!-- <ArtDefine_StrategicView>
-		<Row>
-			<StrategicViewType>ART_DEF_UNIT_FW_ORGANIC_MERCENARIES</StrategicViewType>
-			<TileType>Unit</TileType>
-			<Asset>SV_Machine_Gun.dds</Asset>
-		</Row>
-	</ArtDefine_StrategicView> -->
 
 	<!-- Herrenmenschen -->
 	<ArtDefine_UnitInfos>

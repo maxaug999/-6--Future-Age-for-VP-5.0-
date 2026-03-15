@@ -759,9 +759,9 @@
 			<PrereqTech>TECH_GEN_MANIP</PrereqTech>
 			<ObsoleteTech>TECH_ORGANICS</ObsoleteTech>
 			<Description>TXT_KEY_UNIT_FW_ELITE_MERCENARIES</Description>
-			<Civilopedia>TXT_KEY_UNIT_MERCENARY_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_MERCENARY_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_MERCENARY_HELP</Help>
+			<Civilopedia>TXT_KEY_CIV5_GUERILLA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GUERILLA_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_GUERILLA</Help>
 			<Combat>105</Combat>
 			<BaseLandAirDefense>20</BaseLandAirDefense>
 			<Cost>2400</Cost>
@@ -798,9 +798,9 @@
 			<PrereqTech>TECH_ORGANICS</PrereqTech>
 			<ObsoleteTech>TECH_HUMAN_AUGMENTATION</ObsoleteTech>
 			<Description>TXT_KEY_UNIT_FW_ENHANCED_MERCENARIES</Description>
-			<Civilopedia>TXT_KEY_UNIT_MERCENARY_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_MERCENARY_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_MERCENARY_HELP</Help>
+			<Civilopedia>TXT_KEY_CIV5_GUERILLA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GUERILLA_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_GUERILLA</Help>
 			<Combat>120</Combat>
 			<BaseLandAirDefense>25</BaseLandAirDefense>
 			<Cost>2650</Cost>
@@ -836,9 +836,9 @@
 			<Class>UNITCLASS_FW_BIO_MERCENARIES</Class>
 			<PrereqTech>TECH_HUMAN_AUGMENTATION</PrereqTech>
 			<Description>TXT_KEY_UNIT_FW_BIO_MERCENARIES</Description>
-			<Civilopedia>TXT_KEY_UNIT_MERCENARY_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_MERCENARY_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_MERCENARY_HELP</Help>
+			<Civilopedia>TXT_KEY_CIV5_GUERILLA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GUERILLA_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_GUERILLA</Help>
 			<Combat>140</Combat>
 			<BaseLandAirDefense>30</BaseLandAirDefense>
 			<Cost>3200</Cost>
@@ -4727,6 +4727,10 @@
 		<Row>
 			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
 			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_ZEKE</UnitType>

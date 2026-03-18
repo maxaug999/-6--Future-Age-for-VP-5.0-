@@ -50,6 +50,8 @@ WHERE
     AND YieldType = 'YIELD_CULTURE'
     AND Yield = 1;
 
+-- If playing with Enlightenment Era, uncomment this line
+-- UPDATE Technologies SET GridX = GridX + 2 WHERE GridX > 10;
 
 INSERT INTO Tech_SpecialistYieldChanges
 	(TechType, SpecialistType, YieldType, Yield)
@@ -76,3 +78,16 @@ VALUES
 	-- ('TECH_PROMETHEUS_PROGRAM', 'SPECIALIST_SCIENTIST', 'YIELD_SCIENCE', 3),
 	-- ('TECH_NUCLEAR_FUSION', 'SPECIALIST_ENGINEER', 'YIELD_PRODUCTION', 3);
 
+--==================================================================================================================================
+-- Enlightenment Era Tech Tree Adjustment
+--==================================================================================================================================
+-- UPDATE Technologies SET GridX = GridX + 2 WHERE (Type='TECH_GLOBALIZATION' OR Cost> (SELECT Cost FROM Technologies WHERE Type='TECH_LASERS'))
+-- AND EXISTS (SELECT * FROM Technologies WHERE Type='TECH_EE_WARSHIPS');
+
+-- CREATE TRIGGER IF NOT EXISTS FutureAgeWithEnlightenmentEra
+-- AFTER INSERT ON Technology_Flavors WHEN NEW.TechType = 'TECH_EE_WARSHIPS' AND NEW.FlavorType = 'FLAVOR_NAVAL_GROWTH'
+-- BEGIN
+-- 	UPDATE Technologies SET GridX = GridX + 2 WHERE Type='TECH_GLOBALIZATION' OR Cost> (SELECT Cost FROM Technologies WHERE Type='TECH_LASERS');
+-- END;
+--==================================================================================================================================
+--==================================================================================================================================

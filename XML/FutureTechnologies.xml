@@ -789,10 +789,10 @@
 			<TechType>TECH_ASTRODYNAMICS</TechType>
 			<PrereqTech>TECH_QUANTUM_COMPUTERS</PrereqTech>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<TechType>TECH_TRANSGENICS</TechType>
 			<PrereqTech>TECH_EUTHENICS</PrereqTech>
-		</Row>
+		</Row> -->
 		<Row>
 			<TechType>TECH_TRANSGENICS</TechType>
 			<PrereqTech>TECH_CLONING</PrereqTech>
@@ -825,10 +825,10 @@
 			<TechType>TECH_SUPERCONDUCTIVITY</TechType>
 			<PrereqTech>TECH_ASTRODYNAMICS</PrereqTech>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<TechType>TECH_ARCOLOGIES</TechType>
 			<PrereqTech>TECH_ARTIFICIAL_ENVIRONMENTS</PrereqTech>
-		</Row>
+		</Row> -->
 		<Row>
 			<TechType>TECH_ARCOLOGIES</TechType>
 			<PrereqTech>TECH_ASTRODYNAMICS</PrereqTech>

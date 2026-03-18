@@ -109,9 +109,9 @@ WHERE Type IN (
 -- WHERE Type = 'BUILDING_SYDNEY_OPERA_HOUSE';
 
 -- Move Hubble
-UPDATE Buildings
-SET PrereqTech = 'TECH_ORBITAL_DEV', Cost = 3500
-WHERE Type = 'BUILDING_HUBBLE';
+-- UPDATE Buildings
+-- SET PrereqTech = 'TECH_ORBITAL_DEV', Cost = 3500
+-- WHERE Type = 'BUILDING_HUBBLE';
 
 
 --------------------------------------------

@@ -609,21 +609,6 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 -- UNITS
 --===========================
 INSERT INTO Language_en_US (Tag, Text) VALUES
--- Gunboat
-('TXT_KEY_UNIT_FW_GUNBOAT', 'Gunboat'),
-('TXT_KEY_UNIT_FW_GUNBOAT_HELP', "Mobile and fast Naval unit good at exploring the sea and avoiding Ranged attacks, but not Melee. May move after attacking. Has [COLOR_PLAYER_PURPLE]para-dropped[ENDCOLOR] and [COLOR_PLAYER_PURPLE]remove barbarian campment[ENDCOLOR] promotions, but can't [COLOR_RED]pillage[ENDCOLOR].[NEWLINE]Half the movement in the ocean."),
-('TXT_KEY_UNIT_FW_GUNBOAT_STRATEGY', "Small gunboat shippable by plane but pretty much weak for naval warfare. Use it to explore the sea and pillage. A maximum of 5 can be built."),
-('TXT_KEY_UNIT_FW_GUNBOAT_TEXT', "A gunboat is a naval watercraft designed for the express purpose of carrying one or more guns to explore the sea and coastal targets, as opposed to those military craft designed for naval warfare, or for ferrying troops or supplies. It is an ultra fast ship made to catch up regular naval ships."),
--- Advanced Gunboat
-('TXT_KEY_UNIT_FW_ADV_GUNBOAT', 'Superboat'),
-('TXT_KEY_UNIT_FW_ADV_GUNBOAT_HELP', "Mobile and fast Naval unit good at exploring the sea and avoiding Ranged attacks, but not Melee. May move after attacking promotion. Has [COLOR_PLAYER_PURPLE]para-dropped[ENDCOLOR] and [COLOR_PLAYER_PURPLE]remove barbarian campment[ENDCOLOR] promotions, but can't [COLOR_RED]pillage[ENDCOLOR].[NEWLINE]Half the movement in the ocean."),
-('TXT_KEY_UNIT_FW_ADV_GUNBOAT_STRATEGY', "A small, high-speed boat that can be transported by air, but weak in naval combat. Use it to explore and loot the sea. You can build up to 5 per civilization."),
-('TXT_KEY_UNIT_FW_ADV_GUNBOAT_TEXT', "A superboat is a naval vessel designed for the express purpose of carrying one or more guns to explore sea and coastal targets, as opposed to a military vessel designed for naval warfare or for carrying troops or supplies. A high-speed vessel built to keep up with common naval vessels. Missile launchers are installed that can be used in an emergency to enhance survivability and attack power due to poor survivability in high-speed boats."),
--- Advanced UAV
-('TXT_KEY_UNIT_FW_MODERN_DRONE', 'UAV'),
-('TXT_KEY_UNIT_FW_MODERN_DRONE_HELP', 'Information-era ranged exploration unit. Use these Units to monitor your borders and detect Submarines. It is capable of hovering over Mountains and Ocean and has unobstructed vision in a 6-Tile radius.'),
-('TXT_KEY_UNIT_FW_MODERN_DRONE_STRATEGY', 'UAVs are the ultimate reconnaissance unit, with unblocked vision of everything within 6 tiles and able to detect Submarines. Use UAVs as your eyes on the battlefield.'),
-('TXT_KEY_UNIT_FW_MODERN_DRONE_TEXT', 'Unmanned Aerial Vehicles, commonly known as UAVs or Drones, are aircraft remotely controlled without an on board human pilot. Used in situations deemed too dull, dirty, or dangerous for a human, UAVs have seen wide use by modern militaries in both reconaissance and as mobile strike platforms. Nations on the cutting edge of military technology predict that future military engagements will rely more and more on drones for military intelligence and combat.'),
 -- Cybersam
 ('TXT_KEY_UNIT_FW_CYBERSAM', 'Cyber SAM'),
 ('TXT_KEY_UNIT_FW_CYBERSAM_HELP', "Intercept enemy flying units attempting to bombard the area."),

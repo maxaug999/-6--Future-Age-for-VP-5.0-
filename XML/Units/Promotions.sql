@@ -130,13 +130,18 @@ UPDATE Language_en_US SET Text = 'Grants +10 [ICON_INFLUENCE] Influence when you
 -- ('PROMOTION_CBOEE_SKIRMISH', 'FEATURE_FOREST', 1),
 -- ('PROMOTION_CBOEE_SKIRMISH', 'FEATURE_JUNGLE', 1);
 
-INSERT INTO UnitPromotions 
-			(Type, 										Description, 										Help, 														Sound, 				PlagueChance, 	PlaguePromotion, 							BarbarianCombatBonus,	MovesChange,	AttackMod,	DefenseMod, ExperiencePercent,	IgnoreZOC,	LostWithUpgrade,	CannotBeChosen, PortraitIndex, 	IconAtlas, 				PediaType, 			PediaEntry)
-VALUES		('PROMOTION_NEUROTIC_POISON',               'TXT_KEY_PROMOTION_FW_UNIT_SWARM_0',	            'TXT_KEY_PROMOTION_FW_UNIT_SWARM_0_HELP', 	                'AS2D_IF_LEVELUP',	100, 			'PROMOTION_NEUROTIC_POISON_1', 	            0,						0,				0,			0,			0,					0,			0,					1, 				12, 			'promoMUC_atlas_01', 	'PEDIA_SCOUTING',	'TXT_KEY_PROMOTION_FW_UNIT_SWARM_0');
+-- INSERT INTO UnitPromotions 
+-- 			(Type, 										Description, 										Help, 														Sound, 				PlagueChance, 	PlaguePromotion, 							BarbarianCombatBonus,	MovesChange,	AttackMod,	DefenseMod, ExperiencePercent,	IgnoreZOC,	LostWithUpgrade,	CannotBeChosen, PortraitIndex, 	IconAtlas, 				PediaType, 			PediaEntry)
+-- VALUES		('PROMOTION_NEUROTIC_POISON',               'TXT_KEY_PROMOTION_FW_UNIT_SWARM_0',	            'TXT_KEY_PROMOTION_FW_UNIT_SWARM_0_HELP', 	                'AS2D_IF_LEVELUP',	100, 			'PROMOTION_NEUROTIC_POISON_1', 	            0,						0,				0,			0,			0,					0,			0,					1, 				12, 			'promoMUC_atlas_01', 	'PEDIA_SCOUTING',	'TXT_KEY_PROMOTION_FW_UNIT_SWARM_0');
 
-INSERT INTO UnitPromotions 
-			(Type, 										Description, 										Help, 													Sound, 				MaxHitPointsChange, EnemyHealChange, 	NeutralHealChange, 	FriendlyHealChange, PromotionDuration, 	PlagueID, 	PlaguePriority, BarbarianCombatBonus,	MovesChange,	AttackMod,	DefenseMod, ExperiencePercent,	IgnoreZOC,	LostWithUpgrade,	CannotBeChosen, PortraitIndex, 	IconAtlas, 				PediaType, 			PediaEntry)
-VALUES		('PROMOTION_NEUROTIC_POISON_1',             'TXT_KEY_PROMOTION_FW_UNIT_SWARM_1',	            'TXT_KEY_PROMOTION_FW_UNIT_SWARM_1_HELP',               'AS2D_IF_LEVELUP',	-20, 				-15, 				-15, 				-15, 				3, 					1, 			0, 				0,						-1,				0,			0,			0,					0,			0,					1, 				13, 			'promoMUC_atlas_01', 	'PEDIA_SCOUTING',	'TXT_KEY_PROMOTION_FW_UNIT_SWARM_0');
+-- INSERT INTO UnitPromotions 
+-- 			(Type, 										Description, 										Help, 													Sound, 				MaxHitPointsChange, EnemyHealChange, 	NeutralHealChange, 	FriendlyHealChange, PromotionDuration, 	PlagueID, 	PlaguePriority, BarbarianCombatBonus,	MovesChange,	AttackMod,	DefenseMod, ExperiencePercent,	IgnoreZOC,	LostWithUpgrade,	CannotBeChosen, PortraitIndex, 	IconAtlas, 				PediaType, 			PediaEntry)
+-- VALUES		('PROMOTION_NEUROTIC_POISON_1',             'TXT_KEY_PROMOTION_FW_UNIT_SWARM_1',	            'TXT_KEY_PROMOTION_FW_UNIT_SWARM_1_HELP',               'AS2D_IF_LEVELUP',	-20, 				-15, 				-15, 				-15, 				3, 					1, 			0, 				0,						-1,				0,			0,			0,					0,			0,					1, 				13, 			'promoMUC_atlas_01', 	'PEDIA_SCOUTING',	'TXT_KEY_PROMOTION_FW_UNIT_SWARM_0');
+
+INSERT INTO UnitPromotions_Plagues
+	(PromotionType, 					PlaguePromotionType,              DomainType,    ApplyOnAttack)
+VALUES
+	('PROMOTION_FW_NEUROTIC_POISON', 	'PROMOTION_FW_NEUROTIC_POISON_1', 'DOMAIN_LAND', 1);
 
 ----------------------------------------------------
 -- Eligible combats

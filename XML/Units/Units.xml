@@ -803,7 +803,7 @@
 			<Help>TXT_KEY_UNIT_HELP_GUERILLA</Help>
 			<Combat>120</Combat>
 			<BaseLandAirDefense>25</BaseLandAirDefense>
-			<Cost>2650</Cost>
+			<Cost>3850</Cost>
 			<RequiresFaithPurchaseEnabled>0</RequiresFaithPurchaseEnabled>
 			<Moves>4</Moves>
 			<PurchaseCooldown>0</PurchaseCooldown>
@@ -841,7 +841,7 @@
 			<Help>TXT_KEY_UNIT_HELP_GUERILLA</Help>
 			<Combat>140</Combat>
 			<BaseLandAirDefense>30</BaseLandAirDefense>
-			<Cost>3200</Cost>
+			<Cost>5000</Cost>
 			<RequiresFaithPurchaseEnabled>0</RequiresFaithPurchaseEnabled>
 			<Moves>4</Moves>
 			<PurchaseCooldown>0</PurchaseCooldown>
@@ -3683,7 +3683,7 @@
 		<Row>
 			<UnitType>UNIT_FW_ELITE_MERCENARIES</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_ENHANCED_MERCENARIES</UnitType>
@@ -3698,7 +3698,7 @@
 		<Row>
 			<UnitType>UNIT_FW_ENHANCED_MERCENARIES</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_BIO_MERCENARIES</UnitType>
@@ -3713,7 +3713,7 @@
 		<Row>
 			<UnitType>UNIT_FW_BIO_MERCENARIES</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
@@ -5070,10 +5070,10 @@
 			<UnitType>UNIT_FW_CYBERSAM</UnitType>
 			<UnitClassType>UNITCLASS_FW_CRAWLER</UnitClassType>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<UnitType>UNIT_PREDATOR_DRONE</UnitType>
 			<UnitClassType>UNITCLASS_FW_MODERN_DRONE</UnitClassType>
-		</Row>
+		</Row> -->
 		<Row>
 			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
 			<UnitClassType>UNITCLASS_FW_APACHE</UnitClassType>
@@ -5290,7 +5290,7 @@
 	</UnitGameplay2DScripts>
 
 	<UnitPromotions>
-		<Replace>
+		<!-- <Replace>
 			<Type>PROMOTION_FREE_PILLAGE_MOVES</Type>
 			<Description>TXT_KEY_PROMOTION_FREE_PILLAGE_MOVES</Description>
 			<Help>TXT_KEY_PROMOTION_FREE_PILLAGE_MOVES</Help>
@@ -5301,7 +5301,7 @@
 			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_FREE_PILLAGE_MOVES</PediaEntry>
-		</Replace>
+		</Replace> -->
 		<Row>
 			<Type>PROMOTION_FW_MOVE_ALL_TERRAIN</Type>
 			<Description>TXT_KEY_PROMOTION_MOVE_ALL_TERRAIN</Description>
@@ -5487,6 +5487,27 @@
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_FW_MUTATION</PediaEntry>
 		</Row>
+		<Row>
+			<Type>PROMOTION_FW_NEUROTIC_POISON</Type>
+			<Description>TXT_KEY_PROMOTION_FW_NEUROTIC_POISON</Description>
+			<Help>TXT_KEY_PROMOTION_FW_NEUROTIC_POISON_HELP</Help>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_NEUROTIC_POISON</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_NEUROTIC_POISON_1</Type>
+			<Description>TXT_KEY_PROMOTION_FW_NEUROTIC_POISON_1</Description>
+			<Help>TXT_KEY_PROMOTION_FW_NEUROTIC_POISON_1_HELP</Help>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PromotionDuration>3</PromotionDuration>
+			<PlagueID>20</PlagueID>
+			<MovesChange>-1</MovesChange>
+			<MaxHitPointsChange>-20</MaxHitPointsChange>
+			<EnemyHealChange>-5</EnemyHealChange>
+			<NeutralHealChange>-5</NeutralHealChange>
+			<FriendlyHealChange>-5</FriendlyHealChange>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_NEUROTIC_POISON_1</PediaEntry>
+		</Row>	
 		<Row>
 			<Type>PROMOTION_AUGMENTED</Type>
 			<Description>TXT_KEY_PROMOTION_AUGMENTED</Description>
@@ -6139,7 +6160,7 @@
 			<PromotionType>PROMOTION_PARADROP_2</PromotionType>
 			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
 			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 		</Row>
@@ -6154,7 +6175,7 @@
 		<Row>
 			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
 			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-		</Row>
+		</Row> -->
 		<Row>
 			<PromotionType>PROMOTION_FW_AUTO_REPAIR</PromotionType>
 			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>

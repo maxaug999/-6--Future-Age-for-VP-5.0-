@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_PROMOTION_ORBITAL_DROP">
@@ -120,6 +120,18 @@
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_MUTATION">
 			<Text>[COLOR_CYAN]Mutation Virus[ENDCOLOR]-when attacking injured units [ICON_STRENGTH]combat strength [COLOR_POSITIVR_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_NEUROTIC_POISON">
+			<Text>Neurotic Poison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_NEUROTIC_POISON_HELP">
+			<Text>[COLOR_GREEN]After Attack[ENDCOLOR] Defending Enemy Unit is marked. Marked unit has reduced [ICON_MOVEMENT] Movement, Max HP by [COLOR_RED]20[ENDCOLOR] and Healing by [COLOR_RED]15[ENDCOLOR] for the [COLOR_GREEN]next 3 turns[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_NEUROTIC_POISON_1">
+			<Text>Neurotic Poison Paralysis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_NEUROTIC_POISON_1_HELP">
+			<Text>Unit is Poisoned. It has reduced [ICON_MOVEMENT] Movement, Max HP by [COLOR_RED]20[ENDCOLOR] and Healing by [COLOR_RED]5[ENDCOLOR] for the [COLOR_RED]next 3 turns[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FW_GENGINEERED">
 			<Text>Gengineered</Text>
@@ -983,6 +995,7 @@
 		<Row Tag="TXT_KEY_UNIT_FW_MODERN_DRONE_STRATEGY">
 			<Text>UAVs are the ultimate reconnaissance unit, with unblocked vision of everything within 6 tiles and able to detect Submarines. Use UAVs as your eyes on the battlefield.</Text>
 		</Row>
+		
 		<Row Tag="TXT_KEY_UNIT_FW_RAILGUN_DESTROYER">
 			<Text>Railgun Destroyer</Text>
 		</Row>

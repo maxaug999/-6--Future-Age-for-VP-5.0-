@@ -1,8 +1,3 @@
--- INSERT INTO ArtDefine_StrategicView(StrategicViewType, TileType, Asset)
---     VALUES ('ART_DEF_UNIT_UAV', 'Unit', 'svcuirassier.dds'),
---     VALUES ('ART_DEF_UNIT_FW_HYBRID_DRONE', 'Unit', 'svcuirassier.dds'),
---     VALUES ('ART_DEF_UNIT_SMAN_IEUP_REAPER_DRONE', 'Unit', 'SV_HelicopterGunship.dds');
-
 -- =======================================================================================================
 --		Modern Drone Art Defines
 -- =======================================================================================================

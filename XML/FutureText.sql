@@ -661,10 +661,10 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 ('TXT_KEY_PROMOTION_FW_EMANCIPATED', 'Emancipated'),
 ('TXT_KEY_PROMOTION_FW_EMANCIPATED_HELP', 'Can cross Mountains and any obstacles without Movement Penalty. +15% [ICON_STRENGTH] Combat Strength and Defense.'),
 -- Interception V
-('TXT_KEY_PROMOTION_FW_INTERCEPTION_V', 'Interception V'),
+('TXT_KEY_PROMOTION_FW_INTERCEPTION_V', 'Interceptor V'),
 ('TXT_KEY_PROMOTION_FW_INTERCEPTION_V_HELP', '+15% Chance to [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] Enemy Air Units.'),
 -- Interception VI
-('TXT_KEY_PROMOTION_FW_INTERCEPTION_VI', 'Interception VI'),
+('TXT_KEY_PROMOTION_FW_INTERCEPTION_VI', 'Interceptor VI'),
 ('TXT_KEY_PROMOTION_FW_INTERCEPTION_VI_HELP', 'A final +15% Chance to [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] Enemy Air Units.'),
 -- Implants
 -- ('TXT_KEY_PROMOTION_FW_IMPLANTS_I', 'Implants I'),
@@ -674,10 +674,10 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 -- ('TXT_KEY_PROMOTION_FW_IMPLANTS_III', 'Implants III'),
 -- ('TXT_KEY_PROMOTION_FW_IMPLANTS_III_HELP', '+12% [ICON_STRENGTH] CS'),
 -- Neurotic Poison
-('TXT_KEY_PROMOTION_FW_UNIT_SWARM_0', 'Neurotic Poison'),
-('TXT_KEY_PROMOTION_FW_UNIT_SWARM_1', 'Neurotic Poison Paralysis'),
-('TXT_KEY_PROMOTION_FW_UNIT_SWARM_0_HELP', '[COLOR_GREEN]After Attack[ENDCOLOR] Defending Enemy Unit is marked. Marked unit has reduced [ICON_MOVEMENT] Movement, Max HP by [COLOR_RED]20[ENDCOLOR] and Healing by [COLOR_RED]15[ENDCOLOR] for the [COLOR_GREEN]next 3 turns[ENDCOLOR].'),
-('TXT_KEY_PROMOTION_FW_UNIT_SWARM_1_HELP', 'Unit is Marked. It has reduced [ICON_MOVEMENT] Movement, Max HP by [COLOR_RED]20[ENDCOLOR] and Healing by [COLOR_RED]10[ENDCOLOR] for the [COLOR_RED]next 3 turns[ENDCOLOR].'),
+-- ('TXT_KEY_PROMOTION_FW_UNIT_SWARM_0', 'Neurotic Poison'),
+-- ('TXT_KEY_PROMOTION_FW_UNIT_SWARM_1', 'Neurotic Poison Paralysis'),
+-- ('TXT_KEY_PROMOTION_FW_UNIT_SWARM_0_HELP', '[COLOR_GREEN]After Attack[ENDCOLOR] Defending Enemy Unit is marked. Marked unit has reduced [ICON_MOVEMENT] Movement, Max HP by [COLOR_RED]20[ENDCOLOR] and Healing by [COLOR_RED]15[ENDCOLOR] for the [COLOR_GREEN]next 3 turns[ENDCOLOR].'),
+-- ('TXT_KEY_PROMOTION_FW_UNIT_SWARM_1_HELP', 'Unit is Marked. It has reduced [ICON_MOVEMENT] Movement, Max HP by [COLOR_RED]20[ENDCOLOR] and Healing by [COLOR_RED]10[ENDCOLOR] for the [COLOR_RED]next 3 turns[ENDCOLOR].'),
 -- Angelnet protection
 ('TXT_KEY_PROMOTION_FW_ANGELNET', 'AngelNet Protection'),
 ('TXT_KEY_PROMOTION_FW_ANGELNET_HELP', '+25% [ICON_STRENGTH] Combat Strength when in 4-tile range of [COLOR_CYAN]AngelNet Wonder[ENDCOLOR].');

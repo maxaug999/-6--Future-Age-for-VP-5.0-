@@ -254,7 +254,7 @@ WHERE Type IN (
 'BUILDING_FW_TERRAFORMING_STATION');
 
 ----------------------------------------------
--- Spaceship Factory & HUBBLE
+-- Spaceship Factory
 ----------------------------------------------
 UPDATE Buildings
 SET PrereqTech = 'TECH_ORBITAL_DEV', Cost = 5500, GoldMaintenance = 18
@@ -547,14 +547,14 @@ SELECT
 FROM Buildings
 WHERE BuildingClass = 'BUILDINGCLASS_FW_TELEPRESENCE_HUB';
 
-INSERT INTO Building_YieldPerFriend
-		(BuildingType,						YieldType,				Yield)
-VALUES	('BUILDING_FW_TELEPRESENCE_HUB',	'YIELD_TOURISM',			2);
 
-INSERT INTO Building_YieldPerAlly
-		(BuildingType,						YieldType,				Yield)
-VALUES	('BUILDING_FW_TELEPRESENCE_HUB',	'YIELD_GOLD',				2),
-		('BUILDING_FW_TELEPRESENCE_HUB',	'YIELD_GOLDEN_AGE_POINTS',	2);
+INSERT INTO Building_YieldPerFriendTimes100
+			(BuildingType,						YieldType,			Yield)
+VALUES		('BUILDING_FW_TELEPRESENCE_HUB',	'YIELD_TOURISM',	200);
+
+INSERT INTO Building_YieldPerAllyTimes100
+			(BuildingType,						YieldType,			Yield)
+VALUES		('BUILDING_FW_TELEPRESENCE_HUB',	'YIELD_GOLDEN_AGE_POINTS',	200);
 
 -- ----------------------------------------------
 -- -- Cyberclinic

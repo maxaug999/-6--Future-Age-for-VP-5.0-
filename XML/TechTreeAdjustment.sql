@@ -4,7 +4,7 @@ UPDATE Technologies SET Era = 'ERA_FW_FUTURE', GridY = 7, GridX = 18, Cost = 525
 
 UPDATE Technologies SET GridX = 17, GridY = 5, ExtraVotesPerDiplomat = 0, InternationalTradeRoutesChange = 0, Cost = 39000 WHERE Type='TECH_ROBOTICS';
 
-UPDATE Technologies SET GridX = 16, GridY = 2, ExtraVotesPerDiplomat = 0, Cost = 23000, InternationalTradeRoutesChange = 1 WHERE Type= 'TECH_GLOBALIZATION';
+UPDATE Technologies SET GridX = 16, GridY = 2, ExtraVotesPerDiplomat = 0, Cost = (SELECT Cost FROM Technologies WHERE Type='TECH_LASERS'), InternationalTradeRoutesChange = 1 WHERE Type= 'TECH_GLOBALIZATION';
 
 UPDATE Technologies SET Era = 'ERA_FW_FUTURE', GridY = 6, GridX = 22, Cost = 114000 WHERE Type='TECH_NUCLEAR_FUSION';
 

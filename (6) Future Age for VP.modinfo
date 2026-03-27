@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="a1dfe224-6cd8-4519-a58a-c417b59cdf99" version="11">
   <Properties>
-    <Name>(6) Future Age for VP 5.0+</Name>
+    <Name>(6) Future Age for VP 5.2+</Name>
     <Stability>Beta</Stability>
-    <Teaser>Extending Civ V with [COLOR_POSITIVE_TEXT]Future Age[ENDCOLOR] for VP 5.0+ versions.</Teaser>
+    <Teaser>Extending Civ V with [COLOR_POSITIVE_TEXT]Future Age[ENDCOLOR] for VP 5.2+ versions.</Teaser>
     <Description>Extends the Information Era with the new Future Era, new techs, buildings, units, wonders and more !</Description>
     <Authors>madmax + caym</Authors>
     <HideSetupGame>0</HideSetupGame>

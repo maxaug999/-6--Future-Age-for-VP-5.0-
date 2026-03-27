@@ -1892,6 +1892,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
+			<Pillage>false</Pillage>
 			<Mechanized>true</Mechanized>
 			<BaseSightRange>4</BaseSightRange>
 			<AdvancedStartCost>70</AdvancedStartCost>
@@ -1924,6 +1925,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
+			<Pillage>false</Pillage>
 			<Mechanized>true</Mechanized>
 			<BaseSightRange>4</BaseSightRange>
 			<AdvancedStartCost>70</AdvancedStartCost>

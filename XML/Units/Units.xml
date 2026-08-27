@@ -702,7 +702,7 @@
 			<Immobile>0</Immobile>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
 			<MilitarySupport>1</MilitarySupport>
 			<MilitaryProduction>1</MilitaryProduction>
 			<Pillage>1</Pillage>
@@ -733,7 +733,7 @@
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_RAILGUN_TANK</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_RAILGUN_TANK_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_RAILGUN_TANK_STRATEGY</Strategy>
@@ -917,7 +917,7 @@
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_MUTANT</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_MUTANT_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_MUTANT_STRATEGY</Strategy>
@@ -1208,7 +1208,7 @@
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_ZEKE</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_ZEKE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_ZEKE_STRATEGY</Strategy>
@@ -1241,7 +1241,7 @@
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_GUNDAM</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_GUNDAM_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_GUNDAM_STRATEGY</Strategy>
@@ -2343,7 +2343,7 @@
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_BIOINFANTRY</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_BIOINFANTRY_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_BIOINFANTRY_STRATEGY</Strategy>
@@ -2375,7 +2375,7 @@
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
 			<ObsoleteTech>TECH_HUMAN_AUGMENTATION</ObsoleteTech>
 			<Description>TXT_KEY_UNIT_FW_BIOTROOPER</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_BIOTROOPER_TEXT</Civilopedia>

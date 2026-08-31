@@ -170,6 +170,8 @@ GameEvents.CityCanConstruct.Add(IsHasCitizensFW)
 --------------------------------------------
 function MnemosyneBonusFW(iPlayer, iCity, iUnitID, bGold, bFaithOrCulture)
 	local pPlayer = Players[iPlayer]
+	if not pPlayer:IsAlive() then return false end
+
 	local pUnit = pPlayer:GetUnitByID(iUnitID)
 	local pCity = pPlayer:GetCityByID(iCity)
 	if pCity:IsHasBuilding(iBuildingMnemosyne) then
@@ -197,72 +199,75 @@ function JFD_GetRandomFW(lower, upper)
 end
 
 --------------------------------------------
+---- BUG TODO ----
+--------------------------------------------
 -- Crawler unit
 --------------------------------------------
-local iChanceMissileProduction = 25
-local iHypermissile = GameInfoTypes.UNIT_FW_HYPERMISSILE
+-- local iChanceMissileProduction = 25
+-- local iHypermissile = GameInfoTypes.UNIT_FW_HYPERMISSILE
 
-function CrawlerEffectsFW(iPlayer)
-	local pPlayer = Players[iPlayer]
-	for pUnit in pPlayer:Units() do
-		if (pUnit:GetUnitType() == GameInfoTypes["UNIT_FW_CRAWLER"]) then
-			--print("Crawler found")
-			local iCheckForMissileProduction = JFD_GetRandomFW(1, 100)
-			if (iCheckForMissileProduction < iChanceMissileProduction) then
-				local pPlot = pUnit:GetPlot()
-				if (pPlot ~= nil) then
-					local iNumMissiles = 0
-					for iVal = 0,(pPlot:GetNumUnits() - 1) do
-						local loopUnit = pPlot:GetUnit(iVal)
-						if (loopUnit:GetUnitType() == GameInfoTypes["UNIT_FW_HYPERMISSILE"]) then
-							--print("Missile found")
-							iNumMissiles = iNumMissiles + 1
-						end
-					end
-					--print("Total missiles: " .. iNumMissiles)
-					if (iNumMissiles < 3) then
-						local pNewUnit = pPlayer:InitUnit(iHypermissile, pPlot:GetX(), pPlot:GetY())
-					end
-				end
-			end
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(CrawlerEffectsFW)
-
+-- function CrawlerEffectsFW(iPlayer)
+-- 	local pPlayer = Players[iPlayer]
+-- 	for pUnit in pPlayer:Units() do
+-- 		if (pUnit:GetUnitType() == GameInfoTypes["UNIT_FW_CRAWLER"]) then
+-- 			--print("Crawler found")
+-- 			local iCheckForMissileProduction = JFD_GetRandomFW(1, 100)
+-- 			if (iCheckForMissileProduction < iChanceMissileProduction) then
+-- 				local pPlot = pUnit:GetPlot()
+-- 				if (pPlot ~= nil) then
+-- 					local iNumMissiles = 0
+-- 					for iVal = 0,(pPlot:GetNumUnits() - 1) do
+-- 						local loopUnit = pPlot:GetUnit(iVal)
+-- 						if (loopUnit:GetUnitType() == GameInfoTypes["UNIT_FW_HYPERMISSILE"]) then
+-- 							--print("Missile found")
+-- 							iNumMissiles = iNumMissiles + 1
+-- 						end
+-- 					end
+-- 					--print("Total missiles: " .. iNumMissiles)
+-- 					if (iNumMissiles < 3) then
+-- 						local pNewUnit = pPlayer:InitUnit(iHypermissile, pPlot:GetX(), pPlot:GetY())
+-- 					end
+-- 				end
+-- 			end
+-- 		end
+-- 	end
+-- end
+-- GameEvents.PlayerDoTurn.Add(CrawlerEffectsFW)
 
 --------------------------------------------
 -- Angel unit
 --------------------------------------------
-local iNanohivePromotion = GameInfoTypes.PROMOTION_FW_NANOHIVE_PROMOTION
+-- local iNanohivePromotion = GameInfoTypes.PROMOTION_FW_NANOHIVE_PROMOTION
 
-function AngelEffectsFW(iPlayer)
-	local pPlayer = Players[iPlayer]
-	for pUnit in pPlayer:Units() do
-		if (pUnit:GetUnitType() == GameInfoTypes["UNIT_FW_ANGEL"]) then
-			--print("Angel found")
-			local iCheckForMissileProduction = JFD_GetRandomFW(1, 100)
-			if (iCheckForMissileProduction < iChanceMissileProduction) then
-				local pPlot = pUnit:GetPlot()
-				if (pPlot ~= nil) then
-					local iNumMissiles = 0
-					for iVal = 0,(pPlot:GetNumUnits() - 1) do
-						local loopUnit = pPlot:GetUnit(iVal)
-						if (loopUnit:GetUnitType() == GameInfoTypes["UNIT_FW_HYPERMISSILE"]) then
-							--print("Missile found")
-							iNumMissiles = iNumMissiles + 1
-						end
-					end
-					--print("Total missiles: " .. iNumMissiles)
-					if (iNumMissiles < 1) then
-						local pNewUnit = pPlayer:InitUnit(iHypermissile, pPlot:GetX(), pPlot:GetY())
-					end
-				end
-			end
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(AngelEffectsFW)
+-- function AngelEffectsFW(iPlayer)
+-- 	local pPlayer = Players[iPlayer]
+-- 	for pUnit in pPlayer:Units() do
+-- 		if (pUnit:GetUnitType() == GameInfoTypes["UNIT_FW_ANGEL"]) then
+-- 			--print("Angel found")
+-- 			local iCheckForMissileProduction = JFD_GetRandomFW(1, 100)
+-- 			if (iCheckForMissileProduction < iChanceMissileProduction) then
+-- 				local pPlot = pUnit:GetPlot()
+-- 				if (pPlot ~= nil) then
+-- 					local iNumMissiles = 0
+-- 					for iVal = 0,(pPlot:GetNumUnits() - 1) do
+-- 						local loopUnit = pPlot:GetUnit(iVal)
+-- 						if (loopUnit:GetUnitType() == GameInfoTypes["UNIT_FW_HYPERMISSILE"]) then
+-- 							--print("Missile found")
+-- 							iNumMissiles = iNumMissiles + 1
+-- 						end
+-- 					end
+-- 					--print("Total missiles: " .. iNumMissiles)
+-- 					if (iNumMissiles < 1) then
+-- 						local pNewUnit = pPlayer:InitUnit(iHypermissile, pPlot:GetX(), pPlot:GetY())
+-- 					end
+-- 				end
+-- 			end
+-- 		end
+-- 	end
+-- end
+-- GameEvents.PlayerDoTurn.Add(AngelEffectsFW)
+---- BUG ----
+--------------------------------------------
 
 --==========================================================================================================================
 -- UU1: KANOA
@@ -281,7 +286,11 @@ function FutureEraClearsBarbEncampment(iAttackingPlayer, iAttackingUnit, iAttack
 		pAttUnit:SetXY(KanoaX, KanoaY)	-- move it back
 	end
 end
-GameEvents.CombatEnded.Add(FutureEraClearsBarbEncampment)
+if GameEvents.CombatEnded then
+	GameEvents.CombatEnded.Add(FutureEraClearsBarbEncampment)
+else
+	print("FutureLua: GameEvents.CombatEnded is nil - enable EVENTS_RED_COMBAT_ENDED in CustomModOptions.sql")
+end
 
 --------------------------------------------
 -- PROMOTION
@@ -333,55 +342,55 @@ function FWUnitDestroyed(iPlayer, iUnit, iUnitType, iX, iY, bDelay, iByPlayer)
 end
 GameEvents.UnitPrekill.Add(FWUnitDestroyed)
 
-local iNuclearModPromotion = GameInfoTypes.PROMOTION_FW_NUCLEAR_SMR
-local iNuclearModPromotion = GameInfoTypes.PROMOTION_FW_NUCLEAR_SMR
+-- local iNuclearModPromotion = GameInfoTypes.PROMOTION_FW_NUCLEAR_SMR
+-- local iNuclearModPromotion = GameInfoTypes.PROMOTION_FW_NUCLEAR_SMR
 
-function FWUnitDestroyed2(iPlayer, iUnit, iUnitType, iX, iY, bDelay, iByPlayer)
+-- function FWUnitDestroyed2(iPlayer, iUnit, iUnitType, iX, iY, bDelay, iByPlayer)
 
-	local pPlayer = Players[iPlayer]
-	local teamID = pPlayer:GetTeam()
-	local pPlayerTeam = Teams[teamID]
-	local pUnit = pPlayer:GetUnitByID(iUnit)
+-- 	local pPlayer = Players[iPlayer]
+-- 	local teamID = pPlayer:GetTeam()
+-- 	local pPlayerTeam = Teams[teamID]
+-- 	local pUnit = pPlayer:GetUnitByID(iUnit)
 
-	print("Unit destroyed")
+-- 	print("Unit destroyed")
 
-	print("iPlayer = " .. iPlayer)
-	print("iByPlayer = " .. iByPlayer)
+-- 	print("iPlayer = " .. iPlayer)
+-- 	print("iByPlayer = " .. iByPlayer)
 
-	-- Must have been killed by another Player
-	if iPlayer == iByPlayer then return end
-	if iByPlayer == -1 then return end
+-- 	-- Must have been killed by another Player
+-- 	if iPlayer == iByPlayer then return end
+-- 	if iByPlayer == -1 then return end
 
-	-- Must have the SMR Promotion
-	bNuclear = pUnit:IsHasPromotion(iNuclearModPromotion)
+-- 	-- Must have the SMR Promotion
+-- 	bNuclear = pUnit:IsHasPromotion(iNuclearModPromotion)
 
-	if not(bNuclear) then return end
-	print("Has Nuclear")
+-- 	if not(bNuclear) then return end
+-- 	print("Has Nuclear")
 
-	local pPlot = pUnit:GetPlot()	
-	for pAdjacentPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-	    print("Checking plot")
-	    for iVal = 0,(pAdjacentPlot:GetNumUnits() - 1) do
-			print("Checking unit")	
-		    local loopUnit = pAdjacentPlot:GetUnit(iVal)
-			if loopUnit:GetOwner() ~= iPlayer then
-			    print("Not same owner")
-				local loopUnitOwner = loopUnit:GetOwner()
-				local otherPlayer = Players[loopUnitOwner]
-				local otherTeamID = otherPlayer:GetTeam()
-				if pPlayerTeam:IsAtWar(otherTeamID) then
-					if (bNuclear) then
-						loopUnit:ChangeDamage(20)
-						end
-					end
-				end
-			end
-		end	
-end
-GameEvents.UnitPrekill.Add(FWUnitDestroyed2)
+-- 	local pPlot = pUnit:GetPlot()	
+-- 	for pAdjacentPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
+-- 	    print("Checking plot")
+-- 	    for iVal = 0,(pAdjacentPlot:GetNumUnits() - 1) do
+-- 			print("Checking unit")	
+-- 		    local loopUnit = pAdjacentPlot:GetUnit(iVal)
+-- 			if loopUnit:GetOwner() ~= iPlayer then
+-- 			    print("Not same owner")
+-- 				local loopUnitOwner = loopUnit:GetOwner()
+-- 				local otherPlayer = Players[loopUnitOwner]
+-- 				local otherTeamID = otherPlayer:GetTeam()
+-- 				if pPlayerTeam:IsAtWar(otherTeamID) then
+-- 					if (bNuclear) then
+-- 						loopUnit:ChangeDamage(20)
+-- 						end
+-- 					end
+-- 				end
+-- 			end
+-- 		end	
+-- end
+-- GameEvents.UnitPrekill.Add(FWUnitDestroyed2)
 
 --------------------------------------------
--- Implant Clinic - Spaceship Factory
+-- Implant Clinic - Spaceship Factory - Fusion Reactor
 --------------------------------------------
 function AddPromotionBuildingsFW(iPlayer, iCity, iUnit, bGold, bFaith)
 	local tEligibleCombats = {

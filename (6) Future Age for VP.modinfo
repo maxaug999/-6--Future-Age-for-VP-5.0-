@@ -1951,6 +1951,7 @@
     <File md5="99HF95F999ED64A81AC8FCA49D51C3Z9" import="0">XML/Units/UnitsUpdates.sql</File>
     <File md5="S9HF95F999ED64A81AC8FCA49D51C3Z9" import="0">XML/Units/UnitSound.sql</File>
     <File md5="91976466E09829DFF95FA657CF0E079E" import="0">XML/Buildings.sql</File>
+    <File md5="A1B2C3D4E5F60718293A4B5C6D7E8F90" import="0">XML/CustomModOptions.sql</File>
     <File md5="6E09C37EA6FA875BF45CCDC6C12DF2AD" import="0">XML/EraSplashScreen.sql</File>
     <File md5="2E5FBE91F8999B5FD9AC21AC79734219" import="0">XML/FutureEras.xml</File>
     <File md5="2AB3F34E953A0B7FCF341C6122989CCF" import="0">XML/FutureImprovements.sql</File>
@@ -2000,6 +2001,7 @@
   <Actions>
     <OnModActivated>
       <!-- <UpdateDatabase>VP_Imagechange/Mechanizedinfantry/3DModel/MechanizedinfantryArtDefines.sql</UpdateDatabase> -->
+      <UpdateDatabase>XML/CustomModOptions.sql</UpdateDatabase>
       <UpdateDatabase>XML/Units/ArtDefines.sql</UpdateDatabase>
       <UpdateDatabase>XML/Units/ArtDefines.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/FutureUnitIconAtlases.xml</UpdateDatabase>

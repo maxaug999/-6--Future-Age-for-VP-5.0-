@@ -436,7 +436,7 @@
 			<UnitArtInfo>ART_DEF_UNIT_FW_AUGMENTED_DIPLOMAT</UnitArtInfo>
 			<PortraitIndex>47</PortraitIndex>
 			<IconAtlas>BM_ALIENS_CIV_COLOR_ATLAS</IconAtlas>
-			<UnitFlagAtlas>DIPLOMAT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_VP_2</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<PurchaseCooldown>5</PurchaseCooldown>
 		</Row>
@@ -461,7 +461,7 @@
 			<UnitArtInfo>ART_DEF_UNIT_FW_AUGMENTED_DIPLOMAT</UnitArtInfo>
 			<PortraitIndex>47</PortraitIndex>
 			<IconAtlas>BM_ALIENS_CIV_COLOR_ATLAS</IconAtlas>
-			<UnitFlagAtlas>DIPLOMAT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_VP_2</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<PurchaseCooldown>5</PurchaseCooldown>
 		</Row>

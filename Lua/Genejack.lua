@@ -58,7 +58,7 @@ function OnConstructionClaimResources(iPlayer, iCity, iBuilding)
 		Events.AddPopupTextEvent(vCityPosition, "[COLOR_YIELD_PRODUCTION]+"..iYield.." [ICON_PRODUCTION][ENDCOLOR]", 1)
 			
 		pPlayer:AddNotification(NotificationTypes.NOTIFICATION_CITY_TILE,
-			'The City of [COLOR_CYAN]'..sCityName..'[ENDCOLOR] constructed Homestead and automatically claimed tiles with resources within city range and receives '..iYield..' Production !',
+			'The City of [COLOR_CYAN]'..sCityName..'[ENDCOLOR] constructed Genejack Facility and automatically claimed tiles with resources within city range and receives '..iYield..' Production !',
 			'New resources claimed by '..sCityName,
 			iCityX, iCityY, iCity)
 	end

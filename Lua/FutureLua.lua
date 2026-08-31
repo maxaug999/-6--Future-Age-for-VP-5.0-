@@ -234,8 +234,6 @@ GameEvents.PlayerDoTurn.Add(CrawlerEffectsFW)
 --------------------------------------------
 -- Angel unit
 --------------------------------------------
-local iChanceMissileProduction = 25
-local iHypermissile = GameInfoTypes.UNIT_FW_HYPERMISSILE
 local iNanohivePromotion = GameInfoTypes.PROMOTION_FW_NANOHIVE_PROMOTION
 
 function AngelEffectsFW(iPlayer)

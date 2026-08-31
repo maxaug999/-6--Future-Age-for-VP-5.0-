@@ -1620,7 +1620,9 @@
 			<AirInterceptRange>5</AirInterceptRange>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
-			<Domain>DOMAIN_HOVER</Domain>
+			<Domain>DOMAIN_LAND</Domain>
+			<!-- <Domain>DOMAIN_HOVER</Domain>  -->
+			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_HELICARRIER</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_HELICARRIER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_HELICARRIER_STRATEGY</Strategy>
@@ -1883,7 +1885,8 @@
 			<Moves>5</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
-			<Domain>DOMAIN_HOVER</Domain>
+			<Domain>DOMAIN_LAND</Domain>
+			<!-- <Domain>DOMAIN_HOVER</Domain> -->
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_MODERN_DRONE</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_MODERN_DRONE_TEXT</Civilopedia>
@@ -1916,7 +1919,8 @@
 			<Moves>6</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
-			<Domain>DOMAIN_HOVER</Domain>
+			<Domain>DOMAIN_LAND</Domain>
+			<!-- <Domain>DOMAIN_HOVER</Domain> -->
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_HYBRID_DRONE</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_HYBRID_DRONE_TEXT</Civilopedia>
@@ -1950,7 +1954,8 @@
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<BaseSightRange>5</BaseSightRange>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
-			<Domain>DOMAIN_HOVER</Domain>
+			<Domain>DOMAIN_LAND</Domain>
+			<!-- <Domain>DOMAIN_HOVER</Domain> -->
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_BIODRONE</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_BIODRONE_TEXT</Civilopedia>
@@ -2512,7 +2517,8 @@
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<BaseSightRange>3</BaseSightRange>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
-			<Domain>DOMAIN_HOVER</Domain>
+			<Domain>DOMAIN_LAND</Domain>
+			<!-- <Domain>DOMAIN_HOVER</Domain> -->
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_NANOHIVE</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_NANOHIVE_TEXT</Civilopedia>
@@ -2551,8 +2557,10 @@
 			<AirInterceptRange>5</AirInterceptRange>
 			<ExtraMaintenanceCost>5</ExtraMaintenanceCost>
 			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
-			<Domain>DOMAIN_HOVER</Domain>
-			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Domain>DOMAIN_LAND</Domain>
+			<!-- <Domain>DOMAIN_HOVER</Domain> -->
+			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+			<!-- <DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI> -->
 			<Description>TXT_KEY_UNIT_FW_NEXUS</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_NEXUS_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_NEXUS_STRATEGY</Strategy>
@@ -2589,7 +2597,8 @@
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
-			<Domain>DOMAIN_HOVER</Domain>
+			<Domain>DOMAIN_LAND</Domain>
+			<!-- <Domain>DOMAIN_HOVER</Domain> -->
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_MEGAHIVE</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_MEGAHIVE_TEXT</Civilopedia>

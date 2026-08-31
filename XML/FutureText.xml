@@ -1970,6 +1970,10 @@
 		<Row Tag="TXT_KEY_ERA_FW_FUTURE_SHORT">
 			<Text>Future</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ERA_FW_FUTURE_ABBREV">
+			<Text>Future</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PROCESS_FW_GENOME_PROJECT">
 			<Text>Human Genome Project</Text>
 		</Row>

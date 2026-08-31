@@ -1,10 +1,10 @@
 -- ==================================================================================================================================================================
 -- Unit Infos
 
-INSERT INTO ArtDefine_UnitInfos (Type,DamageStates,Formation) VALUES ('ART_DEF_UNIT_SMAN_IEUP_PRIVATE_MIL_CONTRACTORS', 1, "LooseCivilian");	
+-- INSERT INTO ArtDefine_UnitInfos (Type,DamageStates,Formation) VALUES ('ART_DEF_UNIT_SMAN_IEUP_PRIVATE_MIL_CONTRACTORS', 1, "LooseCivilian");	
 
-INSERT INTO ArtDefine_UnitInfoMemberInfos VALUES	('ART_DEF_UNIT_SMAN_IEUP_PRIVATE_MIL_CONTRACTORS', 'ART_DEF_UNIT_MEMBER_SMAN_IEUP_PMC_INF', "4");
-INSERT INTO ArtDefine_UnitInfoMemberInfos VALUES	('ART_DEF_UNIT_SMAN_IEUP_PRIVATE_MIL_CONTRACTORS', 'ART_DEF_UNIT_MEMBER_SMAN_IEUP_PMC_MECH', "2");
+-- INSERT INTO ArtDefine_UnitInfoMemberInfos VALUES	('ART_DEF_UNIT_SMAN_IEUP_PRIVATE_MIL_CONTRACTORS', 'ART_DEF_UNIT_MEMBER_SMAN_IEUP_PMC_INF', "4");
+-- INSERT INTO ArtDefine_UnitInfoMemberInfos VALUES	('ART_DEF_UNIT_SMAN_IEUP_PRIVATE_MIL_CONTRACTORS', 'ART_DEF_UNIT_MEMBER_SMAN_IEUP_PMC_MECH', "2");
 
 -- INSERT INTO ArtDefine_StrategicView (StrategicViewType, TileType, Asset ) VALUES ('ART_DEF_UNIT_SMAN_IEUP_PRIVATE_MIL_CONTRACTORS', 'Unit', 'SV_mechanizedInfantry.dds');
 

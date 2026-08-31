@@ -17,8 +17,6 @@ local iPlotXFloatingIslands -- City which built FloatingIslands
 local iPlotYFloatingIslands -- City which built FloatingIslands
 local iBuildingMnemosyne = GameInfoTypes["BUILDING_FW_MNEMOSYNE"]
 
-print("FloatingIslands is", iFloatingIslands, "FloatingIslands Dummy is", iFloatingIslandsDummyck);
-
 --------------------------------------------
 -- Angelnet
 --------------------------------------------
@@ -400,7 +398,7 @@ function AddPromotionBuildingsFW(iPlayer, iCity, iUnit, bGold, bFaith)
 		GameInfoTypes.UNIT_FW_NEXUS,
 		GameInfoTypes.UNIT_FW_SPACE_FIGHTER,
 		GameInfoTypes.UNIT_FW_SPACE_BOMBER,
-		GameInfoTypes.UNIT_XCOM,
+		GameInfoTypes.UNIT_XCOM_SQUAD,
 		GameInfoTypes.UNIT_FW_SPACEMARINES,
 		GameInfoTypes.UNIT_FW_ORBITAL_DROP_SHOCK_TROOPER,
 		GameInfoTypes.UNIT_FW_NANOHIVE,

@@ -1979,27 +1979,27 @@
     <File md5="S2985F983F71D87B4F34DAE2513A0DC8" import="1">VP_Imagechange/SPAD/sv_SPAD.dds</File>
     <File md5="S3345DB3761021105C1263AE7A7C99E2" import="1">VP_Imagechange/SPAD/SPADFlag.dds</File>
 
-    <File md5="YAFE25132AC8EC8FA7589FDEC0C12DC7" import="0">VP_Imagechange/Mechanizedinfantry/3DModel/MechanizedinfantryArtDefines.sql</File>
-    <File md5="Y19BF59EF0B89AA7D9E107DA8900D953" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Inf.fxsxml</File>
-    <File md5="YAED533FF450481EC5E37989BF4C5E5A" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Inf.gr2</File>
-    <File md5="YCED533FF450481EC5E37989BF4C5E5A" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Inf_diff.dds</File>
-    <File md5="YC3A347364D01843737AD36B22B1D51A" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Mech.fxsxml</File>
-    <File md5="YC3A347364D01843737AD36B22B1D51A" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Mech.gr2</File>
-    <File md5="YC3A347364D01843737AD36B22B1D51A" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Mech_diff.dds</File>
-    <File md5="YC3A347364D01843737AD36B22B1D51A" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Mech_sref.dds</File>
-    <File md5="YC3A347364D01843737AD36B22B1D51A" import="1">VP_Imagechange/Mechanizedinfantry/MechanizedinfantryFlag.dds</File>
-    <File md5="YC3A347364D01843737AD36B22B1D51A" import="1">VP_Imagechange/Mechanizedinfantry/SV_mechanizedinfantry</File>
+    <!-- <File md5="YAFE25132AC8EC8FA7589FDEC0C12DC7" import="0">VP_Imagechange/Mechanizedinfantry/3DModel/MechanizedinfantryArtDefines.sql</File> -->
+    <!-- <File md5="Y19BF59EF0B89AA7D9E107DA8900D953" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Inf.fxsxml</File> -->
+    <!-- <File md5="YAED533FF450481EC5E37989BF4C5E5A" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Inf.gr2</File> -->
+    <!-- <File md5="YCED533FF450481EC5E37989BF4C5E5A" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Inf_diff.dds</File> -->
+    <!-- <File md5="YC3A347364D01843737AD36B22B1D51A" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Mech.fxsxml</File> -->
+    <!-- <File md5="YC3A347364D01843737AD36B22B1D51A" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Mech.gr2</File> -->
+    <!-- <File md5="YC3A347364D01843737AD36B22B1D51A" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Mech_diff.dds</File> -->
+    <!-- <File md5="YC3A347364D01843737AD36B22B1D51A" import="1">VP_Imagechange/Mechanizedinfantry/3DModel/SMAN_IEUP_PMC_Mech_sref.dds</File> -->
+    <!-- <File md5="YC3A347364D01843737AD36B22B1D51A" import="1">VP_Imagechange/Mechanizedinfantry/MechanizedinfantryFlag.dds</File> -->
+    <!-- <File md5="YC3A347364D01843737AD36B22B1D51A" import="1">VP_Imagechange/Mechanizedinfantry/SV_mechanizedinfantry</File> -->
 
     <File md5="3A9D5C3EE6A1E9EE060EA648545E4310" import="1">VP_Imagechange/NuclearVault/ART/missilesilo.dds</File>
     <File md5="F9268DAC7B388FBF37524C255242E9E6" import="1">VP_Imagechange/NuclearVault/ART/MissileSilo.fxsxml</File>
     <File md5="530E37C540848B82BADB13139912994A" import="1">VP_Imagechange/NuclearVault/ART/MissileSilo.gr2</File>
     <File md5="E19B2CA8FA2652337E897876E53D8BE3" import="1">VP_Imagechange/NuclearVault/ART/MissileSilo_PL.fxsxml</File>
     
-    <File md5="FBIABF85FF88GG2538665B48C77C15GA" import="0">Lua/Genejack.lua</File>
+    <File md5="6CFBACEA5E94EE9FAB439F8166546B2E" import="0">Lua/Genejack.lua</File>
   </Files>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>VP_Imagechange/Mechanizedinfantry/3DModel/MechanizedinfantryArtDefines.sql</UpdateDatabase>
+      <!-- <UpdateDatabase>VP_Imagechange/Mechanizedinfantry/3DModel/MechanizedinfantryArtDefines.sql</UpdateDatabase> -->
       <UpdateDatabase>XML/Units/ArtDefines.sql</UpdateDatabase>
       <UpdateDatabase>XML/Units/ArtDefines.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/FutureUnitIconAtlases.xml</UpdateDatabase>

@@ -488,5 +488,41 @@
 			<IconsPerRow>4</IconsPerRow>
 			<IconsPerColumn>5</IconsPerColumn>
 		</Row>
+
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_LINKS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>FW_LinkBuildingsAtlas256.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_LINKS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>FW_LinkBuildingsAtlas128.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_LINKS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>FW_LinkBuildingsAtlas80.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_LINKS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>FW_LinkBuildingsAtlas64.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_LINKS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>FW_LinkBuildingsAtlas45.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
 	</IconTextureAtlases>
 </GameData>

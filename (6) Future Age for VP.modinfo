@@ -139,6 +139,12 @@
     <File md5="E1DCB247ABC6E4950D1D140B61F89721" import="1">Art/Atlas/FutureWorldsIconAtlas256-2.dds</File>
     <File md5="0995B3C174656E6E7AAB509C43EA8B66" import="1">Art/Atlas/FutureWorldsIconAtlas256-3.dds</File>
 
+    <File md5="C8AE1E75C33749E51D76E57F2853F55F" import="1">Art/Atlas/FW_LinkBuildingsAtlas256.dds</File>
+    <File md5="CD11D5E209A609624917267C539059CD" import="1">Art/Atlas/FW_LinkBuildingsAtlas128.dds</File>
+    <File md5="2D4D5C91CE7184B676FB958CB14E7847" import="1">Art/Atlas/FW_LinkBuildingsAtlas80.dds</File>
+    <File md5="7948617097CBD8E2F859E5B4318391A5" import="1">Art/Atlas/FW_LinkBuildingsAtlas64.dds</File>
+    <File md5="95E26524C783FC4DDD89CE88E61FA251" import="1">Art/Atlas/FW_LinkBuildingsAtlas45.dds</File>
+
     <File md5="U260597DBAE06CA51D05F528284E6F7Z" import="1">Art/Atlas/CAYMSmallExapnsionUnits256.dds</File>
     <File md5="UD5E7082529F673288ED4EE0405B9AFE" import="1">Art/Atlas/CAYMSmallExapnsionUnits128.dds</File>
     <File md5="U498946694D8D7D4B8768028B3757799" import="1">Art/Atlas/CAYMSmallExapnsionUnits80.dds</File>

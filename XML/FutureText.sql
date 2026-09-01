@@ -48,6 +48,16 @@ UPDATE Language_en_US
 SET Text = Text || '[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_3] Happiness from every Virtual Museum and Brain Uploading Facility.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP';
 
+-- Mass Education (Humanism)
+UPDATE Language_en_US
+SET Text = REPLACE(Text, 'Public Schools', 'Public Schools and Online Schools')
+WHERE Tag = 'TXT_KEY_POLICY_HUMANISM_HELP';
+
+-- Divine Teachings (Jesuit Education)
+UPDATE Language_en_US
+SET Text = REPLACE(Text, 'and Research Labs', 'Research Labs, and Online Schools')
+WHERE Tag = 'TXT_KEY_BELIEF_JESUIT_EDUCATION';
+
 -- -- Civil Society
 -- UPDATE Language_en_US
 -- SET Text = '[COLOR_POSITIVE_TEXT]Civil Society[ENDCOLOR]: Specialists consume 2 [ICON_FOOD] Food less than normal (minimum 1 [ICON_FOOD] Food). Farms, Plantations, Camps, Hydroponics Domes, Eco-Communes, Nature Preserves, Comm Array and all Unique Improvements produce +4 [ICON_FOOD] Food.'
@@ -99,6 +109,12 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 ('TXT_KEY_BUILDING_FW_RESEARCH_SERVER_HELP', '+3 [ICON_RESEARCH] Science in the City and +1 [ICON_RESEARCH] Culture for every 5 [ICON_CITIZEN] Citizens in the City.[NEWLINE][NEWLINE]+10% [ICON_GREAT_SCIENTIST] Great Scientist rate in the City.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] Unhappiness from [ICON_RESEARCH] Illiteracy.[NEWLINE][NEWLINE]Requires the completion of [COLOR_POSITIVE_TEXT]Rationalism[ENDCOLOR] and a Server Hub.'),
 ('TXT_KEY_BUILDING_FW_RESEARCH_SERVER_STRATEGY', 'The Research Server will boost your science and Great Scientist Rate in the City.'),
 ('TXT_KEY_BUILDING_FW_RESEARCH_SERVER_PEDIA', 'Much of the original internet was based around computer networks established between various universities and research laboratories, so that they could more effectively exchange ideas and information. As the internet has grown into a much more ubiquitous forms, it has even enabled new methods of conducting scientific research, such as allowing large pools of amateurs and hobbyists to assist with various research-oriented tasks.'),
+
+-- Online School
+('TXT_KEY_BUILDING_FW_ONLINE_SCHOOL', 'Online School'),
+('TXT_KEY_BUILDING_FW_ONLINE_SCHOOL_HELP', '+3 [ICON_RESEARCH] Science in the City and +1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in the City.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] Unhappiness from [ICON_RESEARCH] Illiteracy.[NEWLINE][NEWLINE]Requires a Public School and a Server Hub.'),
+('TXT_KEY_BUILDING_FW_ONLINE_SCHOOL_STRATEGY', 'The Online School is a Future-era building which increases a City''s output of [ICON_RESEARCH] Science based on the population of the City. The City must already possess a Public School and a Server Hub before an Online School can be constructed.'),
+('TXT_KEY_BUILDING_FW_ONLINE_SCHOOL_PEDIA', 'As computing power grew exponentially, formal education escaped the classroom. Supercomputers made it possible to host lectures, examinations, and personalized tutoring for millions of students at once, while digital libraries put the world''s knowledge within reach of any connected citizen. Online schools combined recorded instruction, live remote teaching, and adaptive software that adjusted to each student''s pace, extending public education to anyone with a network link, regardless of distance or the size of the local campus.'),
 
 -- Cyberpolice
 ('TXT_KEY_BUILDING_FW_CYBERPOLICE', 'Cyberpolice'),

@@ -162,7 +162,7 @@ WHERE Type = 'BUILDING_FW_VIRTUAL_IDOL';
 -- Citadel Station
 ----------------------------------------------
 UPDATE Buildings
-SET SpecialistType = 'SPECIALIST_CIVIL_SERVANT', SpecialistCount = 3, GreatPeopleRateChange = 2, EspionageModifier = -15, GlobalEspionageModifier = -15, ExtraSpies = 2, Espionage = 1
+SET SpecialistType = 'SPECIALIST_CIVIL_SERVANT', SpecialistCount = 3, GreatPeopleRateChange = 2, EspionageModifier = -15, GlobalEspionageModifier = -15, ExtraSpies = 300, Espionage = 1
 WHERE Type = 'BUILDING_FW_CITADEL_STATION';
 
 -- SpyRankChange = 1, InstantSpyRankChange = 1 Obsolete with newest VP versions

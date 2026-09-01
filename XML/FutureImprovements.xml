@@ -21,6 +21,7 @@
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_FW_HYDROPONICS_DOME</ArtDefineTag>
 			<NoTwoAdjacent>true</NoTwoAdjacent>
 			<NoFreshWater>true</NoFreshWater>
+			<AddsFreshWater>true</AddsFreshWater>
 			<PillageGold>11</PillageGold>
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>FW_IMPROVEMENTS_ATLAS</IconAtlas>
@@ -1485,7 +1486,7 @@
 			<Time>700</Time>
 			<ImprovementType>IMPROVEMENT_FW_WATER_HYDROPONICS_DOME</ImprovementType>
 			<Description>TXT_KEY_BUILD_FW_HYDROPONICS_DOME</Description>
-			<Help>TXT_KEY_BUILD_FW_HYDROPONICS_DOME_HELP</Help>
+			<Help>TXT_KEY_IMPROVEMENT_FW_HYDROPONICS_DOME_HELP_WATER</Help>
 			<Recommendation>TXT_KEY_BUILD_FW_HYDROPONICS_DOME_REC</Recommendation>
 			<Water>true</Water>
 			<CanBeEmbarked>true</CanBeEmbarked>

@@ -1754,10 +1754,10 @@
 			<Text>Hydroponics Dome</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_HYDROPONICS_DOME_TEXT">
-			<Text>Artificial methods of cultivating food have grown increasingly sophisticated over time. The advent of new technologies such as hydroponics and aeroponics means that crops can be cultivated in entirely artificial environments, and communities that would normally struggle to feed their citizens can now cultivate crops nearby without needing to import food from more fertile areas.[NEWLINE][NEWLINE]This improvement provides additional +1 [ICON_FOOD] Food if built adjacent any Farms or Terraces nearby and +1 [ICON_RESEARCH] Science to.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Hydroponics or Fresh Water.[ENDCOLOR][NEWLINE][NEWLINE]Hydroponics are not affected by drought, ice age or pestilence event.</Text>
+			<Text>Artificial methods of cultivating food have grown increasingly sophisticated over time. The advent of new technologies such as hydroponics and aeroponics means that crops can be cultivated in entirely artificial environments, and communities that would normally struggle to feed their citizens can now cultivate crops nearby without needing to import food from more fertile areas.[NEWLINE][NEWLINE]This improvement provides additional +1 [ICON_FOOD] Food if built adjacent any Farms or Terraces nearby and +1 [ICON_RESEARCH] Science to.[NEWLINE][NEWLINE]Provides [COLOR_POSITIVE_TEXT]Fresh Water[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Hydroponics or existing Fresh Water.[ENDCOLOR][NEWLINE][NEWLINE]Hydroponics are not affected by drought, ice age or pestilence event.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_HYDROPONICS_DOME_HELP">
-			<Text>This custom improvement provides 3 [ICON_FOOD] Food, 2 [ICON_RESEARCH] Science and 1 [ICON_PRODUCTION] Production to the tile it's built on. All adjacent Farms, Terraces, Fishing Boats and Kampongs give +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Hydroponics or Fresh Water.[ENDCOLOR]</Text>
+			<Text>This custom improvement provides 3 [ICON_FOOD] Food, 2 [ICON_RESEARCH] Science and 1 [ICON_PRODUCTION] Production to the tile it's built on. All adjacent Farms, Terraces, Fishing Boats and Kampongs give +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Provides [COLOR_POSITIVE_TEXT]Fresh Water[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Hydroponics or existing Fresh Water.[ENDCOLOR]</Text>
 		</Row>
 			<Row Tag="TXT_KEY_IMPROVEMENT_FW_HYDROPONICS_DOME_WATER">
 			<Text>Hydroponics Dome</Text>
@@ -1773,7 +1773,7 @@
 			<Text>Build a Hydroponics Dome</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_HYDROPONICS_DOME_HELP">
-			<Text>Build a Hydroponics Dome which increases the Food, Science and Production yields of the tile.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Hydroponics or Fresh Water.[ENDCOLOR]</Text>
+			<Text>Build a Hydroponics Dome which increases the Food, Science and Production yields of the tile. Provides [COLOR_POSITIVE_TEXT]Fresh Water[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Hydroponics or existing Fresh Water.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_HYDROPONICS_DOME_REC">
 			<Text>It will increase the Food, Science and Production yields of the tile.</Text>

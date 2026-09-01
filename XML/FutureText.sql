@@ -346,7 +346,7 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 ('TXT_KEY_BUILDING_FW_CYBERCLINIC_STRATEGY', "Greatly boost your science output and the production of cyber units."),
 ('TXT_KEY_BUILDING_FW_CYBERCLINIC_PEDIA', "As increasing numbers of humans are cybernetically modified, the ready access to such technology becomes an increasing concern. Whether operated by the government to ensure equal access for all, or privately as a response to market pressures, increasing numbers of cyberclinics are established, helping ensure that anyone who wants to can have their bodies cybernetically modified. Initially they offered simple neural grafting and interfaces, but as the development of cybernetic prostheses advanced, they became capable of offering an increasingly wide variety of enhancements."),
 
--- Policies Uniques
+-- Policies Unique Buildings
 -- Neural Link
 ('TXT_KEY_BUILDING_FW_NEURAL_LINK', 'Neural Link'),
 ('TXT_KEY_BUILDING_FW_NEURAL_LINK_HELP', 'Requires [COLOR_POSITIVE_TEXT]Freedom[ENDCOLOR].[NEWLINE][NEWLINE]+12 Delegates in the World Congress. +1 [ICON_INTERNATIONAL_TRADE] Trade Route.[NEWLINE][NEWLINE]All Corporation [ICON_FRANCHISE] Franchises produce +2 [ICON_GOLD] Gold, +2 [ICON_CULTURE] Culture, and +2 [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Provides 1 additional Delegate in the World Congress for every Declaration of Friendship you currently have.[NEWLINE][NEWLINE]National Wonder. Requires a Cryptobank. Maximum of 1 may be built in your Empire.'),

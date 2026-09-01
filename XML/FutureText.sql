@@ -132,7 +132,7 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 
 -- Online School
 ('TXT_KEY_BUILDING_FW_ONLINE_SCHOOL', 'Online School'),
-('TXT_KEY_BUILDING_FW_ONLINE_SCHOOL_HELP', '+3 [ICON_RESEARCH] Science in the City and +1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in the City.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] Unhappiness from [ICON_RESEARCH] Illiteracy.[NEWLINE][NEWLINE]Requires a Public School and a Server Hub.'),
+('TXT_KEY_BUILDING_FW_ONLINE_SCHOOL_HELP', '+4 [ICON_RESEARCH] Science in the City and +1 [ICON_RESEARCH] Science for every 3 [ICON_CITIZEN] Citizens in the City.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] Unhappiness from [ICON_RESEARCH] Illiteracy.[NEWLINE][NEWLINE]Requires a Public School and a Server Hub.'),
 ('TXT_KEY_BUILDING_FW_ONLINE_SCHOOL_STRATEGY', 'The Online School is a Future-era building which increases a City''s output of [ICON_RESEARCH] Science based on the population of the City. The City must already possess a Public School and a Server Hub before an Online School can be constructed.'),
 ('TXT_KEY_BUILDING_FW_ONLINE_SCHOOL_PEDIA', 'As computing power grew exponentially, formal education escaped the classroom. Supercomputers made it possible to host lectures, examinations, and personalized tutoring for millions of students at once, while digital libraries put the world''s knowledge within reach of any connected citizen. Online schools combined recorded instruction, live remote teaching, and adaptive software that adjusted to each student''s pace, extending public education to anyone with a network link, regardless of distance or the size of the local campus.'),
 

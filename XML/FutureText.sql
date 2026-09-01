@@ -29,48 +29,39 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 ----------------------------------------------
 -- Agribusiness
 ----------------------------------------------
-UPDATE Language_en_US
-SET Text = '+2 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold from Farms, Pastures, Eco-Communes and Hydroponic Domes worked by the City. 10% of [ICON_FOOD] Food created by the City counts as [ICON_GOLD] Gold Per Turn.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_HORSE] Horses.'
-WHERE Tag = 'TXT_KEY_BUILDING_AGRIBUSINESS_HELP';
+-- UPDATE Language_en_US
+-- SET Text = '+2 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold from Farms, Pastures, Eco-Communes and Hydroponic Domes worked by the City. 10% of [ICON_FOOD] Food created by the City counts as [ICON_GOLD] Gold Per Turn.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_HORSE] Horses.'
+-- WHERE Tag = 'TXT_KEY_BUILDING_AGRIBUSINESS_HELP';
 
 -- Entrepreneurship
 UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Entrepreneurship[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness from Workshops.[NEWLINE]+2 [ICON_PRODUCTION] Production and [ICON_BULLET]+1 [ICON_GOLD] Gold from every Mine, Quarry, Lumbermill, Industrial Complex, High-Energy Research Centre and Generator. [NEWLINE][ICON_BULLET]+25% Yields when you expend [ICON_GREAT_MERCHANT] Great Merchants or [ICON_GREAT_ENGINEER] Great Engineers for their Instant Yield abilities. '
+SET Text = Text || '[NEWLINE][ICON_BULLET]+2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold from every Industrial Complex, Generator, Hydroponic Dome, Arcology and Genocentre.'
 WHERE Tag = 'TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP';
 
 -- Naval Tradition (now Colonialism)
 UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Colonialism[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science and +1 [ICON_CULTURE] Culture from Barracks, Armories, Gunsmiths, Military Academies, Forts, Citadels and Defense improvement.[NEWLINE][ICON_BULLET]Each unique Global Monopoly modifier is increased by an additional 10% if it''s percentage-based, or +3 otherwise.'
-WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP'AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='MUCfVP-CAYM' AND Value= 1);
+SET Text = Text || '[NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science and +1 [ICON_CULTURE] Culture from Fungal Growth, Support Node, Vault, and VR Training, Nanoforges, Geofronts and Utility Fog Generators.'
+WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP';
 
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Colonialism[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science and +1 [ICON_CULTURE] Culture from Barracks, Armories, Military Academies, Forts, Citadels and Defense improvement.[NEWLINE][ICON_BULLET]Each unique Global Monopoly modifier is increased by an additional 10% if it''s percentage-based, or +3 otherwise.'
-WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP'AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='MUCfVP-CAYM' AND Value= 2);
+-- -- SOVEREIGNTY
+-- UPDATE Language_en_US
+-- SET Text = '[COLOR_POSITIVE_TEXT]Rights of Man[ENDCOLOR][NEWLINE][ICON_BULLET]-1 [ICON_HAPPINESS_3] Unhappiness from all Needs in all Cities.[NEWLINE][ICON_BULLET]+2 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold from Villages, Nature Preserves and Comm Array.[NEWLINE][ICON_BULLET]+10% [ICON_RESEARCH] Science during [ICON_GOLDEN_AGE] Golden Ages.'
+-- WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP';
 
--- Merchant Navy -- Now called Exploitation
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Exploitation[ENDCOLOR][NEWLINE]Farms, Camps, Plantations, Hydroponics Domes and Eco-Communes gain +2 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production. All Ocean, Coast, and Lake tiles gain +1 [ICON_RESEARCH] Science and [ICON_PRODUCTION] Production. Military Units can be upgraded in territory owned by Vassals and friendly [ICON_CITY_STATE] City-States.'
-WHERE Tag = 'TXT_KEY_POLICY_MERCHANT_NAVY_HELP';
+-- -- Civil Society
+-- UPDATE Language_en_US
+-- SET Text = '[COLOR_POSITIVE_TEXT]Civil Society[ENDCOLOR]: Specialists consume 2 [ICON_FOOD] Food less than normal (minimum 1 [ICON_FOOD] Food). Farms, Plantations, Camps, Hydroponics Domes, Eco-Communes, Nature Preserves, Comm Array and all Unique Improvements produce +4 [ICON_FOOD] Food.'
+-- WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
 
--- SOVEREIGNTY
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Rights of Man[ENDCOLOR][NEWLINE][ICON_BULLET]-1 [ICON_HAPPINESS_3] Unhappiness from all Needs in all Cities.[NEWLINE][ICON_BULLET]+2 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold from Villages, Nature Preserves and Comm Array.[NEWLINE][ICON_BULLET]+10% [ICON_RESEARCH] Science during [ICON_GOLDEN_AGE] Golden Ages.'
-WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP';
+-- -- New Deal
+-- UPDATE Language_en_US
+-- SET Text = '[COLOR_POSITIVE_TEXT]New Deal[ENDCOLOR]: Landmarks and Great Person improvements produce +6 of their base yield types ([ICON_PRODUCTION] Manufactory/Citadel/Industrial Complex, [ICON_GOLD] Town, [ICON_RESEARCH] Academy, [ICON_CULTURE] Embassy, [ICON_PEACE] Holy Site, [ICON_TOURISM] Landmark), and +2 [ICON_TOURISM] Tourism. 2 [ICON_RESEARCH]/[ICON_TOURISM] for High-Energy Research Centre and 2 [ICON_PRODUCTION]/[ICON_TOURISM] for Industrial Complex.'
+-- WHERE Tag = 'TXT_KEY_POLICY_NEW_DEAL_HELP';
 
--- Civil Society
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Civil Society[ENDCOLOR]: Specialists consume 2 [ICON_FOOD] Food less than normal (minimum 1 [ICON_FOOD] Food). Farms, Plantations, Camps, Hydroponics Domes, Eco-Communes, Nature Preserves, Comm Array and all Unique Improvements produce +4 [ICON_FOOD] Food.'
-WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
-
--- New Deal
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]New Deal[ENDCOLOR]: Landmarks and Great Person improvements produce +6 of their base yield types ([ICON_PRODUCTION] Manufactory/Citadel/Industrial Complex, [ICON_GOLD] Town, [ICON_RESEARCH] Academy, [ICON_CULTURE] Embassy, [ICON_PEACE] Holy Site, [ICON_TOURISM] Landmark), and +2 [ICON_TOURISM] Tourism. 2 [ICON_RESEARCH]/[ICON_TOURISM] for High-Energy Research Centre and 2 [ICON_PRODUCTION]/[ICON_TOURISM] for Industrial Complex.'
-WHERE Tag = 'TXT_KEY_POLICY_NEW_DEAL_HELP';
-
--- Five Year Plan
-UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Five-Year Plan[ENDCOLOR]: +20% [ICON_PRODUCTION] Production towards Buildings in all Cities. +3 [ICON_PRODUCTION] Production for every Mine, Quarry, Lumber Mill, Oil Well, and All Unique Improvement.'
-WHERE Tag = 'TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP';
+-- -- Five Year Plan
+-- UPDATE Language_en_US
+-- SET Text = '[COLOR_POSITIVE_TEXT]Five-Year Plan[ENDCOLOR]: +20% [ICON_PRODUCTION] Production towards Buildings in all Cities. +3 [ICON_PRODUCTION] Production for every Mine, Quarry, Lumber Mill, Oil Well, and All Unique Improvement.'
+-- WHERE Tag = 'TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP';
 
 --===========================
 -- Buidings
@@ -84,7 +75,7 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 
 -- Genemod Lab
 ('TXT_KEY_BUILDING_FW_GENE_LAB', 'Genemod Lab'),
-('TXT_KEY_BUILDING_FW_GENE_LAB_HELP', "+2 [ICON_FOOD] Food from [ICON_RES_COW][ICON_RES_DEER][ICON_RES_BISON][ICON_RES_HORSE][ICON_RES_SHEEP][ICON_RES_FISH][ICON_RES_CRAB][ICON_RES_WHALE][ICON_RES_FIGS].[NEWLINE]-1 [ICON_HAPPINESS_3] Unhappiness from [ICON_FOOD]/[ICON_PRODUCTION] Distress.[NEWLINE][NEWLINE]Also gives +15% Population Growth.[NEWLINE][NEWLINE]Internal [ICON_FOOD] Food [ICON_INTERNATIONAL_TRADE] Trade Routes from this City generate +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Requires [COLOR_NEGATIVE_TEXT]1[ENDCOLOR] [ICON_RES_HORSE] Horse for animal testing."),
+('TXT_KEY_BUILDING_FW_GENE_LAB_HELP', "+2 [ICON_FOOD] Food from [ICON_RES_COW][ICON_RES_DEER][ICON_RES_BISON][ICON_RES_HORSE][ICON_RES_SHEEP][ICON_RES_FISH][ICON_RES_CRAB][ICON_RES_WHALE][ICON_RES_FIGS].[NEWLINE][NEWLINE]Also gives +15% Population Growth.[NEWLINE][NEWLINE]Internal [ICON_FOOD] Food [ICON_INTERNATIONAL_TRADE] Trade Routes from this City generate +4 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires [COLOR_NEGATIVE_TEXT]1[ENDCOLOR] [ICON_RES_HORSE] Horse for animal testing."),
 ('TXT_KEY_BUILDING_FW_GENE_LAB_STRATEGY', "Greatly inceases Growth in the City at the cost of 1 Horse"),
 ('TXT_KEY_BUILDING_FW_GENE_LAB_PEDIA', "As techniques to manipulate genetic information were improved, experimentation upon a wider range of subjects began. New crops and animals were developed as a response to increasing issues of food supplies."),
 
@@ -111,7 +102,7 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 
 -- Cyberpolice
 ('TXT_KEY_BUILDING_FW_CYBERPOLICE', 'Cyberpolice'),
-('TXT_KEY_BUILDING_FW_CYBERPOLICE_HELP', "+15 [ICON_SPY] City Security.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] Unhappiness from [ICON_FOOD] and [ICON_PRODUCTION] Distress, [ICON_GOLD] Poverty, [ICON_RESEARCH] Illiteracy, and [ICON_CULTURE] Boredom."),
+('TXT_KEY_BUILDING_FW_CYBERPOLICE_HELP', "When an Enemy [ICON_SPY] Spy is killed in this City, gain 400 [ICON_GOLD] Gold and 400 [ICON_RESEARCH] Science."),
 ('TXT_KEY_BUILDING_FW_CYBERPOLICE_STRATEGY', "Police stations slow down the rate at which enemy spies can harm your city. The city must possess an Constabulary in order to construct the Parapolice Station."),
 ('TXT_KEY_BUILDING_FW_CYBERPOLICE_PEDIA', "The Cyber Police Department maintains law and order in the digital world. It is to monitor, investigate and prevent crimes related to the Internet, especially highly technical crimes such as hacking, cyber financial fraud, etc. They are usually made up of expert computer scientists, hackers, and forensic experts, and use real-time monitoring systems and powerful cybersecurity tools to keep the digital world safe. They specialize in detecting and analyzing criminal activity, as well as tracking and apprehending the perpetrators who carried out the activity. Cyber police departments monitor wide areas of the online space, which can be used to detect network security breaches, privacy breaches, cyber fraud, etc. It protects users from various forms of crime. They also consider it an important mission to provide educational programs that increase public cybersecurity awareness and develop technological countermeasures to prepare for new forms of cybercrime."),
 -- Autoplant
@@ -372,7 +363,7 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 ('TXT_KEY_BUILDING_FW_BIOMOD_TANK_PEDIA', "While implant clinics permitted a certain degree of biomodifications, more extensive adaptations required more sophisticated equipment. Biomod facilities carried out more extensive human modification, typically immersing the subject in a suspension tank so that more complex implants and full-body modfications could be carried out. Common biomods included stimplants, that would provide a short-term regenerative capability, as well as boost mods that enhanced combat capabilities."),
 -- Digital Police
 ('TXT_KEY_BUILDING_FW_DIGITAL_POLICE', 'Digital Police'),
-('TXT_KEY_BUILDING_FW_DIGITAL_POLICE_HELP', "+20 [ICON_SPY] City Security.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] Unhappiness from [ICON_FOOD] and [ICON_PRODUCTION] Distress, [ICON_GOLD] Poverty, [ICON_RESEARCH] Illiteracy, and [ICON_CULTURE] Boredom."),
+('TXT_KEY_BUILDING_FW_DIGITAL_POLICE_HELP', "When an Enemy [ICON_SPY] Spy is killed in this City, gain 600 [ICON_PEACE] Gold, 600 [ICON_RESEARCH] Science and 600 [ICON_CULTURE] Culture."),
 ('TXT_KEY_BUILDING_FW_DIGITAL_POLICE_STRATEGY', "Digital Polices slow down the rate at which enemy spies can harm your city. The city must possess an Cyber Police in order to construct the Digital Police."),
 ('TXT_KEY_BUILDING_FW_DIGITAL_POLICE_PEDIA', "Even virtual worlds require a good police."),
 -- Fusion Reactor

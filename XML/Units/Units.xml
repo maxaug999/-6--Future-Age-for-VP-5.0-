@@ -579,7 +579,7 @@
 			<PrereqTech>TECH_FUTURE_BALLISTICS</PrereqTech>
 			<Combat>80</Combat>
 			<RangedCombat>100</RangedCombat>
-			<BaseLandAirDefense>18</BaseLandAirDefense>
+			<BaseLandAirDefense>38</BaseLandAirDefense>
 			<Cost>2400</Cost>
 			<FaithCost>1800</FaithCost>
 			<!-- <PrereqTech>TECH_MOBILE_TACTICS</PrereqTech> -->
@@ -619,7 +619,7 @@
 			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
 			<Combat>100</Combat>
 			<RangedCombat>120</RangedCombat>
-			<BaseLandAirDefense>20</BaseLandAirDefense>
+			<BaseLandAirDefense>40</BaseLandAirDefense>
 			<Cost>3200</Cost>
 			<FaithCost>1800</FaithCost>
 			<!-- <PrereqTech>TECH_ROBOTICS</PrereqTech>
@@ -728,7 +728,7 @@
 			<Cost>3250</Cost>
 			<FaithCost>1800</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<BaseLandAirDefense>18</BaseLandAirDefense>
+			<BaseLandAirDefense>16</BaseLandAirDefense>
 			<Moves>6</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
@@ -1877,7 +1877,7 @@
 			<Class>UNITCLASS_FW_MODERN_DRONE</Class>
 			<Type>UNIT_FW_MODERN_DRONE</Type>
 			<PrereqTech>TECH_SUPERCOMPUTERS</PrereqTech>
-			<Combat>80</Combat>
+			<Combat>75</Combat>
 			<BaseLandAirDefense>8</BaseLandAirDefense>
 			<Cost>2250</Cost>
 			<FaithCost>1800</FaithCost>
@@ -2406,7 +2406,7 @@
 			<PrereqTech>TECH_COGNITIVE_TECH</PrereqTech>
 			<Combat>105</Combat>
 			<RangedCombat>125</RangedCombat>
-			<BaseLandAirDefense>20</BaseLandAirDefense>
+			<BaseLandAirDefense>45</BaseLandAirDefense>
 			<Cost>3350</Cost>
 			<FaithCost>1800</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>

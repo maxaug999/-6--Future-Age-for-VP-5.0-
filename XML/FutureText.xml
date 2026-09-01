@@ -1317,7 +1317,7 @@
 			<Text>Manned exploration and inhabitation of outer space will require significant advances in the technologies available to sustain humans in one of the most hostile environment possible. In particular, self-sustaining environments that can provide breathable atmosphere, drinkable water, and food will be needed. These technologies will not be applicable only to space travel, however, as it will enable us to create self-contained environments underground, in arid regions, or under the ocean, greatly increasing the volume of space available for human habitation.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_FW_ARTIFICIAL_ENVIRONMENTS_HELP">
-			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Vertical Farms[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Hydroponics Domes[ENDCOLOR] in order to increase [ICON_FOOD] Food output, as well as [COLOR_POSITIVE_TEXT]Geofronts[ENDCOLOR] to improve city defense.</Text>
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Vertical Farms[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Hydroponics Domes[ENDCOLOR] in order to increase [ICON_FOOD] Food output, as well as [COLOR_POSITIVE_TEXT]Geofronts[ENDCOLOR] to improve city defense. Also allows the [COLOR_POSITIVE_TEXT]Ecopolis[ENDCOLOR] Wonder, which requires a nearby Swamp.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_FW_ARTIFICIAL_ENVIRONMENTS_QUOTE">
 			<Text>

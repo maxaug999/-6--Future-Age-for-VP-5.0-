@@ -80,6 +80,15 @@ VALUES	('UNIT_FW_GUNBOAT', 	'PROMOTION_FW_DESTROY_BARBARIAN'),
 -- 	('PROMOTION_FW_EMANCIPATED', 	'FEATURE_FOREST', 	1),
 -- 	('PROMOTION_FW_EMANCIPATED', 	'FEATURE_JUNGLE', 	1);
 
+INSERT INTO UnitPromotions 
+(Type, 									Description, 								Help, 											Sound, 				LostWithUpgrade, OrderPriority, CannotBeChosen,	PortraitIndex, 	IconAtlas,					PediaType, 			PediaEntry) VALUES
+('PROMOTION_FW_ECOPOLIS',				'TXT_KEY_PROMOTION_FW_ECOPOLIS',			'TXT_KEY_PROMOTION_FW_ECOPOLIS_HELP',			'AS2D_IF_LEVELUP',	0,				 0, 			1,				5, 	'PROMOTION_ATLAS', 	'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_FW_ECOPOLIS');
+
+INSERT INTO UnitPromotions_Features
+	(PromotionType, 				FeatureType, 		Defense)
+VALUES
+	('PROMOTION_FW_ECOPOLIS', 		'FEATURE_MARSH', 	25);
+
 -- Free Promotions 
 INSERT INTO Technology_FreePromotions
 	(TechType, PromotionType)
@@ -150,6 +159,14 @@ VALUES
 ----------------------------------------------------
 
 INSERT INTO UnitPromotions_UnitCombats (PromotionType, UnitCombatType) VALUES
+('PROMOTION_FW_ECOPOLIS',	   		'UNITCOMBAT_MELEE'),
+('PROMOTION_FW_ECOPOLIS',	   		'UNITCOMBAT_GUN'),
+('PROMOTION_FW_ECOPOLIS',	   		'UNITCOMBAT_MOUNTED'),
+('PROMOTION_FW_ECOPOLIS',	   		'UNITCOMBAT_RECON'),
+('PROMOTION_FW_ECOPOLIS',	   		'UNITCOMBAT_ARCHER'),
+('PROMOTION_FW_ECOPOLIS',	   		'UNITCOMBAT_ARMOR'),
+('PROMOTION_FW_ECOPOLIS',	   		'UNITCOMBAT_SIEGE'),
+('PROMOTION_FW_ECOPOLIS',	   		'UNITCOMBAT_HELICOPTER'),
 ('PROMOTION_FW_COMBAT_LINK',	   	'UNITCOMBAT_MELEE'),
 ('PROMOTION_FW_COMBAT_LINK',	   	'UNITCOMBAT_GUN'),
 ('PROMOTION_FW_COMBAT_LINK',	   	'UNITCOMBAT_MOUNTED'),

@@ -560,5 +560,41 @@
 			<IconsPerRow>4</IconsPerRow>
 			<IconsPerColumn>2</IconsPerColumn>
 		</Row>
+
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_ECOPOLIS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>FW_EcopolisAtlas256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_ECOPOLIS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>FW_EcopolisAtlas128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_ECOPOLIS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>FW_EcopolisAtlas80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_ECOPOLIS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>FW_EcopolisAtlas64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_ECOPOLIS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>FW_EcopolisAtlas45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
 	</IconTextureAtlases>
 </GameData>

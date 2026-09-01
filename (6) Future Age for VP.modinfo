@@ -151,6 +151,12 @@
     <File md5="EB0EB069A1E99D9CE17CE0A2962BD928" import="1">Art/Atlas/FW_IconsAtlas64.dds</File>
     <File md5="993AF116AB58EFD708E565A90B630C26" import="1">Art/Atlas/FW_IconsAtlas45.dds</File>
 
+    <File md5="37B6DFD544EB939FD8C3247922BD5BBB" import="1">Art/Atlas/FW_EcopolisAtlas256.dds</File>
+    <File md5="6C09081C4CF256FA02D204DAA4DAF2F1" import="1">Art/Atlas/FW_EcopolisAtlas128.dds</File>
+    <File md5="3274BC0C704EB44328C7C18380F025AA" import="1">Art/Atlas/FW_EcopolisAtlas80.dds</File>
+    <File md5="000F96CDA82D211BC1AF6873FE185A6D" import="1">Art/Atlas/FW_EcopolisAtlas64.dds</File>
+    <File md5="AEDBFC97D6954CE340E79F0FC430A407" import="1">Art/Atlas/FW_EcopolisAtlas45.dds</File>
+
     <File md5="U260597DBAE06CA51D05F528284E6F7Z" import="1">Art/Atlas/CAYMSmallExapnsionUnits256.dds</File>
     <File md5="UD5E7082529F673288ED4EE0405B9AFE" import="1">Art/Atlas/CAYMSmallExapnsionUnits128.dds</File>
     <File md5="U498946694D8D7D4B8768028B3757799" import="1">Art/Atlas/CAYMSmallExapnsionUnits80.dds</File>
@@ -1826,6 +1832,7 @@
     <File md5="193DB537E5C9B32CB81AE0E1E1273273" import="1">Art/Wonders/FWSkyCity_Splash.dds</File>
     <File md5="ACC908C711B5DD2CC7B4D142217554CA" import="1">Art/Wonders/FWUltimaTower_Splash.dds</File>
     <File md5="5EABF31CC84EAB10FD2E48F12D9E5E2C" import="1">Art/Wonders/GeneVault_Splash.dds</File>
+    <File md5="730E030888E3322436878805E5D6B201" import="1">Art/Wonders/Ecopolis_Splash.dds</File>
     <File md5="6D4CEBDB282B186F2BAC9978085D0BCE" import="1">Art/Wonders/GenomeProject_Splash.dds</File>
     <File md5="5FB88744D9F91BD36F7539D3A8363DDC" import="1">Art/Wonders/Helios_Splash.dds</File>
     <File md5="B9DBA099C9B3BD1DFCFE48047FE7F7C8" import="1">Art/Wonders/JurassicPark_Splash.dds</File>
@@ -1959,7 +1966,7 @@
     <File md5="A43CD1EA75317E3B42F5D21D51E09F9D" import="0">XML/Units/FutureUnitIconAtlases.xml</File>
     <File md5="DA3B672D9D609141FF5EEA8D10473B2Z" import="0">XML/Units/Units.sql</File>
     <File md5="C7DFA2CC23F1FE7E5F11B1B54824BBD7" import="0">XML/Units/Units.xml</File>
-    <File md5="DA3B672N9A602141SS5JDA1D50479B2Z" import="0">XML/Units/Promotions.sql</File>
+    <File md5="AF156C727CF37EEE493B1E98EB643BC6" import="0">XML/Units/Promotions.sql</File>
     <File md5="99HF95F999ED64A81AC8FCA49D51C3Z9" import="0">XML/Units/UnitsUpdates.sql</File>
     <File md5="S9HF95F999ED64A81AC8FCA49D51C3Z9" import="0">XML/Units/UnitSound.sql</File>
     <File md5="482A5EAE4316F749B2A69FBBC799C3CB" import="0">XML/Buildings.sql</File>
@@ -1969,14 +1976,14 @@
     <File md5="2AB3F34E953A0B7FCF341C6122989CCF" import="0">XML/FutureImprovements.sql</File>
     <File md5="9E406DE17438B5FBF36859377E4F7F36" import="0">XML/FutureImprovements.xml</File>
     <File md5="F8B733BF5C85F9718DCB5621C464FEZ1" import="0">XML/FutureTechnologies.xml</File>
-    <File md5="288831CB920E4B1A30B84DD1DD98A7EE" import="0">XML/FutureText.xml</File>
-    <File md5="39C0A4A209C5950C91F0B5197C468491" import="0">XML/IconAtlases.xml</File>
+    <File md5="5AF1B937CBA43AFD5AD1ED2235E47946" import="0">XML/FutureText.xml</File>
+    <File md5="14F574DB8DDEB1EEE7320CB06FF228D7" import="0">XML/IconAtlases.xml</File>
     <File md5="265831PB870E4B1A30G84ZZ1DE98P7EE" import="0">XML/Resolutions.xml</File>
     <File md5="2F8BFF6F4A099AB9B1BF1F4A2740016F" import="0">XML/ResourceIcons.xml</File>
     <File md5="2F8BDD6Z4A099AB1B1BF1F4A1540099F" import="0">XML/Resources.sql</File>
     <File md5="98EF605A7A6B607A149C707EF7715C99" import="0">XML/TechTreeAdjustment.sql</File>
-    <File md5="AA196416E09829DFF69FA657CF0G071E" import="0">XML/Wonders.sql</File>
-    <File md5="CAYM6416E09829DFF69FA657CF0G071E" import="0">XML/FutureText.sql</File>
+    <File md5="498FBFCA5A6E669BF397752D942F4030" import="0">XML/Wonders.sql</File>
+    <File md5="B775A2265C39C9E33907731F246F7131" import="0">XML/FutureText.sql</File>
 
     <File md5="MC495115B209658C585382DAD65F75FE" import="1">VP_Imagechange/Mobileartillery/3DModel/M109SKorea.fxsxml</File>
     <File md5="MA9658DE06ECA4DFE4483A1047F741FE" import="1">VP_Imagechange/Mobileartillery/3DModel/M109SKorea.gr2</File>

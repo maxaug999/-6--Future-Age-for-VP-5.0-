@@ -45,7 +45,7 @@ WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP';
 
 -- SOVEREIGNTY  (Emancipation)
 UPDATE Language_en_US
-SET Text = Text || '[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_3] Happiness from every Virtual Museum and Brain Uploading Facility.'
+SET Text = Text || '[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness from every Virtual Museum and Brain Uploading Facility.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP';
 
 -- Mass Education (Humanism)
@@ -58,20 +58,40 @@ UPDATE Language_en_US
 SET Text = REPLACE(Text, 'and Research Labs', 'Research Labs, and Online Schools')
 WHERE Tag = 'TXT_KEY_BELIEF_JESUIT_EDUCATION';
 
--- -- Civil Society
--- UPDATE Language_en_US
--- SET Text = '[COLOR_POSITIVE_TEXT]Civil Society[ENDCOLOR]: Specialists consume 2 [ICON_FOOD] Food less than normal (minimum 1 [ICON_FOOD] Food). Farms, Plantations, Camps, Hydroponics Domes, Eco-Communes, Nature Preserves, Comm Array and all Unique Improvements produce +4 [ICON_FOOD] Food.'
--- WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
+-- Civil Society
+UPDATE Language_en_US
+SET Text = Text || '[NEWLINE]Hydroponics Domes, Arcologies and Genocentres produce +4 [ICON_FOOD] Food.'
+WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
 
--- -- New Deal
--- UPDATE Language_en_US
--- SET Text = '[COLOR_POSITIVE_TEXT]New Deal[ENDCOLOR]: Landmarks and Great Person improvements produce +6 of their base yield types ([ICON_PRODUCTION] Manufactory/Citadel/Industrial Complex, [ICON_GOLD] Town, [ICON_RESEARCH] Academy, [ICON_CULTURE] Embassy, [ICON_PEACE] Holy Site, [ICON_TOURISM] Landmark), and +2 [ICON_TOURISM] Tourism. 2 [ICON_RESEARCH]/[ICON_TOURISM] for High-Energy Research Centre and 2 [ICON_PRODUCTION]/[ICON_TOURISM] for Industrial Complex.'
--- WHERE Tag = 'TXT_KEY_POLICY_NEW_DEAL_HELP';
+-- New Deal
+UPDATE Language_en_US
+SET Text = Text || '[NEWLINE]2 [ICON_RESEARCH]/[ICON_TOURISM] for High-Energy Research Centre and 2 [ICON_PRODUCTION]/[ICON_TOURISM] for Industrial Complex.'
+WHERE Tag = 'TXT_KEY_POLICY_NEW_DEAL_HELP';
 
--- -- Five Year Plan
--- UPDATE Language_en_US
--- SET Text = '[COLOR_POSITIVE_TEXT]Five-Year Plan[ENDCOLOR]: +20% [ICON_PRODUCTION] Production towards Buildings in all Cities. +3 [ICON_PRODUCTION] Production for every Mine, Quarry, Lumber Mill, Oil Well, and All Unique Improvement.'
--- WHERE Tag = 'TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP';
+-- Five Year Plan
+UPDATE Language_en_US
+SET Text = Text || '[NEWLINE]+3 [ICON_PRODUCTION] Production for every HERC, Industrial Complex, Comm Array, Power Generator, Arcology and Genocentre Improvement.'
+WHERE Tag = 'TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP';
+
+-- Police State (Autocracy)
+UPDATE Language_en_US
+SET Text = Text || '[NEWLINE]+10 [ICON_SPY] Security and 100% Construction Speed for every Cyber and Digital Police.'
+WHERE Tag = 'TXT_KEY_POLICY_POLICE_STATE_HELP';
+
+-- New World Order (Autocracy)
+UPDATE Language_en_US
+SET Text = Text || '[NEWLINE]+5 [ICON_PRODUCTION] Production and +3 [ICON_CULTURE] Culture for every Cyber and Digital Police.'
+WHERE Tag = 'TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP';
+
+-- Divisions of labor (Industry)
+UPDATE Language_en_US
+SET Text = Text || '[NEWLINE]+2 [ICON_PRODUCTION] Production and +2 [ICON_CULTURE] Culture for every Autoplant, Tidal Port and High-speed Magnetic Train.'
+WHERE Tag = 'TXT_KEY_POLICY_TRADE_UNIONS_HELP';
+
+UPDATE Language_en_US
+SET Text = Text || '[NEWLINE]+2 [ICON_RESEARCH] Science and +2 [ICON_GOLD] Gold from every Cryptobank.'
+WHERE Tag = 'TXT_KEY_POLICY_MERCANTILISM_HELP';	
+
 
 --===========================
 -- Buidings
@@ -259,7 +279,7 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 ('TXT_KEY_BUILDING_FW_BIOFLESH_INDUSTRY_PEDIA', "The earliest experiments in cloning were conducted on farm animals. As human cloning has a variety of ethical concerns, the most likely uses of cloning in the near future will be to increase the productivity of animal herds."),
 -- Genejack Facility
 ('TXT_KEY_BUILDING_FW_GENEJACK_FACILITY', 'Genejack Facility'),
-('TXT_KEY_BUILDING_FW_GENEJACK_FACILITY_HELP', "Tile improvement construction speed increased by 5%.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production for every 2 Desert, 2 Tundra, 2 Mountain or 2 Snow tiles [COLOR_POSITIVE_TEXT]worked[ENDCOLOR] by the City.[NEWLINE][NEWLINE]Provides 3 [ICON_RES_ADN_FUNGUS] ADN Fungus in the city's area.[NEWLINE][NEWLINE]On completion, the city immediately claims all Resources within 3 tiles of the City, and if playing as [COLOR_NEGATIVE_TEXT]America[ENDCOLOR], you also claim tiles owned by other Civilizations.[NEWLINE][NEWLINE]The City gains 100 [ICON_PRODUCTION] Production for each tile claimed.[NEWLINE][NEWLINE]Internal [ICON_PRODUCTION] Production [ICON_INTERNATIONAL_TRADE] Trade Routes from this City generate +3 [ICON_PRODUCTION] Production and +2 [ICON_FOOD] Food."),
+('TXT_KEY_BUILDING_FW_GENEJACK_FACILITY_HELP', "Tile improvement construction speed increased by 5%.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production for every 2 Desert, 2 Tundra, 2 Mountain or 2 Snow tiles [COLOR_POSITIVE_TEXT]worked[ENDCOLOR] by the City.[NEWLINE][NEWLINE]Provides 3 [ICON_RES_ADN_FUNGUS] ADN Fungus in the city's area.[NEWLINE][NEWLINE]On completion, the city immediately claims all Resources within 3 tiles of the City, and if playing as [COLOR_NEGATIVE_TEXT]America[ENDCOLOR], you also claim tiles owned by other Civilizations.[NEWLINE][NEWLINE]The City gains 100 [ICON_PRODUCTION] Production for each tile claimed.[NEWLINE][NEWLINE]Internal [ICON_PRODUCTION] Production [ICON_INTERNATIONAL_TRADE] Trade Routes from this City generate +5 [ICON_PRODUCTION] Production and +2 [ICON_FOOD] Food."),
 ('TXT_KEY_BUILDING_FW_GENEJACK_FACILITY_STRATEGY', "Provides a great Production boost and territorial expansion for new Cities."),
 ('TXT_KEY_BUILDING_FW_GENEJACK_FACILITY_PEDIA', "As biofactories began to use an increasing variety of organic components and processes in the manufacturing of advanced materials and equipment, they began to run into limitations due to the restrictive environmental controls that were required for biotechnological process to be most efficient. With the advancement of transgenics, however, these processes could be further refined by tailoring the organisms used in various biomanufacturing, enabling them to work even more efficiently, and in increasingly harsher environments. There have been rumors that this process of 'genejacking' was even applied to human workers that were employed in biofactories and other genejack facilities, but no conclusive evidence of this has been found."),
 -- Information Hub

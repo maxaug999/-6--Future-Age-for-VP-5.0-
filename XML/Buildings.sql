@@ -1405,6 +1405,14 @@ INSERT INTO Policy_BuildingClassHappiness (PolicyType, BuildingClassType, Happin
 SELECT DISTINCT PolicyType, 'BUILDINGCLASS_FW_ORBITAL_REFINERY', Happiness
 FROM Policy_BuildingClassHappiness WHERE PolicyType = 'POLICY_LEGALISM';
 
+-- Emancipation (Rationalism)
+INSERT INTO Policy_BuildingClassHappiness (PolicyType, BuildingClassType, Happiness)
+SELECT DISTINCT PolicyType, 'BUILDINGCLASS_FW_VIRTUAL_MUSEUM', Happiness
+FROM Policy_BuildingClassHappiness WHERE PolicyType = 'POLICY_SOVEREIGNTY';
+INSERT INTO Policy_BuildingClassHappiness (PolicyType, BuildingClassType, Happiness)
+SELECT DISTINCT PolicyType, 'BUILDINGCLASS_FW_BRAIN_UPLOADING', Happiness
+FROM Policy_BuildingClassHappiness WHERE PolicyType = 'POLICY_SOVEREIGNTY';
+
 -- Division of Labor (Industry)
 INSERT INTO Policy_BuildingClassYieldModifiers (PolicyType, BuildingClassType, YieldType, YieldMod)
 SELECT DISTINCT PolicyType, 'BUILDINGCLASS_FW_AUTOPLANT', YieldType, YieldMod

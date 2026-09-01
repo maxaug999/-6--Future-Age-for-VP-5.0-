@@ -43,10 +43,10 @@ UPDATE Language_en_US
 SET Text = Text || '[NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science and +1 [ICON_CULTURE] Culture from Fungal Growth, Support Node, Vault, and VR Training, Nanoforges, Geofronts and Utility Fog Generators.'
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP';
 
--- -- SOVEREIGNTY
--- UPDATE Language_en_US
--- SET Text = '[COLOR_POSITIVE_TEXT]Rights of Man[ENDCOLOR][NEWLINE][ICON_BULLET]-1 [ICON_HAPPINESS_3] Unhappiness from all Needs in all Cities.[NEWLINE][ICON_BULLET]+2 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold from Villages, Nature Preserves and Comm Array.[NEWLINE][ICON_BULLET]+10% [ICON_RESEARCH] Science during [ICON_GOLDEN_AGE] Golden Ages.'
--- WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP';
+-- SOVEREIGNTY  (Emancipation)
+UPDATE Language_en_US
+SET Text = Text || '[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_3] Happiness from every Virtual Museum and Brain Uploading Facility.'
+WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP';
 
 -- -- Civil Society
 -- UPDATE Language_en_US

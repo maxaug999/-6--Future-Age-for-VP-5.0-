@@ -1982,8 +1982,8 @@
     <File md5="2F8BFF6F4A099AB9B1BF1F4A2740016F" import="0">XML/ResourceIcons.xml</File>
     <File md5="2F8BDD6Z4A099AB1B1BF1F4A1540099F" import="0">XML/Resources.sql</File>
     <File md5="98EF605A7A6B607A149C707EF7715C99" import="0">XML/TechTreeAdjustment.sql</File>
-    <File md5="498FBFCA5A6E669BF397752D942F4030" import="0">XML/Wonders.sql</File>
-    <File md5="B775A2265C39C9E33907731F246F7131" import="0">XML/FutureText.sql</File>
+    <File md5="76897E463245E3F10D57D98CB57AD359" import="0">XML/Wonders.sql</File>
+    <File md5="705935D5656D9F9477A04BF4AECD9657" import="0">XML/FutureText.sql</File>
 
     <File md5="MC495115B209658C585382DAD65F75FE" import="1">VP_Imagechange/Mobileartillery/3DModel/M109SKorea.fxsxml</File>
     <File md5="MA9658DE06ECA4DFE4483A1047F741FE" import="1">VP_Imagechange/Mobileartillery/3DModel/M109SKorea.gr2</File>

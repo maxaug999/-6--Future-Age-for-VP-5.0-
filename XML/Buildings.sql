@@ -643,7 +643,7 @@ SET NeverCapture = 1,
 	CapitalsToVotes = 1,
 	SpecialistType = 'SPECIALIST_CIVIL_SERVANT',
 	GreatPeopleRateChange = 1,
-	TrainedFreePromotion = 'PROMOTION_FW_COMBAT_LINK',
+	FreePromotion = 'PROMOTION_FW_COMBAT_LINK',
 	ArtDefineTag = (SELECT ArtDefineTag FROM Buildings WHERE Type = 'BUILDING_HALL_OF_HONOR'),
 	PortraitIndex = 2,
 	IconAtlas = 'CIV_COLOR_ATLAS_FW_LINKS'

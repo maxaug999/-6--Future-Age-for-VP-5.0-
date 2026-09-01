@@ -826,8 +826,8 @@
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>3</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_FW_ENHANCED_MERCENARIES</UnitArtInfo>
-			<PortraitIndex>19</PortraitIndex>
-			<IconAtlas>BM_ALIENS_CIV_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_ICONS</IconAtlas>
 			<UnitFlagAtlas>MERC_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 		</Row>
@@ -864,8 +864,8 @@
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>3</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_FW_BIO_MERCENARIES</UnitArtInfo>
-			<PortraitIndex>20</PortraitIndex>
-			<IconAtlas>BM_ALIENS_CIV_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_ICONS</IconAtlas>
 			<UnitFlagAtlas>MERC_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 		</Row>
@@ -1717,8 +1717,8 @@
 			<UnitArtInfo>ART_DEF_UNIT_FW_ADV_GUNBOAT</UnitArtInfo>
 			<UnitFlagAtlas>CIV_FUTURE_FLAG_1</UnitFlagAtlas>
 			<UnitFlagIconOffset>41</UnitFlagIconOffset>
-			<IconAtlas>CIV_COLOR_ATLAS_IMPERIAL</IconAtlas>
-			<PortraitIndex>16</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_ICONS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
 		</Row>
 		<Row>
@@ -2734,8 +2734,8 @@
 			<XPValueDefense>2</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_MISSILE</UnitArtInfo>
 			<UnitFlagIconOffset>82</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
-			<PortraitIndex>35</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_ICONS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 		</Row>
 		<Row>
@@ -2769,8 +2769,8 @@
 			<XPValueDefense>2</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_MISSILE</UnitArtInfo>
 			<UnitFlagIconOffset>82</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
-			<PortraitIndex>35</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_ICONS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 		</Row>
 

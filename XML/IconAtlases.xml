@@ -524,5 +524,41 @@
 			<IconsPerRow>2</IconsPerRow>
 			<IconsPerColumn>2</IconsPerColumn>
 		</Row>
+
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_ICONS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>FW_IconsAtlas256.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_ICONS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>FW_IconsAtlas128.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_ICONS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>FW_IconsAtlas80.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_ICONS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>FW_IconsAtlas64.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_ICONS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>FW_IconsAtlas45.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
 	</IconTextureAtlases>
 </GameData>

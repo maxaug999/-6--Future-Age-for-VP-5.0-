@@ -118,7 +118,7 @@ WHERE Type = 'BUILDING_HUBBLE';
 -- Apex Centre
 --------------------------------------------
 UPDATE Buildings
-SET SpecialistType = 'SPECIALIST_CIVIL_SERVANT', SpecialistCount = 2, GreatPeopleRateChange = 2, EspionageModifier = -20
+SET SpecialistType = 'SPECIALIST_CIVIL_SERVANT', SpecialistCount = 2, GreatPeopleRateChange = 2, EspionageModifier = -20, ExtraSpies = 150
 WHERE Type = 'BUILDING_FW_APEX_CENTRE';
 
 ----------------------------------------------
@@ -170,7 +170,8 @@ VALUES
 	('BUILDING_FW_CITADEL_STATION', 'YIELD_FAITH',   100),
 	('BUILDING_FW_CITADEL_STATION', 'YIELD_SCIENCE', 100),
 	('BUILDING_FW_CITADEL_STATION', 'YIELD_GOLD', 	 100),
-	('BUILDING_FW_APEX_CENTRE', 	'YIELD_FAITH', 	 75);
+	('BUILDING_FW_APEX_CENTRE', 	'YIELD_FAITH', 	 75),
+	('BUILDING_FW_APEX_CENTRE', 	'YIELD_PRODUCTION',75);
 
 ----------------------------------------------
 -- Pholus Mutagen
@@ -616,7 +617,7 @@ VALUES
 	('BUILDING_FW_ASTEROID_MINING_1', 	'RESOURCE_ALUMINUM', 		3),
 	('BUILDING_FW_ASTEROID_MINING_1', 	'RESOURCE_IRON', 			2),
 	('BUILDING_FW_ASTEROID_MINING_1', 	'RESOURCE_NANOMAT', 		1),
-	('BUILDING_FW_APEX_CENTRE', 		'RESOURCE_PAPER', 			2),
+	('BUILDING_FW_APEX_CENTRE', 		'RESOURCE_PAPER', 			3),
 	('BUILDING_FW_APEX_CENTRE', 		'RESOURCE_IMPLANT', 		3);
 
 
@@ -734,24 +735,24 @@ VALUES
 --------------------------------	
 -- Building_YieldPerAlly
 --------------------------------	
-INSERT INTO Building_YieldPerAllyTimes100
-			(BuildingType,						YieldType,			Yield)
-VALUES		('BUILDING_FW_APEX_CENTRE',			'YIELD_FAITH',		100),
-			('BUILDING_FW_APEX_CENTRE',			'YIELD_CULTURE',	100);
+-- INSERT INTO Building_YieldPerAllyTimes100
+-- 			(BuildingType,							YieldType,			Yield)
+-- VALUES	('BUILDING_FW_APEX_CENTRE',		'YIELD_FAITH',		100),
+-- 			('BUILDING_FW_APEX_CENTRE',		'YIELD_CULTURE',	100);
 
 
 ------------------------
 -- Flavors
 ------------------------
 INSERT INTO Building_Flavors (BuildingType, FlavorType, Flavor) VALUES
-('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_CULTURE',      		5),
+('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_PRODUCTION',      	5),
 ('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_OFFENSE',      		5),
 ('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_MILITARY_TRAINING', 5),
 ('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_WONDER',      		25),
-('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_RELIGION',      	30),
-('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_ESPIONAGE',      	35),
-('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_GREAT_PEOPLE',      35),
-('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_DIPLOMACY',      	80),
+('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_RELIGION',      	25),
+('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_GREAT_PEOPLE',     40),
+('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_ESPIONAGE',      	80),
+('BUILDING_FW_APEX_CENTRE',  			'FLAVOR_DIPLOMACY',      	100),
 ('BUILDING_FW_DIGITAL_EMANCIPATION',  	'FLAVOR_WONDER',      		25),
 ('BUILDING_FW_DIGITAL_EMANCIPATION',  	'FLAVOR_SCIENCE',      		35),
 ('BUILDING_FW_DIGITAL_EMANCIPATION',  	'FLAVOR_CULTURE',      		35),

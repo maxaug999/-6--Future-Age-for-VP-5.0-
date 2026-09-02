@@ -227,10 +227,9 @@ WHERE Type = 'BUILDING_FW_ANGELNET';
 
 ----------------------------------------------
 -- Project Utopia - Citizen Earth Protocol - Cultural Victory
---  TechPrereq = 'TECH_HOMO_SUPERIOR'
 ----------------------------------------------
 UPDATE Projects
-SET Cost = 40000
+SET Cost = 40000, TechPrereq = 'TECH_HOMO_SUPERIOR'
 WHERE Type = 'PROJECT_UTOPIA_PROJECT';
 
 ----------------------------------------------

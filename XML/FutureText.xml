@@ -469,10 +469,10 @@
 			<Text>The Supersoldier is a concept soldier, often capable of operating beyond normal human limits or abilities either through genetic modification, implants or cybernetic augmentation. Supersoldiers are common in military science fiction literature, films, and video games. Fictional supersoldiers are usually heavily augmented, either through surgical means, eugenics, genetic engineering, cybernetic implants, drugs, brainwashing, traumatic events, an extreme training regimen or other scientific and pseudoscientific means. In entertainment, the creators of such programs are viewed often as mad scientists or stern military personnel depending on the emphasis, as their programs would typically go past ethical boundaries in the pursuit of science or military might.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_SUPERSOLDIERS_STRATEGY">
-			<Text>Super Soldiers are an important guerrilla infiltration force capable of entering enemy territory. They are spotted by scout drone units, destroyers, and submarines, and can be detected if they attack or come right next to another unit. You can secretly approach other units to inflict great damage, infiltrate enemy territory and destroy facilities, destroy great people, or interfere with the movement of ship parts.</Text>
+			<Text>Super Soldiers are a futuristic infantry unit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_SUPERSOLDIERS_HELP">
-			<Text>Super Soldiers are an important guerrilla infiltration force capable of entering enemy territory. [COLOR_PLAYER_PURPLE] Chameleon [ENDCOLOR] There is an upgrade, so you can't be detected by enemies. They are detected if they attack, are in line of sight of a detectable unit, or are directly next to another unit. You can disrupt enemy territory by invading it.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_ORBITAL_DROP_SHOCK_TROOPER">
 			<Text>Orbital Drop Shock Trooper</Text>

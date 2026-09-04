@@ -9,11 +9,11 @@ INSERT INTO Defines (Name, Value) SELECT 'FW_SPACE_COLONIST_FOOD_PERCENT', '50';
 ---------------------------------------------------------
 -- Special unit -- Add special cargo for Air Land Carrier only -- CAYM EDITED
 ---------------------------------------------------------
-INSERT INTO SpecialUnits (	Type, 						Description,						Valid,	CityLoad)								
-SELECT						'SPECIALUNIT_SPACESHIP',	'TXT_KEY_SPECIALUNIT_SPACESHIP',	1,		1	;
+-- INSERT INTO SpecialUnits (	Type, 						Description,						Valid,	CityLoad)								
+-- SELECT						'SPECIALUNIT_SPACESHIP',	'TXT_KEY_SPECIALUNIT_SPACESHIP',	1,		1	;
 
-INSERT INTO SpecialUnit_CarrierUnitAI (	SpecialUnitType, 			UnitAIType)
-SELECT									'SPECIALUNIT_SPACESHIP',	'UNITAI_CARRIER_SEA'	;
+-- INSERT INTO SpecialUnit_CarrierUnitAI (	SpecialUnitType, 			UnitAIType)
+-- SELECT									'SPECIALUNIT_SPACESHIP',	'UNITAI_CARRIER_SEA'	;
 
 -------------------------------------
 -- ArtDefines 

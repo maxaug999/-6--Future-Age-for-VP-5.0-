@@ -475,7 +475,7 @@
 			<Cost>2900</Cost>
 			<FaithCost>1800</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>6</Moves>
+			<Moves>7</Moves>
 			<Range>1</Range>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<HurryCostModifier>20</HurryCostModifier>
@@ -1054,7 +1054,7 @@
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>3</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
-			<Special>SPECIALUNIT_SPACESHIP</Special>
+			<!-- <Special>SPECIALUNIT_SPACESHIP</Special> -->
 			<Immobile>true</Immobile>
 			<Range>14</Range>
 			<AirInterceptRange>13</AirInterceptRange>
@@ -1102,7 +1102,7 @@
 			<Civilopedia>TXT_KEY_UNIT_FW_PLASMA_BOMBER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_PLASMA_BOMBER_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_FW_PLASMA_BOMBER_HELP</Help>
-			<Special>SPECIALUNIT_SPACESHIP</Special>
+			<!-- <Special>SPECIALUNIT_SPACESHIP</Special> -->
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
@@ -1130,7 +1130,7 @@
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>3</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
-			<Special>SPECIALUNIT_SPACESHIP</Special>
+			<!-- <Special>SPECIALUNIT_SPACESHIP</Special> -->
 			<Immobile>true</Immobile>
 			<Range>16</Range>
 			<AirInterceptRange>14</AirInterceptRange>
@@ -1177,7 +1177,7 @@
 			<Civilopedia>TXT_KEY_UNIT_FW_SPACE_BOMBER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_SPACE_BOMBER_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_FW_SPACE_BOMBER_HELP</Help>
-			<Special>SPECIALUNIT_SPACESHIP</Special>
+			<!-- <Special>SPECIALUNIT_SPACESHIP</Special> -->
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
@@ -1271,7 +1271,7 @@
 			<Cost>3800</Cost>
 			<FaithCost>2000</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>7</Moves>
+			<Moves>8</Moves>
 			<Range>1</Range>
 			<IsMounted>1</IsMounted>
 			<Mechanized>true</Mechanized>
@@ -1307,7 +1307,7 @@
 			<Cost>4350</Cost>
 			<FaithCost>2250</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>8</Moves>
+			<Moves>9</Moves>
 			<Range>1</Range>
 			<IsMounted>1</IsMounted>
 			<Mechanized>true</Mechanized>
@@ -1504,6 +1504,7 @@
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>3</Moves>
 			<Range>3</Range>
+			<BaseSightRange>1</BaseSightRange>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1541,6 +1542,7 @@
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>4</Moves>
 			<Range>3</Range>
+			<BaseSightRange>1</BaseSightRange>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1621,7 +1623,6 @@
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<!-- <Domain>DOMAIN_HOVER</Domain>  -->
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_HELICARRIER</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_HELICARRIER_TEXT</Civilopedia>
@@ -1636,7 +1637,7 @@
 			<MinAreaSize>10</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
-			<SpecialCargo>SPECIALUNIT_SPACESHIP</SpecialCargo>
+			<!-- <SpecialCargo>SPECIALUNIT_SPACESHIP</SpecialCargo> -->
 			<DomainCargo>DOMAIN_AIR</DomainCargo>		
 			<UnitArtInfo>ART_DEF_UNIT_NAVALCARRIER03S</UnitArtInfo>
 			<UnitFlagAtlas>CIV_FUTURE_FLAG_1</UnitFlagAtlas>
@@ -1882,11 +1883,10 @@
 			<Cost>2250</Cost>
 			<FaithCost>1800</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>5</Moves>
+			<Moves>6</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<!-- <Domain>DOMAIN_HOVER</Domain> -->
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_MODERN_DRONE</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_MODERN_DRONE_TEXT</Civilopedia>
@@ -1920,7 +1920,6 @@
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<!-- <Domain>DOMAIN_HOVER</Domain> -->
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_HYBRID_DRONE</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_HYBRID_DRONE_TEXT</Civilopedia>
@@ -1955,7 +1954,6 @@
 			<BaseSightRange>5</BaseSightRange>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<!-- <Domain>DOMAIN_HOVER</Domain> -->
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_BIODRONE</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_BIODRONE_TEXT</Civilopedia>
@@ -2156,6 +2154,7 @@
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>4</Moves>
 			<Range>4</Range>
+			<BaseSightRange>2</BaseSightRange>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -2518,7 +2517,6 @@
 			<BaseSightRange>3</BaseSightRange>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<!-- <Domain>DOMAIN_HOVER</Domain> -->
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_NANOHIVE</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_NANOHIVE_TEXT</Civilopedia>
@@ -2558,9 +2556,7 @@
 			<ExtraMaintenanceCost>5</ExtraMaintenanceCost>
 			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<!-- <Domain>DOMAIN_HOVER</Domain> -->
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
-			<!-- <DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI> -->
 			<Description>TXT_KEY_UNIT_FW_NEXUS</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_NEXUS_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_NEXUS_STRATEGY</Strategy>
@@ -2574,7 +2570,7 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>7</Conscription>
-			<SpecialCargo>SPECIALUNIT_SPACESHIP</SpecialCargo>
+			<!-- <SpecialCargo>SPECIALUNIT_SPACESHIP</SpecialCargo> -->
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_FW_NEXUS</UnitArtInfo>
 			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_5</UnitFlagAtlas>
@@ -2598,7 +2594,6 @@
 			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<!-- <Domain>DOMAIN_HOVER</Domain> -->
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_MEGAHIVE</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_MEGAHIVE_TEXT</Civilopedia>
@@ -3804,7 +3799,7 @@
 		<Row>
 			<UnitType>UNIT_FW_VERTOL</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>24</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_HOVERTANK</UnitType>
@@ -3819,7 +3814,7 @@
 		<Row>
 			<UnitType>UNIT_FW_HOVERTANK</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>24</Flavor>
+			<Flavor>30</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
@@ -4955,6 +4950,7 @@
 		<Row>
 			<UnitType>UNIT_FW_HYDRA</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>2</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_MECHASUB</UnitType>
@@ -5019,6 +5015,7 @@
 		<Row>
 			<UnitType>UNIT_FW_NEXUS</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>2</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_NEXUS</UnitType>

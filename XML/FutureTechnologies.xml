@@ -2484,6 +2484,11 @@
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+		<Row>
+			<TechType>TECH_SMART_MATERIALS</TechType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
 
 		<Row>
 			<TechType>TECH_PROMETHEUS_PROGRAM</TechType>
@@ -2768,7 +2773,7 @@
 		<Row>
 			<TechType>TECH_SMART_MATERIALS</TechType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>15</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_SMART_MATERIALS</TechType>
@@ -2790,11 +2795,11 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<TechType>TECH_SMART_MATERIALS</TechType>
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
 			<Flavor>25</Flavor>
-		</Row>
+		</Row> -->
 
 		<Row>
 			<TechType>TECH_ENERGY_THEORY</TechType>

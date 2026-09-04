@@ -97,12 +97,12 @@ WHERE Tag = 'TXT_KEY_POLICY_MERCANTILISM_HELP';
 -- Buidings
 --===========================
 INSERT INTO Language_en_US (Tag, Text) VALUES
+('TXT_KEY_BUILDING_FW_GENERIC_HELP', ""),
 -- Server Hub
 ('TXT_KEY_BUILDING_FW_SERVER_HUB', 'Server Hub'),
 ('TXT_KEY_BUILDING_FW_SERVER_HUB_HELP', 'Server Hub is a vital building for the Future Era.[NEWLINE]Server Hubs generate additional yields as diverse [COLOR_MAGENTA]Policies[ENDCOLOR] are unlocked.'),
 ('TXT_KEY_BUILDING_FW_SERVER_HUB_STRATEGY', 'Build a Server Hub to to later be able to specialize into an unique category.'),
 ('TXT_KEY_BUILDING_FW_SERVER_HUB_PEDIA', 'While computers have helped facilitate business, scientific research, and industrial development by being able to perform many accounting and scientific tasks, it is the act of networking them together that has truly lead to the Information Age, by making immense amounts of data available to virtually everyone. While computer networks have grown increasingly sophisticated and complex, the earliest ones were based around hubs of servers that users could access and share data through.'),
-
 -- Genemod Lab
 ('TXT_KEY_BUILDING_FW_GENE_LAB', 'Genemod Lab'),
 ('TXT_KEY_BUILDING_FW_GENE_LAB_HELP', "+2 [ICON_FOOD] Food from [ICON_RES_COW][ICON_RES_DEER][ICON_RES_BISON][ICON_RES_HORSE][ICON_RES_SHEEP][ICON_RES_FISH][ICON_RES_CRAB][ICON_RES_WHALE][ICON_RES_FIGS].[NEWLINE][NEWLINE]Also gives +15% Population Growth.[NEWLINE][NEWLINE]Internal [ICON_FOOD] Food [ICON_INTERNATIONAL_TRADE] Trade Routes from this City generate +4 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires [COLOR_NEGATIVE_TEXT]1[ENDCOLOR] [ICON_RES_HORSE] Horse for animal testing."),
@@ -486,7 +486,7 @@ INSERT INTO Language_en_US (Tag, Text) VALUES
 ('TXT_KEY_BUILDING_FW_ALLOY_FOUNDRY_PEDIA', "Once a means to produce superheavy elements was discovered, it was inevitable that they would be put to industrial use. The enormous quantities of energy, as well as the precision equipment required to control the conditions of their manufacture made these facilities rare, however.  They required a dedicated fusion reactor at the very least, and often utilized existing heavy elements such as uranium to make the process of synthesizing superheavy nuclei easier. The materials that they produced, however, were almost indestructible, and enabled the creation of some of the largest and most impressive artificial constructs mankind has ever achieved."),
 -- Utility Fog Generator
 ('TXT_KEY_BUILDING_FW_UTILITY_FOG', 'Utility Fog Generator'),
-('TXT_KEY_BUILDING_FW_UTILITY_FOG_HELP', "Increases the City's [ICON_RANGE_STRENGTH] Ranged Strike Range by 1, City Defense and HP. All buildings in the City are constructed 20% faster.[NEWLINE][NEWLINE]Produces 1 of each [ICON_RES_NANOMAT], [ICON_RES_IMPLANT] and [ICON_RES_ADN_FUNGUS].[NEWLINE][NEWLINE]Garrisoned Units receive an additional [COLOR_POSITIVE_TEXT]10[ENDCOLOR] Health when healing in this City.[NEWLINE][NEWLINE][ICON_CITY_STATE] Empire Size Modifier is reduced by 5% in this City.[NEWLINE][NEWLINE]Buildings and Wonders are constructed [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] faster."),
+('TXT_KEY_BUILDING_FW_UTILITY_FOG_HELP', "Increases the City's [ICON_RANGE_STRENGTH] Ranged Strike Range by 1, City Defense and HP. All buildings in the City are constructed 20% faster.[NEWLINE][NEWLINE]Garrisoned Units receive an additional [COLOR_POSITIVE_TEXT]10[ENDCOLOR] Health when healing in this City.[NEWLINE][NEWLINE][ICON_CITY_STATE] Empire Size Modifier is reduced by 5% in this City.[NEWLINE][NEWLINE]Buildings and Wonders are constructed [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] faster."),
 ('TXT_KEY_BUILDING_FW_UTILITY_FOG_STRATEGY', "Last bastion to greatly increases City's Defense and Ranged Strike. Costly, but gives all Future Era Strategic resources possible. Buildings and Wonders are constructed 20% faster."),
 ('TXT_KEY_BUILDING_FW_UTILITY_FOG_PEDIA', "Increasingly sophisticated and intelligent nanomachines allowed the development of utility fogs -- collections of tiny robots that can bind together to replicate physical structures.  Initially they were conceived for protective purposes, remaining in a loose and fluid state until a sudden impact stimulated them to bind together, spreading impacts across a broad surface. However, they can also be used to produce any physical object, or even transport individuals from place to place."),
 -- Moon Base
@@ -768,8 +768,8 @@ UPDATE Language_en_US
 SET Text = "Humanity's desire for exploration and intellectual curiosity has led them beyond the earth and into space. The Prometheus Space Program is a key institution that represents humanity's instinct to explore space. This plan is the fruit of mankind's dream of interstellar travel to our solar system's closest star, Alpha Centauri. To realize that goal, the Prometheus program is leading humanity's advance into space by conducting activities in various fields such as research, technology development, and spacecraft manufacturing. The background of this birth began with the space race that began in the mid-20th century. During this time, each country devoted its energy to space research to show off its national power and secure technological prowess. And as a result of this research, we have developed technologies to send humans to the moon, explore Mars, and send spacecraft to the nearest star, Alpha Centauri. However, these technologies are not purely scientific. Expanding our living space has become an important goal due to various problems on the planet, such as climate change, resource scarcity, and overpopulation. The Prometheus space program is an important step toward realizing this goal, leading humanity's foray into space. Today, it plays an important role in researching the possibilities of interstellar travel, developing the technology needed to expand humanity's space presence, and preparing for the first interstellar journey to Alpha Centauri. These efforts will expand our knowledge, explore new possibilities, and eventually enable humanity to enter space."
 WHERE Tag = 'TXT_KEY_PROJECT_APOLLO_PROGRAM_PEDIA';
 
-INSERT INTO Language_en_US (Tag, Text) VALUES
-('TXT_KEY_SPECIALUNIT_SPACESHIP', 'Spaceship');
+-- INSERT INTO Language_en_US (Tag, Text) VALUES
+-- ('TXT_KEY_SPECIALUNIT_SPACESHIP', 'Spaceship');
 
 -- UPDATE Language_en_US
 -- SET Text = 'Self-Propelled Gun'

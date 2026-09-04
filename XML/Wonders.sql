@@ -1,4 +1,4 @@
-﻿----------------------------------------------------
+----------------------------------------------------
 -- Generic info
 ----------------------------------------------------
 INSERT INTO Buildings (Type, PrereqTech, Cost, ArtDefineTag, PortraitIndex, IconAtlas, NukeImmune, NumPoliciesNeeded, WonderSplashImage, WonderSplashAnchor) VALUES

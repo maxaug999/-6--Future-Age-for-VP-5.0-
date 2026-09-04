@@ -1,4 +1,4 @@
-﻿----------------------------------------------------
+----------------------------------------------------
 -- Generic info
 ----------------------------------------------------
 INSERT INTO Buildings (Type, 			PrereqTech, 						Cost, ArtDefineTag, 			 PortraitIndex, IconAtlas) VALUES
@@ -1633,7 +1633,7 @@ VALUES
 	('POLICY_POLICE_STATE', 		'BUILDINGCLASS_FW_CYBERPOLICE', 			100),
 	('POLICY_POLICE_STATE', 		'BUILDINGCLASS_FW_DIGITAL_POLICE', 		100);
 
--- Mass Education (Humanism) â€” same Public School bonuses
+-- Mass Education (Humanism) - same Public School bonuses
 INSERT INTO Policy_BuildingClassYieldChanges (PolicyType, BuildingClassType, YieldType, YieldChange)
 SELECT DISTINCT PolicyType, 'BUILDINGCLASS_FW_ONLINE_SCHOOL', YieldType, YieldChange
 FROM Policy_BuildingClassYieldChanges WHERE PolicyType = 'POLICY_HUMANISM' AND BuildingClassType = 'BUILDINGCLASS_PUBLIC_SCHOOL';

@@ -4940,7 +4940,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_ENHANCED_MERCENARIES</UnitType>
-			<ResourceType>RESOURCE_IMPLANTS</ResourceType>
+			<ResourceType>RESOURCE_IMPLANT</ResourceType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_BIO_MERCENARIES</UnitType>

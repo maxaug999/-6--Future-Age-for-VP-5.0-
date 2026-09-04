@@ -156,7 +156,7 @@
 			<Help>TXT_KEY_IMPROVEMENT_FW_PRESERVE_HELP</Help>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_FW_PRESERVE</ArtDefineTag>
 			<PillageGold>11</PillageGold>
-			<RequiresFeature>true</RequiresFeature>
+			<RequiresFeature>false</RequiresFeature>
 			<NoTwoAdjacent>false</NoTwoAdjacent>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>FW_IMPROVEMENTS_ATLAS</IconAtlas>

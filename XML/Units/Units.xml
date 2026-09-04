@@ -2304,11 +2304,11 @@
 		<Row>
 			<Class>UNITCLASS_FW_ORBITAL_DROP_SHOCK_TROOPER</Class>
 			<Type>UNIT_FW_ORBITAL_DROP_SHOCK_TROOPER</Type>
-			<PrereqTech>TECH_ASTRODYNAMICS</PrereqTech>
-			<Combat>95</Combat>
-			<BaseLandAirDefense>18</BaseLandAirDefense>
-			<Cost>3000</Cost>
-			<FaithCost>2000</FaithCost>
+			<PrereqTech>TECH_ADAMANTIUM</PrereqTech>
+			<Combat>125</Combat>
+			<BaseLandAirDefense>25</BaseLandAirDefense>
+			<Cost>3450</Cost>
+			<FaithCost>2250</FaithCost>
 			<BaseSightRange>3</BaseSightRange>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>3</Moves>
@@ -3345,15 +3345,11 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_ORBITAL_DROP_SHOCK_TROOPER</UnitType>
-			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_ORBITAL_DROP_SHOCK_TROOPER</UnitType>
 			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_ORBITAL_DROP_SHOCK_TROOPER</UnitType>
-			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
@@ -4831,7 +4827,7 @@
 			<ResourceType>RESOURCE_NANOMAT</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<UnitType>UNIT_FW_ORBITAL_DROP_SHOCK_TROOPER</UnitType>
 			<ResourceType>RESOURCE_NANOMAT</ResourceType>
 		</Row>
 		<Row>
@@ -5216,14 +5212,14 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_AIRBORNE_FORCES</UnitType>
-			<UnitClassType>UNITCLASS_FW_ORBITAL_DROP_SHOCK_TROOPER</UnitClassType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_ORBITAL_DROP_SHOCK_TROOPER</UnitType>
 			<UnitClassType>UNITCLASS_XCOM_SQUAD</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<UnitClassType>UNITCLASS_FW_ORBITAL_DROP_SHOCK_TROOPER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ORBITAL_DROP_SHOCK_TROOPER</UnitType>
 			<UnitClassType>UNITCLASS_FW_SPACEMARINES</UnitClassType>
 		</Row>
 		<Row>

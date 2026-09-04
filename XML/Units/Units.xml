@@ -757,7 +757,7 @@
 			<Type>UNIT_FW_ELITE_MERCENARIES</Type>
 			<Class>UNITCLASS_FW_ELITE_MERCENARIES</Class>
 			<PrereqTech>TECH_GEN_MANIP</PrereqTech>
-			<ObsoleteTech>TECH_ORGANICS</ObsoleteTech>
+			<!-- <ObsoleteTech>TECH_ORGANICS</ObsoleteTech> -->
 			<Description>TXT_KEY_UNIT_FW_ELITE_MERCENARIES</Description>
 			<Civilopedia>TXT_KEY_CIV5_GUERILLA_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_GUERILLA_STRATEGY</Strategy>
@@ -796,7 +796,7 @@
 			<Type>UNIT_FW_ENHANCED_MERCENARIES</Type>
 			<Class>UNITCLASS_FW_ENHANCED_MERCENARIES</Class>
 			<PrereqTech>TECH_ORGANICS</PrereqTech>
-			<ObsoleteTech>TECH_HUMAN_AUGMENTATION</ObsoleteTech>
+			<!-- <ObsoleteTech>TECH_HUMAN_AUGMENTATION</ObsoleteTech> -->
 			<Description>TXT_KEY_UNIT_FW_ENHANCED_MERCENARIES</Description>
 			<Civilopedia>TXT_KEY_CIV5_GUERILLA_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_GUERILLA_STRATEGY</Strategy>
@@ -2013,7 +2013,7 @@
 			<Cost>3950</Cost>
 			<FaithCost>2250</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>3</Moves>
+			<Moves>4</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -2311,7 +2311,7 @@
 			<FaithCost>2250</FaithCost>
 			<BaseSightRange>3</BaseSightRange>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>3</Moves>
+			<Moves>4</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -3700,7 +3700,7 @@
 		<Row>
 			<UnitType>UNIT_FW_ENHANCED_MERCENARIES</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_BIO_MERCENARIES</UnitType>
@@ -3715,7 +3715,7 @@
 		<Row>
 			<UnitType>UNIT_FW_BIO_MERCENARIES</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
@@ -4938,6 +4938,15 @@
 			<UnitType>UNIT_FW_BIODRONE</UnitType>
 			<ResourceType>RESOURCE_NANOMAT</ResourceType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ENHANCED_MERCENARIES</UnitType>
+			<ResourceType>RESOURCE_IMPLANTS</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIO_MERCENARIES</UnitType>
+			<ResourceType>RESOURCE_ADN_FUNGUS</ResourceType>
+		</Row>
+		
 		<Row>
 			<UnitType>UNIT_FW_HYDRA</UnitType>
 			<ResourceType>RESOURCE_ADN_FUNGUS</ResourceType>

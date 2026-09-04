@@ -519,7 +519,7 @@
 			<Civilopedia>TXT_KEY_TECH_FW_HOMO_SUPERIOR_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_HOMO_SUPERIOR_HELP</Help>
 			<Era>ERA_FW_FUTURE</Era>
-            <InfluenceSpreadModifier>100</InfluenceSpreadModifier>
+			<InfluenceSpreadModifier>100</InfluenceSpreadModifier>
 			<Trade>true</Trade>
 			<GridX>24</GridX>
 			<GridY>2</GridY>
@@ -2899,11 +2899,11 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>40</Flavor>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<TechType>TECH_HOMO_SUPERIOR</TechType>
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
 			<Flavor>30</Flavor>
-		</Row>
+		</Row> -->
 		<Row>
 			<TechType>TECH_HOMO_SUPERIOR</TechType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -2964,7 +2964,7 @@
 		<Row>
 			<TechType>TECH_SPACE_COLONIZATION</TechType>
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
-			<Flavor>30</Flavor>
+			<Flavor>60</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_SPACE_COLONIZATION</TechType>

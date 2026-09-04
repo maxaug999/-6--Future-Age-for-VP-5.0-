@@ -2897,7 +2897,7 @@
 		<Row>
 			<TechType>TECH_HOMO_SUPERIOR</TechType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>40</Flavor>
+			<Flavor>60</Flavor>
 		</Row>
 		<!-- <Row>
 			<TechType>TECH_HOMO_SUPERIOR</TechType>

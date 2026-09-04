@@ -687,17 +687,17 @@
 		<Row>
 			<Type>UNIT_FW_CLONETROOPER</Type>
 			<Class>UNITCLASS_FW_CLONETROOPER</Class>
-			<PrereqTech>TECH_CLONING</PrereqTech>
+			<PrereqTech>TECH_EUTHENICS</PrereqTech>
 			<Description>TXT_KEY_UNIT_FW_CLONETROOPER</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_CLONETROOPER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_CLONETROOPER_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_FW_CLONETROOPER_HELP</Help>
-			<Combat>145</Combat>
-			<BaseLandAirDefense>25</BaseLandAirDefense>
-			<Cost>4000</Cost>
-			<FaithCost>2250</FaithCost>
+			<Combat>125</Combat>
+			<BaseLandAirDefense>23</BaseLandAirDefense>
+			<Cost>3200</Cost>
+			<FaithCost>1800</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>4</Moves>
+			<Moves>3</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<Immobile>0</Immobile>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
@@ -709,7 +709,7 @@
 			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Suicide>0</Suicide>
 			<HurryCostModifier>0</HurryCostModifier>
-			<AdvancedStartCost>50</AdvancedStartCost>
+			<AdvancedStartCost>60</AdvancedStartCost>
 			<CombatLimit>100</CombatLimit>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -872,18 +872,18 @@
 		<Row>
 			<Type>UNIT_FW_SUPERSOLDIERS</Type>
 			<Class>UNITCLASS_FW_SUPERSOLDIERS</Class>
-			<PrereqTech>TECH_EUTHENICS</PrereqTech>
+			<PrereqTech>TECH_CLONING</PrereqTech>
 			<Description>TXT_KEY_UNIT_FW_SUPERSOLDIERS</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_SUPERSOLDIERS_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_SUPERSOLDIERS_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_FW_SUPERSOLDIERS_HELP</Help>
-			<Combat>125</Combat>
-			<BaseLandAirDefense>23</BaseLandAirDefense>
-			<Cost>3200</Cost>
+			<Combat>145</Combat>
+			<BaseLandAirDefense>25</BaseLandAirDefense>
+			<Cost>4000</Cost>
 			<!-- <PolicyType>POLICY_ELITE_FORCES</PolicyType> -->
-			<FaithCost>1800</FaithCost>
+			<FaithCost>2250</FaithCost>
 			<RequiresFaithPurchaseEnabled>1</RequiresFaithPurchaseEnabled>
-			<Moves>3</Moves>
+			<Moves>4</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -894,7 +894,7 @@
 			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
 			<Suicide>0</Suicide>
 			<HurryCostModifier>0</HurryCostModifier>
-			<AdvancedStartCost>60</AdvancedStartCost>
+			<AdvancedStartCost>50</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>7</Conscription>
@@ -4065,17 +4065,17 @@
 		<Row>
 			<UnitType>UNIT_FW_SUPERSOLDIERS</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_SUPERSOLDIERS</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>22</Flavor>
+			<Flavor>21</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_SUPERSOLDIERS</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>14</Flavor>
+			<Flavor>25</Flavor>
 		</Row>
 		<!-- <Row>
 			<UnitType>UNIT_FW_AUTHORITY_SUPERSOLDIERS</UnitType>
@@ -4430,17 +4430,17 @@
 		<Row>
 			<UnitType>UNIT_FW_CLONETROOPER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>21</Flavor>
+			<Flavor>22</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_CLONETROOPER</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>14</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_CLONETROOPER</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>8</Flavor>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_MUTANT</UnitType>
@@ -4654,10 +4654,6 @@
 			<ResourceType>RESOURCE_ADN_FUNGUS</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FW_CLONETROOPER</UnitType>
-			<ResourceType>RESOURCE_IMPLANT</ResourceType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
 			<ResourceType>RESOURCE_IMPLANT</ResourceType>
 		</Row>
@@ -4817,6 +4813,10 @@
 		<Row>
 			<UnitType>UNIT_FW_SUPERSOLDIERS</UnitType>
 			<ResourceType>RESOURCE_ADN_FUNGUS</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUPERSOLDIERS</UnitType>
+			<ResourceType>RESOURCE_IMPLANT</ResourceType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
@@ -5091,8 +5091,8 @@
 			<UnitClassType>UNITCLASS_FW_POWER_ARMOR_INFANTRY</UnitClassType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FW_SUPERSOLDIERS</UnitType>
-			<UnitClassType>UNITCLASS_FW_CLONETROOPER</UnitClassType>
+			<UnitType>UNIT_FW_CLONETROOPER</UnitType>
+			<UnitClassType>UNITCLASS_FW_SUPERSOLDIERS</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_MUTANT</UnitType>

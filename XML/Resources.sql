@@ -234,16 +234,13 @@ VALUES
 -- VP Panel
 --=================
 
--- ���� ���ǵ� Helper ���̺��� ������ ����
 DROP TABLE IF EXISTS Helper;
 
--- ���ο� Helper ���̺� ����
 CREATE TEMP TABLE Helper (
     Priority INTEGER,
     ResourceType TEXT
 );
 
--- Helper ���̺��� �� ����
 INSERT INTO Helper
 VALUES
     (1, 'RESOURCE_HORSE'),
@@ -257,10 +254,8 @@ VALUES
     (9, 'RESOURCE_NANOMAT'),
     (10,'RESOURCE_IMPLANT');
 
--- Resources ���̺� ������Ʈ
 UPDATE Resources
 SET StrategicPriority = (SELECT Priority FROM Helper WHERE ResourceType = Type)
 WHERE EXISTS (SELECT 1 FROM Helper WHERE ResourceType = Type);
 
--- �ӽ� Helper ���̺� ����
 DROP TABLE Helper;

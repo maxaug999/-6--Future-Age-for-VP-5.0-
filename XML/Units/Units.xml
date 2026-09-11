@@ -1424,6 +1424,7 @@
 			<BaseLandAirDefense>50</BaseLandAirDefense>
 			<Cost>3900</Cost>
 			<FaithCost>1800</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<ExtraMaintenanceCost>3</ExtraMaintenanceCost>
 			<Moves>6</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
@@ -1462,6 +1463,7 @@
 			<BaseLandAirDefense>32</BaseLandAirDefense>
 			<Cost>3900</Cost>
 			<FaithCost>1800</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
 			<Moves>7</Moves>
 			<Range>3</Range>
@@ -1732,6 +1734,7 @@
 			<BaseLandAirDefense>60</BaseLandAirDefense>
 			<Cost>5000</Cost>
 			<FaithCost>2250</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
 			<Moves>7</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
@@ -1770,6 +1773,7 @@
 			<BaseLandAirDefense>50</BaseLandAirDefense>
 			<Cost>5000</Cost>
 			<FaithCost>2250</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
 			<Moves>7</Moves>
 			<Range>4</Range>
@@ -1808,6 +1812,7 @@
 			<BaseLandAirDefense>75</BaseLandAirDefense>
 			<Cost>5850</Cost>
 			<FaithCost>2400</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<ExtraMaintenanceCost>3</ExtraMaintenanceCost>
 			<Moves>8</Moves>
 			<PurchaseCooldown>1</PurchaseCooldown>
@@ -1846,6 +1851,7 @@
 			<BaseLandAirDefense>60</BaseLandAirDefense>
 			<Cost>5850</Cost>
 			<FaithCost>2400</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<ExtraMaintenanceCost>3</ExtraMaintenanceCost>
 			<Moves>8</Moves>
 			<Range>4</Range>

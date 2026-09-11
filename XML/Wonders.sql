@@ -4,7 +4,7 @@
 INSERT INTO Buildings (Type, PrereqTech, Cost, ArtDefineTag, PortraitIndex, IconAtlas, NukeImmune, NumPoliciesNeeded, WonderSplashImage, WonderSplashAnchor) VALUES
 ('BUILDING_FW_SKYTREE',     	  	 	'TECH_MEMETICS',     	   4000, 'ART_DEF_BUILDING_LABORATORY',  0,'BW_ATLAS_SKYTREE', 	  		1, 29, 		'SkyTree_splash.dds', 				'R,T'),
 ('BUILDING_FW_SHANGHAI_WFC', 		    'TECH_GLOBALIZATION', 	   3250, 'ART_DEF_BUILDING_LABORATORY',  1,'BW_ATLAS_CHINESE_NEW_YEAR', 1, 28, 		'SHANGHAI_WFC_splash.dds', 			'L,T'),
-('BUILDING_FW_NANO_INSTITUTE',    	 	'TECH_NANOTECHNOLOGY',     3750, 'ART_DEF_BUILDING_LABORATORY',  17,'CIV_COLOR_ATLAS_FW_2', 	1, 28, 		'SkyTree_splash_a.dds', 			'L,T'),
+('BUILDING_FW_NANO_INSTITUTE',    	 	'TECH_NANOMATERIALS',     3750, 'ART_DEF_BUILDING_LABORATORY',  17,'CIV_COLOR_ATLAS_FW_2', 	1, 28, 		'SkyTree_splash_a.dds', 			'L,T'),
 ('BUILDING_FW_GENE_VAULT', 				'TECH_FW_ECOTHEORY',       4500, 'ART_DEF_BUILDING_LABORATORY',  42,'CIV_COLOR_ATLAS_FW_3', 	1, 29, 		'GeneVault_Splash.dds',		 		'L,T'),
 ('BUILDING_FW_ECOPOLIS', 				'TECH_ARTIFICIAL_ENVIRONMENTS', 4500, 'ART_DEF_BUILDING_FW_GARDEN',  0,'CIV_COLOR_ATLAS_FW_ECOPOLIS', 	1, 29, 		'Ecopolis_Splash.dds',		 		'L,T'),
 ('BUILDING_FW_APEX_CENTRE',     	 	'TECH_IMPLANTS',           4500, 'ART_DEF_BUILDING_LABORATORY',  39,'CIV_COLOR_ATLAS_FW_3', 	1, 29, 		'ApexCentre_Splash.dds', 			'L,T'),

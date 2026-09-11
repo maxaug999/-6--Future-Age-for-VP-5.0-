@@ -1169,12 +1169,17 @@
 		<Row>
 			<TechType>TECH_NANOMATERIALS</TechType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_NANOMATERIALS</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_NANOMATERIALS</TechType>
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 
 		<Row>
@@ -1420,21 +1425,11 @@
 		<Row>
 			<TechType>TECH_NANOTECHNOLOGY</TechType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_NANOTECHNOLOGY</TechType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_NANOTECHNOLOGY</TechType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<!-- <Row>
 			<TechType>TECH_NANOTECHNOLOGY</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
 			<Flavor>5</Flavor>
 		</Row> -->
 

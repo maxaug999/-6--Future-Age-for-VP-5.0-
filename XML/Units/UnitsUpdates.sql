@@ -570,9 +570,9 @@ VALUES	('UNIT_FW_AUGMENTED_DIPLOMAT',	        'BUILDINGCLASS_FW_TELEPRESENCE_HUB
         ('UNIT_FW_HYDRA',                       'BUILDINGCLASS_FW_CLONE_LAB'),
         ('UNIT_FW_HYDRA',                       'BUILDINGCLASS_FW_ECTOGENESIS_POD'),
         ('UNIT_FW_HYDRA',                       'BUILDINGCLASS_FW_BIOMOD_TANK'),
-        ('UNIT_FW_TREX',                        'BUILDINGCLASS_FW_CLONE_LAB'),
-        ('UNIT_FW_TRICERATOPS',                 'BUILDINGCLASS_FW_CLONE_LAB'),
-        ('UNIT_FW_RAPTOR',                      'BUILDINGCLASS_FW_CLONE_LAB'),
+        ('UNIT_FW_TREX',                        'BUILDINGCLASS_FW_JURASSIC_PARK'),
+        ('UNIT_FW_TRICERATOPS',                 'BUILDINGCLASS_FW_JURASSIC_PARK'),
+        ('UNIT_FW_RAPTOR',                      'BUILDINGCLASS_FW_JURASSIC_PARK'),
         ('UNIT_FW_BIOINFANTRY',                 'BUILDINGCLASS_MILITARY_BASE'),
         ('UNIT_FW_BIOTROOPER',                  'BUILDINGCLASS_MILITARY_BASE'),
         ('UNIT_FW_BIOTROOPER',                  'BUILDINGCLASS_FW_BIOMOD_TANK'),
@@ -643,6 +643,12 @@ VALUES	('UNIT_FW_AUGMENTED_DIPLOMAT',	        'BUILDINGCLASS_FW_TELEPRESENCE_HUB
     	('UNIT_FW_ADV_GUNBOAT',                 'BUILDINGCLASS_FW_LAUNCH_FACILITY'),
         ('UNIT_FW_ARSENAL_SHIP',                'BUILDINGCLASS_SEAPORT'),
         ('UNIT_FW_ARSENAL_SHIP',                'BUILDINGCLASS_MILITARY_BASE');
+
+INSERT INTO	Unit_BuildingClassRequireds
+		(UnitType, 				                BuildingClassType)
+VALUES	('UNIT_FW_TREX',                        'BUILDINGCLASS_FW_JURASSIC_PARK'),
+        ('UNIT_FW_TRICERATOPS',                 'BUILDINGCLASS_FW_JURASSIC_PARK'),
+        ('UNIT_FW_RAPTOR',                      'BUILDINGCLASS_FW_JURASSIC_PARK');
 
 INSERT INTO Trait_FreePromotionUnitClass
 	(TraitType, UnitClassType, PromotionType)

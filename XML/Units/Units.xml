@@ -1657,6 +1657,7 @@
 			<BaseSightRange>2</BaseSightRange>
 			<Cost>2400</Cost>
 			<FaithCost>1800</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>10</Moves>
 			<Range>1</Range>
 			<PurchaseCooldown>1</PurchaseCooldown>
@@ -1695,6 +1696,7 @@
 			<BaseSightRange>2</BaseSightRange>
 			<Cost>3400</Cost>
 			<FaithCost>2000</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>12</Moves>
 			<Range>1</Range>
 			<PurchaseCooldown>1</PurchaseCooldown>

@@ -1730,7 +1730,7 @@
 			<Text>Arcology</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_ARCOLOGY_WATER">
-			<Text>Arcology</Text>
+			<Text>Marine Arcology</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_ARCOLOGY_TEXT">
 			<Text>An Arcology is a massive structure designed to be largely, if not fully, self-sustaining, providing a completely enclosed environment for a large number of citizens to work and live.[NEWLINE][NEWLINE]This custom improvement provides 2 [ICON_FOOD] Food and 2 [ICON_GOLD] Gold to the tile it's built on, with additionals:[NEWLINE]+1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold if adjacent to a City[NEWLINE]+2 [ICON_GOLD] Gold if adjacent to a Coast[NEWLINE]+1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production if on any road.[NEWLINE]+2 [ICON_GOLD] Gold and +2 [ICON_PRODUCTION] Production if on any railroad[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Arcology.[ENDCOLOR]</Text>
@@ -1743,6 +1743,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_ARCOLOGY">
 			<Text>Build an Arcology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FW_WATER_ARCOLOGY">
+			<Text>Build a Marine Arcology</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_ARCOLOGY_HELP">
 			<Text>Build an Arcology which increases the Food, Science, Gold and Production yield of the tile. Gives 30% defense bonus.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Arcology.[ENDCOLOR]</Text>
@@ -1760,7 +1763,7 @@
 			<Text>This custom improvement provides 3 [ICON_FOOD] Food, 2 [ICON_RESEARCH] Science and 1 [ICON_PRODUCTION] Production to the tile it's built on. All adjacent Farms, Terraces, Fishing Boats and Kampongs give +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Provides [COLOR_POSITIVE_TEXT]Fresh Water[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Hydroponics or existing Fresh Water.[ENDCOLOR]</Text>
 		</Row>
 			<Row Tag="TXT_KEY_IMPROVEMENT_FW_HYDROPONICS_DOME_WATER">
-			<Text>Hydroponics Dome</Text>
+			<Text>Hydroponic Marine Dome</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_HYDROPONICS_DOME_TEXT_WATER">
 			<Text>Artificial methods of cultivating food have grown increasingly sophisticated over time. The advent of new technologies such as hydroponics and aeroponics means that crops can be cultivated in entirely artificial environments, and communities that would normally struggle to feed their citizens can now cultivate crops nearby without needing to import food from more fertile areas.[NEWLINE][NEWLINE]This improvement provides additional +1 [ICON_FOOD] Food if built adjacent any Farms or Terraces nearby and +1 [ICON_RESEARCH] Science to.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Hydroponics or Fresh Water.[ENDCOLOR][NEWLINE][NEWLINE]Hydroponics are not affected by drought, ice age or pestilence event.</Text>
@@ -1771,6 +1774,9 @@
 
 		<Row Tag="TXT_KEY_BUILD_FW_HYDROPONICS_DOME">
 			<Text>Build a Hydroponics Dome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FW_WATER_HYDROPONICS_DOME">
+			<Text>Build a Hydroponic Marine Dome</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_HYDROPONICS_DOME_HELP">
 			<Text>Build a Hydroponics Dome which increases the Food, Science and Production yields of the tile. Provides [COLOR_POSITIVE_TEXT]Fresh Water[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Hydroponics or existing Fresh Water.[ENDCOLOR]</Text>
@@ -1817,10 +1823,10 @@
 			<Text>Nature Preserve</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_PRESERVE_TEXT">
-			<Text>Scientific advancement has given mankind an increasing number of tools with which to manipulate their environment, but this has also meant that pristine, natural environments have become increasingly scarce. Whether to preserve natural ecosystems, or to encourage an increasing ecotourism industry, more and more Nature Preserves are being set aside.[NEWLINE][NEWLINE]This improvement provides +3 [ICON_CULTURE] Culture, +2 [ICON_TOURISM] Tourism and +1 [ICON_GOLDEN_AGE] Golden Age Point to the tile it's built on.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture for every Nature Preserves adjacent to the tile.[NEWLINE][NEWLINE]Can be built on anything, even Mountains, except Water tiles.</Text>
+			<Text>Scientific advancement has given mankind an increasing number of tools with which to manipulate their environment, but this has also meant that pristine, natural environments have become increasingly scarce. Whether to preserve natural ecosystems, or to encourage an increasing ecotourism industry, more and more Nature Preserves are being set aside.[NEWLINE][NEWLINE]This improvement provides +3 [ICON_CULTURE] Culture, +3 [ICON_TOURISM] Tourism to the tile it's built on.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture and +1 [ICON_TOURISM] Tourism for every 2 Preserves adjacent to the tile.[NEWLINE][NEWLINE]Can be built on anything, even Mountains, except Water tiles.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_PRESERVE_HELP">
-			<Text>This improvement provides +3 [ICON_CULTURE] Culture, +2 [ICON_TOURISM] Tourism and +1 [ICON_GOLDEN_AGE] Golden Age Points to the tile it's built on.[NEWLINE][NEWLINE]+1 [ICON_CULTURE]Culture is increased for every Nature Preserve adjacent to the tile.</Text>
+			<Text>This improvement provides +3 [ICON_CULTURE] Culture and +3 [ICON_TOURISM] Tourism to the tile it's built on.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture and +1 [ICON_TOURISM] Tourism for every 2 Preserves adjacent to the tile.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_PRESERVE">
 			<Text>Build a Nature Preserve</Text>
@@ -1829,7 +1835,7 @@
 			<Text>Build a Nature Preserve which increases the Culture, Tourism and Golden Age Point yield of the tile.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_PRESERVE_REC">
-			<Text>Gives +3 [ICON_CULTURE] Culture, +2 [ICON_TOURISM] Tourism and +1 [ICON_GOLDEN_AGE] Golden Age Points yields of the tile. Bonus of +1 [ICON_CULTURE] Culture if adjacent to another Nature Preserve.</Text>
+			<Text>Gives +3 [ICON_CULTURE] Culture and +3 [ICON_TOURISM] Tourism yields of the tile. Bonus of +1 [ICON_CULTURE] Culture and +1 [ICON_TOURISM] Tourism for every 2 Preserves adjacent to the tile.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_BIOWELL">
 			<Text>Eco-Commune</Text>
@@ -1838,22 +1844,22 @@
 			<Text>With increasing awareness of the impact of urbanization upon the environment, there were numerous efforts to try and establish more environmentally friendly and sustainable communities. While these communities always remained somewhat small, particularly compared to the much denser arcologies that began to appear afterwards, they were self-sufficient, and their location in relatively unspoilt areas of the wilderness meant they had a certain appeal for ecotourists.[NEWLINE][NEWLINE]This improvement provides +1 [ICON_CULTURE] to any adjacent Farms, Terraces or another Bio-Communes.[NEWLINE][NEWLINE]Can be built on mountains, hills, marshes, but not forests and jungles.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_BIOWELL_HELP">
-			<Text>Gives +2 [ICON_CULTURE], +2 [ICON_FOOD] Food and +2 [ICON_PEACE] Faith.[NEWLINE]All adjacent Farms, Terraces and Bio-Communes gain +1 [ICON_CULTURE] Culture.</Text>
+			<Text>Gives +3 [ICON_FOOD] Food and +3 [ICON_PEACE] Faith.[NEWLINE]+1 [ICON_PEACE] Faith for every 2 adjacent Farms and Terraces. Cannot be built adjacent to another [COLOR_NEGATIVE_TEXT]Eco-Commune[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_BIOWELL">
 			<Text>Build an Eco-Commune</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_BIOWELL_HELP">
-			<Text>Build an Eco-Commune which increases the Food, Culture.</Text>
+			<Text>Build an Eco-Commune which increases the Food and Faith yields of the tile. Cannot be built adjacent to another [COLOR_NEGATIVE_TEXT]Eco-Commune[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_BIOWELL_REC">
-			<Text>It will increase the Food, Culture.</Text>
+			<Text>It will increase the Food and Faith yields of the tile. Cannot be built adjacent to another [COLOR_NEGATIVE_TEXT]Eco-Commune[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_GENOCENTRE">
 			<Text>Genocentre</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_GENOCENTRE_WATER">
-			<Text>Genocentre</Text>
+			<Text>Marine Genocentre</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_GENOCENTRE_TEXT">
 			<Text>While most experimentation in genetic manipulation and engineering took place in dedicated genemod and transgenics labs located in urban centres, the development of increasingly diverse biomanufacturing processes created an increasing need for centres dedicated to genetic experimentation and development located away from the controlled environments of the cities. Built in undeveloped areas, these genocentres studied the impact of genetically modified organisms within natural environments.[NEWLINE][NEWLINE]This custom improvement replaces most of the food for Production, it provides 1 [ICON_FOOD] Food, 2 [ICON_GOLD] Gold, and 4 [ICON_PRODUCTION] Production to the tile it's built on. Also adds +2[ICON_GOLD] to adjacent trading posts, +2 [ICON_PRODUCTION] to adjacent pastures, +2 [ICON_FOOD] Food to all adjacent fishing boats and +2 [ICON_FOOD] to all adjacent farms.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Genocentre.[ENDCOLOR]</Text>
@@ -1867,6 +1873,9 @@
 		<Row Tag="TXT_KEY_BUILD_FW_GENOCENTRE">
 			<Text>Build a Genocentre</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILD_FW_WATER_GENOCENTRE">
+			<Text>Build a Marine Genocentre</Text>
+		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_GENOCENTRE_HELP">
 			<Text>Build a Genocentre which increases the Food, Production, Gold and Defense (100%) yield of the tile. Buildable on Water.</Text>
 		</Row>
@@ -1877,19 +1886,19 @@
 			<Text>Communications Array</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_COMM_ARRAY_TEXT">
-			<Text>A communications array is an installation dedicated to helping facilitate the exchange of information across an area.[NEWLINE][NEWLINE]This improvement provides +2 [ICON_GOLD] Gold, +2 [ICON_PRODUCTION] Production and +2 [ICON_CULTURE] Culture to the tile it's built on, and +1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production if built on any hill.[NEWLINE][NEWLINE][ICON_CULTURE]Culture is additionally increased by [COLOR_POSITIVE_TEXT]1[ENDCOLOR] in villages, sacred sites, landmarks, and special tile facilities of civilizations adjacent to the tile.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Communications Array.[ENDCOLOR]</Text>
+			<Text>A communications array is an installation dedicated to helping facilitate the exchange of information across an area.[NEWLINE][NEWLINE]This improvement provides +2 [ICON_GOLD] Gold, +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLDEN_AGE_POINTS] Golden Age Points to the tile it's built on, and +1 [ICON_GOLD]/[ICON_PRODUCTION]/[ICON_GOLDEN_AGE_POINTS] bonus if built on Hills.[NEWLINE][NEWLINE][ICON_GOLDEN_AGE_POINTS]Golden Age Points is additionally increased by [COLOR_POSITIVE_TEXT]1[ENDCOLOR] for each special Civilization improvements adjacent to the tile.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot be built adjacent to another Communications Array.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_COMM_ARRAY_HELP">
-			<Text>This custom improvement provides 2 [ICON_GOLD] Gold, 2 [ICON_CULTURE] Culture and 2 [ICON_PRODUCTION] Production to the tile it's built on. +1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production extras if built on any hills. Adjacent Holy Sites, Landmarks, Villages, Villa, Moai, Feitoria and Tersane get +1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Cannot be built adjacent to another [COLOR_NEGATIVE_TEXT]Communications Array[ENDCOLOR].</Text>
+			<Text>This custom improvement provides 2 [ICON_GOLD] Gold, 2 [ICON_GOLDEN_AGE_POINTS] Golden Age Points and 2 [ICON_PRODUCTION] Production to the tile it's built on. +1 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLDEN_AGE_POINTS] Golden Age Points extras if built on any hills. Adjacent Civilization improvements get +1 [ICON_GOLDEN_AGE_POINTS] Golden Age Points.[NEWLINE][NEWLINE]Cannot be built adjacent to another [COLOR_NEGATIVE_TEXT]Communications Array[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_COMM_ARRAY">
 			<Text>Build a Communications Array</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_COMM_ARRAY_HELP">
-			<Text>Build a Communications Array which increases the Science, Culture and Gold yield of the tile. Bonus on hills. Adjacent Holy Sites, Landmarks, Villages, Villa, Moai, Feitoria and Tersane get +1 [ICON_CULTURE] Culture.</Text>
+			<Text>Build a Communications Array which increases the Production, Gold and Golden Age Points yield. Large bonus on Hills or next to adjacent special Civilization improvements.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_COMM_ARRAY_REC">
-			<Text>It will increase the Science, Culture and Gold yield of the tile.</Text>
+			<Text>It will increase the Production, Gold and Golden Age Points yield of the tile. Large bonus on Hills or next to adjacent special Civilization improvements.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_GENERATOR">
 			<Text>Power Generator</Text>

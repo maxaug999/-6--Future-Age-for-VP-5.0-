@@ -1087,7 +1087,7 @@
 		<Row>
 			<TechType>TECH_SUPERCOMPUTERS</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		
 		<Row>
@@ -1137,7 +1137,7 @@
 			<Flavor>25</Flavor>
 		</Row>
 		<Row>
-			<TechType>TTECH_NANOMATERIALS</TechType>
+			<TechType>TECH_NANOMATERIALS</TechType>
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
 			<Flavor>10</Flavor>
 		</Row> -->

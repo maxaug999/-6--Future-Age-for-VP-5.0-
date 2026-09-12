@@ -230,7 +230,7 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
-			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
@@ -323,15 +323,15 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<ImprovementType>IMPROVEMENT_FW_PRESERVE</ImprovementType>
 			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<Yield>1</Yield>
-		</Row>
+		</Row> -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_PRESERVE</ImprovementType>
 			<YieldType>YIELD_TOURISM</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_PRESERVE</ImprovementType>
@@ -341,17 +341,12 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
@@ -591,7 +586,11 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
-			<TerrainType>TERRAIN_MOUNTAIN</TerrainType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
@@ -900,6 +899,11 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
+			<YieldType>YIELD_GOLDEN_AGE_POINTS</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
@@ -1485,7 +1489,7 @@
 			<PrereqTech>TECH_ARTIFICIAL_ENVIRONMENTS</PrereqTech>
 			<Time>700</Time>
 			<ImprovementType>IMPROVEMENT_FW_WATER_HYDROPONICS_DOME</ImprovementType>
-			<Description>TXT_KEY_BUILD_FW_HYDROPONICS_DOME</Description>
+			<Description>TXT_KEY_BUILD_FW_WATER_HYDROPONICS_DOME</Description>
 			<Help>TXT_KEY_IMPROVEMENT_FW_HYDROPONICS_DOME_HELP_WATER</Help>
 			<Recommendation>TXT_KEY_BUILD_FW_HYDROPONICS_DOME_REC</Recommendation>
 			<Water>true</Water>
@@ -1543,7 +1547,7 @@
 			<PrereqTech>TECH_ARCOLOGIES</PrereqTech>
 			<Time>700</Time>
 			<ImprovementType>IMPROVEMENT_FW_WATER_ARCOLOGY</ImprovementType>
-			<Description>TXT_KEY_BUILD_FW_ARCOLOGY</Description>
+			<Description>TXT_KEY_BUILD_FW_WATER_ARCOLOGY</Description>
 			<Help>TXT_KEY_BUILD_FW_ARCOLOGY_HELP</Help>
 			<Recommendation>TXT_KEY_BUILD_FW_ARCOLOGY_REC</Recommendation>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
@@ -1615,7 +1619,7 @@
 			<Time>700</Time>
 			<PrereqTech>TECH_TRANSGENICS</PrereqTech>
 			<ImprovementType>IMPROVEMENT_FW_WATER_GENOCENTRE</ImprovementType>
-			<Description>TXT_KEY_BUILD_FW_GENOCENTRE</Description>
+			<Description>TXT_KEY_BUILD_FW_WATER_GENOCENTRE</Description>
 			<Help>TXT_KEY_BUILD_FW_GENOCENTRE_HELP</Help>
 			<Recommendation>TXT_KEY_BUILD_FW_GENOCENTRE_REC</Recommendation>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>

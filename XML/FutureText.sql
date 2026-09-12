@@ -65,7 +65,7 @@ WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
 
 -- New Deal
 UPDATE Language_en_US
-SET Text = Text || '[NEWLINE]2 [ICON_RESEARCH]/[ICON_TOURISM] for High-Energy Research Centre and 2 [ICON_PRODUCTION]/[ICON_TOURISM] for Industrial Complex.'
+SET Text = Text || '[NEWLINE]1 [ICON_RESEARCH]/[ICON_TOURISM] for High-Energy Research Centre and 1 [ICON_PRODUCTION]/[ICON_TOURISM] for Industrial Complex.'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_DEAL_HELP';
 
 -- Five Year Plan

@@ -483,7 +483,7 @@ UPDATE Unit_ClassUpgrades SET UnitClassType = 'UNITCLASS_FW_ELITE_MERCENARIES' W
 -- UPDATE Unit_ClassUpgrades SET UnitClassType = 'UNITCLASS_FW_SUBORBITAL_BOMBER' WHERE UnitType = 'UNIT_STRBOMB';
 
 -- UPDATE Units SET PrereqTech = 'TECH_COMBINED_ARMS', ObsoleteTech = 'TECH_MOBILE_TACTICS', Cost = 1300, FaithCost = 1000, Moves = 2, Combat = 42, RangedCombat = 62, Range = 2, BaseLandAirDefense = 6 WHERE Type = 'UNIT_BAZOOKA';
-UPDATE Units SET Range = 2 WHERE Type = 'UNIT_BAZOOKA';
+UPDATE Units SET ObsoleteTech = 'TECH_FUTURE_BALLISTICS', Range = 2 WHERE Type = 'UNIT_BAZOOKA';
 UPDATE Units SET PrereqTech = 'TECH_ENERGY_THEORY', Cost = 22500 WHERE Type = 'UNIT_SS_BOOSTER';
 UPDATE Units SET PrereqTech = 'TECH_SPACE_COLONIZATION', Cost = 25000 WHERE Type = 'UNIT_SS_STASIS_CHAMBER';
 UPDATE Units SET PrereqTech = 'TECH_COMPUTRONIUM', Cost = 25000 WHERE Type = 'UNIT_SS_COCKPIT';
